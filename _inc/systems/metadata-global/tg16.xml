@@ -1,0 +1,11 @@
+<theme>
+   <variables>
+      <systemDescription>TurboGrafx-16, fully titled as TurboGrafx-16 Entertainment SuperSystem and known in Japan as the PC Engine, is a video game console developed by Hudson Soft and NEC, released in Japan on October 30, 1987, and in North America on August 29, 1989.</systemDescription>
+      <systemManufacturer>NEC</systemManufacturer>
+      <systemReleaseYear>1989</systemReleaseYear>
+      <systemReleaseDate>1989-08-29</systemReleaseDate>
+      <systemReleaseDateFormated>August 29, 1989</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemColor>5B6559</systemColor>
+   </variables>
+</theme>

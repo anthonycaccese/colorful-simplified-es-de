@@ -1,0 +1,13 @@
+<theme>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <text name="system-name-custom-collections">
+         <text>Now Playing</text>
+      </text>
+   </view>
+   <view name="gamelist">
+      <text name="system-name-custom-collections">
+         <text>Now Playing</text>
+      </text>
+   </view>
+</theme>

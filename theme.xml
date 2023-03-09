@@ -1,0 +1,139 @@
+<!--
+theme name:    System Metadata Test (ES-DE)
+created by:    anthonycaccese
+license:       creative commons CC-BY-NC-SA
+-->
+
+<theme>
+
+   <include>./_inc/systems/metadata-global/_default.xml</include>
+   <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+
+   <variables>
+      <spacerImage>./_inc/images/space.png</spacerImage>
+      <fontLight>./_inc/fonts/Gilroy-Light.ttf</fontLight>
+      <fontBold>./_inc/fonts/Gilroy-Bold.ttf</fontBold>
+   </variables>
+
+   <view name="system,gamelist">
+      <image name="background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>ffffff</color>
+         <zIndex>0</zIndex>
+      </image>
+      <image name="system-background">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <size>0.979166666666667 0.962962962962963</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>${systemColor}</color>
+         <zIndex>1</zIndex>
+      </image>
+      <helpsystem name="help">
+         <origin>0.5 1</origin>
+         <pos>0.5 0.935185185185185</pos>
+         <fontPath>${fontLight}</fontPath>
+         <fontSize>0.025925925925926</fontSize><!-- 28 -->
+         <letterCase>capitalize</letterCase>
+         <iconColor>ffffffaa</iconColor>
+         <textColor>ffffffbb</textColor>
+      </helpsystem>
+      <text name="system-name-no-collections">
+         <text>${system.fullName.noCollections}</text>
+      </text>
+      <text name="system-name-auto-collections">
+         <text>${system.fullName.autoCollections}</text>
+         <letterCase>capitalize</letterCase>
+      </text>
+   </view>
+
+   <view name="system">
+      <carousel name="system-carousel">
+         <origin>0 0.5</origin>
+         <pos>0 0.5</pos>
+         <size>0.625 0.962962962962963</size>
+         <type>vertical</type>
+         <itemScale>1</itemScale>
+         <itemSize>0.625 0.962962962962963</itemSize>
+         <maxItemCount>1</maxItemCount>
+         <staticImage>./_inc/systems/images/${system.theme}.png</staticImage>
+         <defaultImage>./_inc/systems/images/_default.png</defaultImage>
+         <fastScrolling>true</fastScrolling>
+         <color>00000000</color>
+      </carousel>
+      <text name="system-label">
+         <pos>0.625 0.2</pos>
+         <size>0.25 0</size>
+         <text>${systemHardwareType} ${systemReleaseYear}</text>
+         <fontPath>${fontBold}</fontPath>
+         <fontSize>0.025925925925926</fontSize><!-- 28 -->
+         <lineSpacing>1</lineSpacing>
+         <color>ffffffaa</color>
+      </text>
+      <text name="system-name-no-collections,system-name-auto-collections,system-name-custom-collections">
+         <pos>0.625 0.25</pos>
+         <size>0.25 0</size>
+         <fontPath>${fontBold}</fontPath>
+         <fontSize>0.062962962962963</fontSize><!-- 66 -->
+         <lineSpacing>1</lineSpacing>
+         <color>ffffff</color>
+      </text>
+      <text name="system-description">
+         <pos>0.625 0.5</pos>
+         <size>0.25 0.22</size>
+         <text>${systemDescription}</text>
+         <fontPath>${fontLight}</fontPath>
+         <fontSize>0.025925925925926</fontSize><!-- 28 -->
+         <lineSpacing>1.25</lineSpacing>
+         <verticalAlignment>bottom</verticalAlignment>
+         <color>ffffff</color>
+      </text>
+      <text name="system-game-count">
+         <origin>0.5 0</origin>
+         <size>0 0</size>
+         <fontPath>${fontBold}</fontPath>
+         <fontSize>0.033333333333333</fontSize><!-- 36 -->
+         <lineSpacing>1</lineSpacing>
+         <systemdata>gameCount</systemdata>
+         <color>ffffff</color>
+      </text>
+   </view>
+
+   <view name="gamelist">
+      <text name="system-name-no-collections,system-name-auto-collections,system-name-custom-collections">
+         <origin>0.5 0</origin>
+         <pos>0.5 0.064814814814815</pos>
+         <size>0 0</size>
+         <fontPath>${fontBold}</fontPath>
+         <fontSize>0.033333333333333</fontSize><!-- 36 -->
+         <lineSpacing>1</lineSpacing>
+         <color>ffffff</color>
+      </text>
+      <video name="game-art">
+         <origin>0.5 0.5</origin>
+         <pos>0.317708333333333 0.5</pos>
+         <maxSize>0.46875 0.648148148148148</maxSize><!-- 900 700 -->
+         <imageType>miximage</imageType>
+         <defaultImage>./_inc/systems/images/_default.png</defaultImage>
+         <pillarboxes>false</pillarboxes>
+         <delay>2</delay>
+      </video>
+      <textlist name="gamelist">
+         <pos>0.625 0.2</pos>
+         <size>0.3 0.6</size>
+         <fontPath>${fontBold}</fontPath>
+         <fontSize>0.033333333333333</fontSize><!-- 36 -->
+         <selectorColor>00000022</selectorColor>
+         <primaryColor>ffffff44</primaryColor>
+         <secondaryColor>ffffff44</secondaryColor>
+         <selectedColor>ffffff</selectedColor>
+         <horizontalMargin>0.004</horizontalMargin>
+      </textlist>
+   </view>
+
+</theme>
