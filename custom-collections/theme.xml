@@ -1,5 +1,10 @@
 <theme>
    <include>./../theme.xml</include>
+   <view name="system">
+      <text name="system-label">
+         <text>${systemHardwareType}</text>
+      </text>
+   </view>
    <view name="gamelist">
       <text name="custom-collection-name">
          <origin>0.5 0</origin>

@@ -1,0 +1,8 @@
+<theme>
+   <include>./../theme.xml</include>
+   <view name="system">
+      <text name="system-label">
+         <text>${systemHardwareType}</text>
+      </text>
+   </view>
+</theme>

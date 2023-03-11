@@ -4,6 +4,9 @@
       <text name="system-name-custom-collections">
          <text>Now Playing</text>
       </text>
+      <text name="system-label">
+         <text>${systemHardwareType}</text>
+      </text>
    </view>
    <view name="gamelist">
       <text name="system-name-custom-collections">

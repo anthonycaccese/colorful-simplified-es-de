@@ -7,6 +7,7 @@ license:       creative commons CC-BY-NC-SA
 <theme>
 
    <include>./_inc/systems/metadata-global/_default.xml</include>
+   <include>./_inc/systems/metadata-custom/_default.xml</include>
    <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
 
    <variables>
@@ -22,17 +23,8 @@ license:       creative commons CC-BY-NC-SA
          <size>1 1</size>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>ffffff</color>
-         <zIndex>0</zIndex>
-      </image>
-      <image name="system-background">
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.5</pos>
-         <size>0.979166666666667 0.962962962962963</size>
-         <path>${spacerImage}</path>
-         <tile>true</tile>
          <color>${systemColor}</color>
-         <zIndex>1</zIndex>
+         <zIndex>0</zIndex>
       </image>
       <helpsystem name="help">
          <origin>0.5 1</origin>
@@ -56,10 +48,10 @@ license:       creative commons CC-BY-NC-SA
       <carousel name="system-carousel">
          <origin>0 0.5</origin>
          <pos>0 0.5</pos>
-         <size>0.625 0.962962962962963</size>
+         <size>0.625 1</size>
          <type>vertical</type>
          <itemScale>1</itemScale>
-         <itemSize>0.625 0.962962962962963</itemSize>
+         <itemSize>0.625 1</itemSize>
          <maxItemCount>1</maxItemCount>
          <staticImage>./_inc/systems/images/${system.theme}.png</staticImage>
          <defaultImage>./_inc/systems/images/_default.png</defaultImage>
@@ -68,8 +60,8 @@ license:       creative commons CC-BY-NC-SA
       </carousel>
       <text name="system-label">
          <pos>0.625 0.2</pos>
-         <size>0.25 0</size>
-         <text>${systemHardwareType} ${systemReleaseYear}</text>
+         <size>0.3 0.025925925925926</size>
+         <text>${systemHardwareType}  /  ${systemReleaseYear}  /  ${systemManufacturer}</text>
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.025925925925926</fontSize><!-- 28 -->
          <lineSpacing>1</lineSpacing>
@@ -77,7 +69,7 @@ license:       creative commons CC-BY-NC-SA
       </text>
       <text name="system-name-no-collections,system-name-auto-collections,system-name-custom-collections">
          <pos>0.625 0.25</pos>
-         <size>0.25 0</size>
+         <size>0.3 0</size>
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.062962962962963</fontSize><!-- 66 -->
          <lineSpacing>1</lineSpacing>
@@ -85,7 +77,7 @@ license:       creative commons CC-BY-NC-SA
       </text>
       <text name="system-description">
          <pos>0.625 0.5</pos>
-         <size>0.25 0.22</size>
+         <size>0.3 0.22</size>
          <text>${systemDescription}</text>
          <fontPath>${fontLight}</fontPath>
          <fontSize>0.025925925925926</fontSize><!-- 28 -->
@@ -94,13 +86,13 @@ license:       creative commons CC-BY-NC-SA
          <color>ffffff</color>
       </text>
       <text name="system-game-count">
-         <origin>0.5 0</origin>
-         <size>0 0</size>
+         <pos>0.625 0.75</pos>
+         <size>0.3 0</size>
          <fontPath>${fontBold}</fontPath>
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
+         <fontSize>0.025925925925926</fontSize><!-- 28 -->
          <lineSpacing>1</lineSpacing>
-         <systemdata>gameCount</systemdata>
-         <color>ffffff</color>
+         <systemdata>gamecount</systemdata>
+         <color>ffffff77</color>
       </text>
    </view>
 
@@ -117,7 +109,7 @@ license:       creative commons CC-BY-NC-SA
       <video name="game-art">
          <origin>0.5 0.5</origin>
          <pos>0.317708333333333 0.5</pos>
-         <maxSize>0.46875 0.648148148148148</maxSize><!-- 900 700 -->
+         <cropSize>0.46875 0.625</cropSize><!-- 900 675 -->
          <imageType>miximage</imageType>
          <defaultImage>./_inc/systems/images/_default.png</defaultImage>
          <pillarboxes>false</pillarboxes>
