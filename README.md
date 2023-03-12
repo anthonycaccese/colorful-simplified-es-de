@@ -19,6 +19,8 @@ This is simplified take on the Colorful theme (originally by [viking](https://fo
 - Most artwork originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
 - OpenBOR sprites originally created by [DOA687](https://www.deviantart.com/doa687)
 - M.U.G.E.N. sprites originally created by [mpadillathespriter](https://www.deviantart.com/mpadillathespriter)
+- EasyRPG artwork originally by [SeraphCircle](https://twitter.com/SeraphCircle)
+- Doom artwork originally by [azakachi-rd-17](https://www.deviantart.com/azakachi-rd-17)
 
 ## **License**
 Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/
