@@ -8,7 +8,7 @@ This is simplified take on the Colorful theme (originally by [viking](https://fo
 - Updated system image names to match the standard used by ES-DE
 - Created images & color schemes for additional systems supported by ES-DE
 - Added support for ES-DE capabilities such as badges
-- Embedded the ES-DE [system-metadata](https://gitlab.com/es-de/themes/system-metadata) repository to power system descriptions, release year and color details
+- Embedded the ES-DE [system-metadata](https://gitlab.com/es-de/themes/system-metadata) repository to power system description, release year and color details
 
 ## **Preview**
 
