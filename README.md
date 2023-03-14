@@ -18,6 +18,7 @@ This is simplified take on the Colorful theme (originally by [viking](https://fo
 
 ## **Credit**
 - Most artwork originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
+- Some system images were sourced from [ckau-book](https://github.com/CkauNui/ckau-book/tree/master)
 - OpenBOR sprites originally created by [DOA687](https://www.deviantart.com/doa687)
 - M.U.G.E.N. sprites originally created by [mpadillathespriter](https://www.deviantart.com/mpadillathespriter)
 - EasyRPG artwork originally by [SeraphCircle](https://twitter.com/SeraphCircle)
