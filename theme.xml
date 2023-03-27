@@ -84,6 +84,7 @@ license:       creative commons CC-BY-NC-SA
          <lineSpacing>1.25</lineSpacing>
          <verticalAlignment>bottom</verticalAlignment>
          <color>ffffff</color>
+         <container>true</container>
       </text>
       <text name="system-game-count">
          <pos>0.625 0.75</pos>
