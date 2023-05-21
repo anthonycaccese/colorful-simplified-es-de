@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>&#032;</systemReleaseDateFormated>
       <systemHardwareType>System</systemHardwareType>
       <systemColor>777777</systemColor>
+      <systemColorPalette1>999999</systemColorPalette1>
+      <systemColorPalette2>777777</systemColorPalette2>
+      <systemColorPalette3>555555</systemColorPalette3>
+      <systemColorPalette4>333333</systemColorPalette4>
    </variables>
 </theme>

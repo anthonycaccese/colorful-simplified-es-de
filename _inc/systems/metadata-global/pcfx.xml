@@ -9,5 +9,9 @@ The console is shaped like a tower PC and was meant to be similarly upgradeable.
       <systemReleaseDateFormated>December 23, 1994</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
       <systemColor>9579dd</systemColor>
+      <systemColorPalette1>FEC101</systemColorPalette1>
+      <systemColorPalette2>01015B</systemColorPalette2>
+      <systemColorPalette3>5C3073</systemColorPalette3>
+      <systemColorPalette4>F00020</systemColorPalette4>
    </variables>
 </theme>

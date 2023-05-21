@@ -11,5 +11,9 @@ The reason for the separation of the older branch, FB Alpha, and new spin-off br
       <systemReleaseDateFormated>2002</systemReleaseDateFormated>
       <systemHardwareType>Emulator</systemHardwareType>
       <systemColor>FA584F</systemColor>
+      <systemColorPalette1>C0392B</systemColorPalette1>
+      <systemColorPalette2>CF8A61</systemColorPalette2>
+      <systemColorPalette3>231F20</systemColorPalette3>
+      <systemColorPalette4>FFFFFF</systemColorPalette4>
    </variables>
 </theme>

@@ -9,5 +9,9 @@ It was later released as the TurboGrafx-CD in the United States in November 1989
       <systemReleaseDateFormated>December 4, 1988</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
       <systemColor>5E8FC8</systemColor>
+      <systemColorPalette1>B2B2B2</systemColorPalette1>
+      <systemColorPalette2>FE0000</systemColorPalette2>
+      <systemColorPalette3>333333</systemColorPalette3>
+      <systemColorPalette4>D9D9D9</systemColorPalette4>
    </variables>
 </theme>

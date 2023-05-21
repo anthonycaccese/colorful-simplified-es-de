@@ -9,5 +9,9 @@ Among the 33 titles released for the original CP System included Street Fighter 
       <systemReleaseDateFormated>May 13, 1988</systemReleaseDateFormated>
       <systemHardwareType>Arcade</systemHardwareType>
       <systemColor>edcf4d</systemColor>
+      <systemColorPalette1>FAFAFA</systemColorPalette1>
+      <systemColorPalette2>FFCB04</systemColorPalette2>
+      <systemColorPalette3>034EA2</systemColorPalette3>
+      <systemColorPalette4>111111</systemColorPalette4>
    </variables>
 </theme>

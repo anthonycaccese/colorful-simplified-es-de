@@ -9,5 +9,9 @@ Though the Game Gear was rushed to market, its unique game library and price poi
       <systemReleaseDateFormated>October 6, 1990</systemReleaseDateFormated>
       <systemHardwareType>Portable</systemHardwareType>
       <systemColor>366fb1</systemColor>
+      <systemColorPalette1>CCCBCB</systemColorPalette1>
+      <systemColorPalette2>D41808</systemColorPalette2>
+      <systemColorPalette3>008200</systemColorPalette3>
+      <systemColorPalette4>0000FE</systemColorPalette4>
    </variables>
 </theme>

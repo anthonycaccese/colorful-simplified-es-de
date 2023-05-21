@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>September 1, 1982</systemReleaseDateFormated>
       <systemHardwareType>Computer</systemHardwareType>
       <systemColor>EB891C</systemColor>
+      <systemColorPalette1>BFB8A8</systemColorPalette1>
+      <systemColorPalette2>207EA4</systemColorPalette2>
+      <systemColorPalette3>77776D</systemColorPalette3>
+      <systemColorPalette4>9E9C8F</systemColorPalette4>
    </variables>
 </theme>

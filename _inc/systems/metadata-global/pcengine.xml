@@ -9,5 +9,9 @@ The TurboGrafx-16 has an 8-bit CPU, a 16-bit video color encoder, and a 16-bit v
       <systemReleaseDateFormated>October 30, 1987</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
       <systemColor>BC4241</systemColor>
+      <systemColorPalette1>B2B2B2</systemColorPalette1>
+      <systemColorPalette2>FE0000</systemColorPalette2>
+      <systemColorPalette3>333333</systemColorPalette3>
+      <systemColorPalette4>D9D9D9</systemColorPalette4>
    </variables>
 </theme>

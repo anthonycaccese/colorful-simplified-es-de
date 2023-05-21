@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>July 28, 2000</systemReleaseDateFormated>
       <systemHardwareType>Emulator</systemHardwareType>
       <systemColor>D6A93B</systemColor>
+      <systemColorPalette1>00ADEF</systemColorPalette1>
+      <systemColorPalette2>84849C</systemColorPalette2>
+      <systemColorPalette3>231F20</systemColorPalette3>
+      <systemColorPalette4>FFFFFF</systemColorPalette4>
    </variables>
 </theme>

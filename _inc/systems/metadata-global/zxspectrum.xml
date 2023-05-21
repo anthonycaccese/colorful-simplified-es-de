@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>April 21, 1982</systemReleaseDateFormated>
       <systemHardwareType>Computer</systemHardwareType>
       <systemColor>9a2611</systemColor>
+      <systemColorPalette1>CA2825</systemColorPalette1>
+      <systemColorPalette2>EDBA01</systemColorPalette2>
+      <systemColorPalette3>009C37</systemColorPalette3>
+      <systemColorPalette4>02559C</systemColorPalette4>
    </variables>
 </theme>

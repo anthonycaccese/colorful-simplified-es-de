@@ -9,5 +9,9 @@ The main benefit of CD technology was greater storage, which allowed for games t
       <systemReleaseDateFormated>April 2, 1993</systemReleaseDateFormated>
       <systemHardwareType>Peripheral</systemHardwareType>
       <systemColor>0e7acd</systemColor>
+      <systemColorPalette1>DCE3E6</systemColorPalette1>
+      <systemColorPalette2>D5202C</systemColorPalette2>
+      <systemColorPalette3>C0C1C4</systemColorPalette3>
+      <systemColorPalette4>212122</systemColorPalette4>
    </variables>
 </theme>

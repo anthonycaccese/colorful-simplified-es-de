@@ -11,5 +11,9 @@ In 2009, the video game website IGN named the Odyssey 2 the 21st greatest video 
       <systemReleaseDateFormated>December 1, 1978</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
       <systemColor>f08211</systemColor>
+      <systemColorPalette1>F6DD08</systemColorPalette1>
+      <systemColorPalette2>800000</systemColorPalette2>
+      <systemColorPalette3>FF0000</systemColorPalette3>
+      <systemColorPalette4>4C504E</systemColorPalette4>
    </variables>
 </theme>

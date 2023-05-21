@@ -11,5 +11,9 @@ The PC had a substantial influence on the personal computer market. The specific
       <systemReleaseDateFormated>August 12, 1981</systemReleaseDateFormated>
       <systemHardwareType>Computer</systemHardwareType>
       <systemColor>2d62c1</systemColor>
+      <systemColorPalette1>1F70C1</systemColorPalette1>
+      <systemColorPalette2>FFFFFF</systemColorPalette2>
+      <systemColorPalette3>666870</systemColorPalette3>
+      <systemColorPalette4>201D1D</systemColorPalette4>
    </variables>
 </theme>

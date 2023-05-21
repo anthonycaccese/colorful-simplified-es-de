@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>December 1, 1978</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
       <systemColor>f08211</systemColor>
+      <systemColorPalette1>8C1914</systemColorPalette1>
+      <systemColorPalette2>89918F</systemColorPalette2>
+      <systemColorPalette3>DC3114</systemColorPalette3>
+      <systemColorPalette4>F8D239</systemColorPalette4>
    </variables>
 </theme>

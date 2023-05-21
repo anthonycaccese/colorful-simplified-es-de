@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>November 1, 1982</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
       <systemColor>40599c</systemColor>
+      <systemColorPalette1>1E6547</systemColorPalette1>
+      <systemColorPalette2>CFA634</systemColorPalette2>
+      <systemColorPalette3>973E3A</systemColorPalette3>
+      <systemColorPalette4>1C6EB8</systemColorPalette4>
    </variables>
 </theme>

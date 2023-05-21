@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>June 1, 1977</systemReleaseDateFormated>
       <systemHardwareType>Computer</systemHardwareType>
       <systemColor>189fe5</systemColor>
+      <systemColorPalette1>009DDC</systemColorPalette1>
+      <systemColorPalette2>E03A3E</systemColorPalette2>
+      <systemColorPalette3>FDB827</systemColorPalette3>
+      <systemColorPalette4>61BB46</systemColorPalette4>
    </variables>
 </theme>

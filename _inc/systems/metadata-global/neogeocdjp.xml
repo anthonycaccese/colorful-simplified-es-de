@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>September 9, 1994</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
       <systemColor>af98e6</systemColor>
+      <systemColorPalette1>878880</systemColorPalette1>
+      <systemColorPalette2>FFD400</systemColorPalette2>
+      <systemColorPalette3>0088CD</systemColorPalette3>
+      <systemColorPalette4>24241E</systemColorPalette4>
    </variables>
 </theme>

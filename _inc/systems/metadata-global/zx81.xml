@@ -11,5 +11,9 @@ The ZX81 could be bought by mail order preassembled or, for a lower price, in ki
       <systemReleaseDateFormated>March 5, 1981</systemReleaseDateFormated>
       <systemHardwareType>Computer</systemHardwareType>
       <systemColor>B92E34</systemColor>
+      <systemColorPalette1>EF5857</systemColorPalette1>
+      <systemColorPalette2>403E4B</systemColorPalette2>
+      <systemColorPalette3>D2CECD</systemColorPalette3>
+      <systemColorPalette4>191222</systemColorPalette4>
    </variables>
 </theme>

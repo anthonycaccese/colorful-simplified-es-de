@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>February, 6th 2007</systemReleaseDateFormated>
       <systemHardwareType>Emulator</systemHardwareType>
       <systemColor>ffbd1f</systemColor>
+      <systemColorPalette1>DEBA27</systemColorPalette1>
+      <systemColorPalette2>856125</systemColorPalette2>
+      <systemColorPalette3>DC110B</systemColorPalette3>
+      <systemColorPalette4>D8D3BD</systemColorPalette4>
    </variables>
 </theme>

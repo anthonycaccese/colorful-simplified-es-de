@@ -11,5 +11,9 @@ Differentiated from other emulators by a very large number of supported systems,
       <systemReleaseDateFormated>2000</systemReleaseDateFormated>
       <systemHardwareType>Emulator</systemHardwareType>
       <systemColor>FA584F</systemColor>
+      <systemColorPalette1>CF8A61</systemColorPalette1>
+      <systemColorPalette2>FE7B07</systemColorPalette2>
+      <systemColorPalette3>231F20</systemColorPalette3>
+      <systemColorPalette4>FFFFFF</systemColorPalette4>
    </variables>
 </theme>

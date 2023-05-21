@@ -9,5 +9,9 @@ PlayStation (Japanese: プレイステーション, Hepburn: Pureisutēshon, off
       <systemReleaseDateFormated>December 3, 1994</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
       <systemColor>878c92</systemColor>
+      <systemColorPalette1>DC0029</systemColorPalette1>
+      <systemColorPalette2>F1C002</systemColorPalette2>
+      <systemColorPalette3>00A79B</systemColorPalette3>
+      <systemColorPalette4>326BB1</systemColorPalette4>
    </variables>
 </theme>

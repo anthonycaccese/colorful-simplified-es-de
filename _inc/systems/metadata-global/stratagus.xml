@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>June 15, 1998</systemReleaseDateFormated>
       <systemHardwareType>Engine</systemHardwareType>
       <systemColor>CE3D3D</systemColor>
+      <systemColorPalette1>A40000</systemColorPalette1>
+      <systemColorPalette2>DB4C4C</systemColorPalette2>
+      <systemColorPalette3>F57900</systemColorPalette3>
+      <systemColorPalette4>26353C</systemColorPalette4>
    </variables>
 </theme>

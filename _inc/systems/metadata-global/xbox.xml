@@ -9,5 +9,9 @@ The brand was first introduced in the United States in November 2001, with the l
       <systemReleaseDateFormated>November 15, 2001</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
       <systemColor>6bb555</systemColor>
+      <systemColorPalette1>CDDF01</systemColorPalette1>
+      <systemColorPalette2>9ABF5E</systemColorPalette2>
+      <systemColorPalette3>534F57</systemColorPalette3>
+      <systemColorPalette4>000000</systemColorPalette4>
    </variables>
 </theme>

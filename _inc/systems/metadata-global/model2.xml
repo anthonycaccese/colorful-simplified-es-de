@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>January 1, 1993</systemReleaseDateFormated>
       <systemHardwareType>Arcade</systemHardwareType>
       <systemColor>449aeb</systemColor>
+      <systemColorPalette1>034693</systemColorPalette1>
+      <systemColorPalette2>F7ED18</systemColorPalette2>
+      <systemColorPalette3>F4133D</systemColorPalette3>
+      <systemColorPalette4>199A40</systemColorPalette4>
    </variables>
 </theme>

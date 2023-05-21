@@ -11,5 +11,9 @@ Initially conceived as a solution for industrial and office applications, by 198
       <systemReleaseDateFormated>October 1, 1982</systemReleaseDateFormated>
       <systemHardwareType>Computer</systemHardwareType>
       <systemColor>4d84b5</systemColor>
+      <systemColorPalette1>951610</systemColorPalette1>
+      <systemColorPalette2>16643C</systemColorPalette2>
+      <systemColorPalette3>00499A</systemColorPalette3>
+      <systemColorPalette4>3B3431</systemColorPalette4>
    </variables>
 </theme>

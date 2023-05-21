@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>November 30, 2017</systemReleaseDateFormated>
       <systemHardwareType>Engine</systemHardwareType>
       <systemColor>26AAE0</systemColor>
+      <systemColorPalette1>0080E8</systemColorPalette1>
+      <systemColorPalette2>AEE7FF</systemColorPalette2>
+      <systemColorPalette3>EA316E</systemColorPalette3>
+      <systemColorPalette4>25AAE1</systemColorPalette4>
    </variables>
 </theme>

@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>April 2015</systemReleaseDateFormated>
       <systemHardwareType>Engine</systemHardwareType>
       <systemColor>140C1C</systemColor>
+      <systemColorPalette1>E69E20</systemColorPalette1>
+      <systemColorPalette2>77DF41</systemColorPalette2>
+      <systemColorPalette3>F0D7BD</systemColorPalette3>
+      <systemColorPalette4>DF739E</systemColorPalette4>
    </variables>
 </theme>

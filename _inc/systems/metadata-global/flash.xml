@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>November 1996</systemReleaseDateFormated>
       <systemHardwareType>Engine</systemHardwareType>
       <systemColor>B92E34</systemColor>
+      <systemColorPalette1>FFFFFF</systemColorPalette1>
+      <systemColorPalette2>4A0000</systemColorPalette2>
+      <systemColorPalette3>B11313</systemColorPalette3>
+      <systemColorPalette4>710000</systemColorPalette4>
    </variables>
 </theme>

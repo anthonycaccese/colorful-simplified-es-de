@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>1987</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
       <systemColor>2A7FBD</systemColor>
+      <systemColorPalette1>E1D095</systemColorPalette1>
+      <systemColorPalette2>ADC7EF</systemColorPalette2>
+      <systemColorPalette3>8F8F91</systemColorPalette3>
+      <systemColorPalette4>B9A9CE</systemColorPalette4>
    </variables>
 </theme>

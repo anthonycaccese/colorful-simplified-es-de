@@ -9,5 +9,9 @@ Development of the PSP was announced during E3 2003, and the console was unveile
       <systemReleaseDateFormated>December 12, 2004</systemReleaseDateFormated>
       <systemHardwareType>Portable</systemHardwareType>
       <systemColor>376da9</systemColor>
+      <systemColorPalette1>313131</systemColorPalette1>
+      <systemColorPalette2>0F1012</systemColorPalette2>
+      <systemColorPalette3>97A9BA</systemColorPalette3>
+      <systemColorPalette4>F9F7F7</systemColorPalette4>
    </variables>
 </theme>

@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>November 16, 2001</systemReleaseDateFormated>
       <systemHardwareType>Portable</systemHardwareType>
       <systemColor>405189</systemColor>
+      <systemColorPalette1>FCE200</systemColorPalette1>
+      <systemColorPalette2>004F8A</systemColorPalette2>
+      <systemColorPalette3>999998</systemColorPalette3>
+      <systemColorPalette4>8C8C8C</systemColorPalette4>
    </variables>
 </theme>

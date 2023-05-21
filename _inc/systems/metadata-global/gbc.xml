@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>October 21, 1998</systemReleaseDateFormated>
       <systemHardwareType>Portable</systemHardwareType>
       <systemColor>F5BA2D</systemColor>
+      <systemColorPalette1>F63B77</systemColorPalette1>
+      <systemColorPalette2>2D308E</systemColorPalette2>
+      <systemColorPalette3>00B3DE</systemColorPalette3>
+      <systemColorPalette4>7642B6</systemColorPalette4>
    </variables>
 </theme>

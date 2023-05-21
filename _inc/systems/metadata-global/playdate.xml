@@ -6,10 +6,10 @@
       <systemReleaseDate>2022-04-18</systemReleaseDate>
       <systemReleaseDateFormated>April 18, 2022</systemReleaseDateFormated>
       <systemHardwareType>Portable</systemHardwareType>
-      <systemColor>4F43AE</systemColor>
-      <systemColorPalette1>4F43AE</systemColorPalette1>
+      <systemColor>6c00ff</systemColor>
+      <systemColorPalette1>6c00ff</systemColorPalette1>
       <systemColorPalette2>ffc833</systemColorPalette2>
-      <systemColorPalette3>4F43AE</systemColorPalette3>
+      <systemColorPalette3>6c00ff</systemColorPalette3>
       <systemColorPalette4>ffc833</systemColorPalette4>
    </variables>
 </theme>

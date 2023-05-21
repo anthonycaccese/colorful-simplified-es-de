@@ -9,5 +9,9 @@
       <systemReleaseDateFormated>August 24, 2008</systemReleaseDateFormated>
       <systemHardwareType>Console</systemHardwareType>
       <systemColor>CE3D3D</systemColor>
+      <systemColorPalette1>C43F32</systemColorPalette1>
+      <systemColorPalette2>EDC63D</systemColorPalette2>
+      <systemColorPalette3>C9C2BF</systemColorPalette3>
+      <systemColorPalette4>07336A</systemColorPalette4>
    </variables>
 </theme>

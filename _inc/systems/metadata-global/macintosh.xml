@@ -9,5 +9,9 @@ The original Macintosh is the first successful mass-market all-in-one desktop pe
       <systemReleaseDateFormated>January 1984</systemReleaseDateFormated>
       <systemHardwareType>Computer</systemHardwareType>
       <systemColor>13a3e0</systemColor>
+      <systemColorPalette1>76B845</systemColorPalette1>
+      <systemColorPalette2>E19433</systemColorPalette2>
+      <systemColorPalette3>009DDD</systemColorPalette3>
+      <systemColorPalette4>C45152</systemColorPalette4>
    </variables>
 </theme>

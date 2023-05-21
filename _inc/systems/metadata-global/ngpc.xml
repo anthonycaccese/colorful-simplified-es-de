@@ -9,5 +9,9 @@ After a good sales start in both the U.S. and Japan with 14 launch titles (a rec
       <systemReleaseDateFormated>March 16, 1999</systemReleaseDateFormated>
       <systemHardwareType>Portable</systemHardwareType>
       <systemColor>ed9f46</systemColor>
+      <systemColorPalette1>E92A30</systemColorPalette1>
+      <systemColorPalette2>18A94E</systemColorPalette2>
+      <systemColorPalette3>1D9ED8</systemColorPalette3>
+      <systemColorPalette4>25374A</systemColorPalette4>
    </variables>
 </theme>

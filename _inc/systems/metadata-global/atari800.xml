@@ -9,5 +9,9 @@ The Atari 400 was initially almost half the cost of the Atari 800. Instead of th
       <systemReleaseDateFormated>November 1, 1979</systemReleaseDateFormated>
       <systemHardwareType>Computer</systemHardwareType>
       <systemColor>d4923d</systemColor>
+      <systemColorPalette1>B6B896</systemColorPalette1>
+      <systemColorPalette2>EBD335</systemColorPalette2>
+      <systemColorPalette3>5D3615</systemColorPalette3>
+      <systemColorPalette4>BF9438</systemColorPalette4>
    </variables>
 </theme>

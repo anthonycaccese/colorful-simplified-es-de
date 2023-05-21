@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>December 10, 1993</systemReleaseDateFormated>
       <systemHardwareType>Engine</systemHardwareType>
       <systemColor>A11321</systemColor>
+      <systemColorPalette1>33709F</systemColorPalette1>
+      <systemColorPalette2>DFDED1</systemColorPalette2>
+      <systemColorPalette3>D37112</systemColorPalette3>
+      <systemColorPalette4>A63417</systemColorPalette4>
    </variables>
 </theme>

@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>March 10, 1997</systemReleaseDateFormated>
       <systemHardwareType>OS</systemHardwareType>
       <systemColor>324A42</systemColor>
+      <systemColorPalette1>B2AFAC</systemColorPalette1>
+      <systemColorPalette2>242443</systemColorPalette2>
+      <systemColorPalette3>345A89</systemColorPalette3>
+      <systemColorPalette4>363636</systemColorPalette4>
    </variables>
 </theme>

@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>2015</systemReleaseDateFormated>
       <systemHardwareType>Portable</systemHardwareType>
       <systemColor>5F459C</systemColor>
+      <systemColorPalette1>BA6FDB</systemColorPalette1>
+      <systemColorPalette2>8B2DB4</systemColorPalette2>
+      <systemColorPalette3>8664E3</systemColorPalette3>
+      <systemColorPalette4>6442C1</systemColorPalette4>
    </variables>
 </theme>

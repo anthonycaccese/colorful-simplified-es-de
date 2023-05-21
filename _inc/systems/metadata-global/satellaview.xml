@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>April 23, 1995</systemReleaseDateFormated>
       <systemHardwareType>Peripheral</systemHardwareType>
       <systemColor>d5b141</systemColor>
+      <systemColorPalette1>37336C</systemColorPalette1>
+      <systemColorPalette2>CD2943</systemColorPalette2>
+      <systemColorPalette3>FFDF68</systemColorPalette3>
+      <systemColorPalette4>647A54</systemColorPalette4>
    </variables>
 </theme>

@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>December 8, 1998</systemReleaseDateFormated>
       <systemHardwareType>OS</systemHardwareType>
       <systemColor>F8981D</systemColor>
+      <systemColorPalette1>F58219</systemColorPalette1>
+      <systemColorPalette2>4E7896</systemColorPalette2>
+      <systemColorPalette3>EE3537</systemColorPalette3>
+      <systemColorPalette4>1F4394</systemColorPalette4>
    </variables>
 </theme>

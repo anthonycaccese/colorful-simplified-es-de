@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>February 21, 1986</systemReleaseDateFormated>
       <systemHardwareType>Peripheral</systemHardwareType>
       <systemColor>ba3141</systemColor>
+      <systemColorPalette1>A71636</systemColorPalette1>
+      <systemColorPalette2>C7AF89</systemColorPalette2>
+      <systemColorPalette3>3C3C3B</systemColorPalette3>
+      <systemColorPalette4>F4B600</systemColorPalette4>
    </variables>
 </theme>

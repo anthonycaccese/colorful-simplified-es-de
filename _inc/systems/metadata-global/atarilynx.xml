@@ -7,5 +7,9 @@
       <systemReleaseDateFormated>September 1, 1989</systemReleaseDateFormated>
       <systemHardwareType>Portable</systemHardwareType>
       <systemColor>e49838</systemColor>
+      <systemColorPalette1>FD6420</systemColorPalette1>
+      <systemColorPalette2>404040</systemColorPalette2>
+      <systemColorPalette3>F38900</systemColorPalette3>
+      <systemColorPalette4>262626</systemColorPalette4>
    </variables>
 </theme>
