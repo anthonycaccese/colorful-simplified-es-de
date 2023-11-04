@@ -53,8 +53,8 @@ license:       creative commons CC-BY-NC-SA
          <itemScale>1</itemScale>
          <itemSize>0.625 1</itemSize>
          <maxItemCount>1</maxItemCount>
-         <staticImage>./_inc/systems/images/${system.theme}.png</staticImage>
-         <defaultImage>./_inc/systems/images/_default.png</defaultImage>
+         <staticImage>./_inc/systems/images/${system.theme}.webp</staticImage>
+         <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
          <fastScrolling>true</fastScrolling>
          <color>00000000</color>
       </carousel>
