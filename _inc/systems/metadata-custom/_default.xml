@@ -1,6 +1,6 @@
 <theme>
    <variables>
-      <systemManufacturer>--</systemManufacturer>
-      <systemReleaseYear>--</systemReleaseYear>
+      <systemManufacturer>Unknown</systemManufacturer>
+      <systemReleaseYear>Unknown</systemReleaseYear>
    </variables>
 </theme>

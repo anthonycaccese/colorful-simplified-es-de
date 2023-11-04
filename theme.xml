@@ -28,13 +28,31 @@ license:       creative commons CC-BY-NC-SA
       </image>
       <helpsystem name="help">
          <origin>0.5 1</origin>
-         <pos>0.5 0.935185185185185</pos>
-         <fontPath>${fontLight}</fontPath>
-         <fontSize>0.025925925925926</fontSize><!-- 28 -->
-         <letterCase>capitalize</letterCase>
+         <pos>0.5 0.95</pos>
+         <posDimmed>0.5 0.97</posDimmed>
+         <fontSize>0.02962962962963</fontSize><!-- 32 -->
          <iconColor>ffffffaa</iconColor>
          <textColor>ffffffbb</textColor>
       </helpsystem>
+      <text name="system-label">
+         <pos>0.075 0.111111111111111</pos><!-- 144 130 -->
+         <size>0.3 0.025925925925926</size>
+         <fontPath>${fontBold}</fontPath>
+         <fontSize>0.025925925925926</fontSize><!-- 28 -->
+         <lineSpacing>1</lineSpacing>
+         <color>ffffffaa</color>
+         <text>${systemManufacturer}  /  ${systemReleaseYear}  /  ${systemHardwareType}</text>
+         <zIndex>5</zIndex>
+      </text>
+      <text name="system-name-no-collections,system-name-auto-collections,system-name-custom-collections,custom-collection-name">
+         <pos>0.075 0.153703703703704</pos><!-- 144 166 -->
+         <size>0.3 0.2</size>
+         <fontPath>${fontBold}</fontPath>
+         <lineSpacing>1</lineSpacing>
+         <color>ffffff</color>
+         <verticalAlignment>top</verticalAlignment>
+         <zIndex>5</zIndex>
+      </text>
       <text name="system-name-no-collections">
          <text>${system.fullName.noCollections}</text>
       </text>
@@ -46,52 +64,39 @@ license:       creative commons CC-BY-NC-SA
 
    <view name="system">
       <carousel name="system-carousel">
-         <origin>0 0.5</origin>
-         <pos>0 0.5</pos>
-         <size>0.625 1</size>
+         <origin>0.5 0.5</origin>
+         <pos>0.6875 0.5</pos><!-- 1320 -->
+         <size>0.5625 1</size>
          <type>vertical</type>
          <itemScale>1</itemScale>
-         <itemSize>0.625 1</itemSize>
+         <itemSize>1 1</itemSize>
          <maxItemCount>1</maxItemCount>
          <staticImage>./_inc/systems/images/${system.theme}.webp</staticImage>
          <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
          <fastScrolling>true</fastScrolling>
          <color>00000000</color>
       </carousel>
-      <text name="system-label">
-         <pos>0.625 0.2</pos>
-         <size>0.3 0.025925925925926</size>
-         <text>${systemHardwareType}  /  ${systemReleaseYear}  /  ${systemManufacturer}</text>
-         <fontPath>${fontBold}</fontPath>
-         <fontSize>0.025925925925926</fontSize><!-- 28 -->
-         <lineSpacing>1</lineSpacing>
-         <color>ffffffaa</color>
-      </text>
-      <text name="system-name-no-collections,system-name-auto-collections,system-name-custom-collections">
-         <pos>0.625 0.25</pos>
-         <size>0.3 0</size>
-         <fontPath>${fontBold}</fontPath>
-         <fontSize>0.062962962962963</fontSize><!-- 66 -->
-         <lineSpacing>1</lineSpacing>
-         <color>ffffff</color>
+      <text name="system-name,system-name-no-collections,system-name-auto-collections,system-name-custom-collections,custom-collection-name">
+         <fontSize>0.062962962962963</fontSize><!-- 68 -->
       </text>
       <text name="system-description">
-         <pos>0.625 0.5</pos>
+         <pos>0.075 0.56</pos>
          <size>0.3 0.22</size>
-         <text>${systemDescription}</text>
          <fontPath>${fontLight}</fontPath>
-         <fontSize>0.025925925925926</fontSize><!-- 28 -->
+         <fontSize>0.02962962962963</fontSize><!-- 32 -->
          <lineSpacing>1.25</lineSpacing>
+         <text>${systemDescription}</text>
          <verticalAlignment>bottom</verticalAlignment>
          <color>ffffff</color>
          <container>true</container>
       </text>
       <text name="system-game-count">
-         <pos>0.625 0.75</pos>
+         <pos>0.075 0.81</pos>
          <size>0.3 0</size>
          <fontPath>${fontBold}</fontPath>
-         <fontSize>0.025925925925926</fontSize><!-- 28 -->
+         <fontSize>0.033333333333333</fontSize><!-- 36 -->
          <lineSpacing>1</lineSpacing>
+         <letterCase>uppercase</letterCase>
          <systemdata>gamecount</systemdata>
          <color>ffffff77</color>
       </text>
@@ -99,33 +104,28 @@ license:       creative commons CC-BY-NC-SA
 
    <view name="gamelist">
       <text name="system-name-no-collections,system-name-auto-collections,system-name-custom-collections">
-         <origin>0.5 0</origin>
-         <pos>0.5 0.064814814814815</pos>
-         <size>0 0</size>
-         <fontPath>${fontBold}</fontPath>
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
-         <lineSpacing>1</lineSpacing>
-         <color>ffffff</color>
+         <fontSize>0.038888888888889</fontSize><!-- 42 -->
       </text>
       <video name="game-art">
          <origin>0.5 0.5</origin>
-         <pos>0.317708333333333 0.5</pos>
-         <cropSize>0.46875 0.625</cropSize><!-- 900 675 -->
+         <pos>0.7 0.46</pos>
+         <maxSize>0.46875 0.7</maxSize><!-- 900 675 -->
          <imageType>miximage</imageType>
          <defaultImage>./_inc/systems/images/_default.png</defaultImage>
          <pillarboxes>false</pillarboxes>
          <delay>2</delay>
       </video>
-      <textlist name="gamelist">
-         <pos>0.625 0.2</pos>
-         <size>0.3 0.6</size>
+      <textlist name="game-list">
+         <origin>0 0</origin>
+         <pos>0.066666666666667 0.277777777777778</pos><!-- 128 300 -->
+         <size>0.308333333333333 0.555555555555556</size><!-- 592 -->
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.033333333333333</fontSize><!-- 36 -->
-         <selectorColor>00000022</selectorColor>
-         <primaryColor>ffffff44</primaryColor>
-         <secondaryColor>ffffff44</secondaryColor>
+         <selectorColor>00000033</selectorColor>
+         <primaryColor>ffffff88</primaryColor>
+         <secondaryColor>ffffff88</secondaryColor>
          <selectedColor>ffffff</selectedColor>
-         <horizontalMargin>0.004</horizontalMargin>
+         <horizontalMargin>0.009</horizontalMargin>
       </textlist>
    </view>
 

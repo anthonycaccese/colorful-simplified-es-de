@@ -1,6 +1,6 @@
 <theme>
    <include>./../theme.xml</include>
-   <view name="system">
+   <view name="system,gamelist">
       <text name="system-label">
          <text>${systemHardwareType}</text>
       </text>

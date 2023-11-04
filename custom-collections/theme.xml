@@ -1,15 +1,13 @@
 <theme>
    <include>./../theme.xml</include>
-   <view name="system">
+   <view name="system,gamelist">
       <text name="system-label">
          <text>${systemHardwareType}</text>
       </text>
    </view>
    <view name="gamelist">
       <text name="custom-collection-name">
-         <origin>0.5 0</origin>
-         <pos>0.5 0.096</pos>
-         <fontSize>0.025925925925926</fontSize><!-- 28 -->
+         <pos>0.075 0.2</pos><!-- 144 166 -->
          <metadata>systemFullname</metadata>
          <color>ffffffaa</color>
       </text>
