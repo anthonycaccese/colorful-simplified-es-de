@@ -18,4 +18,14 @@
       <entry>builtin-fade</entry>
    </suppressTransitionProfiles>
 
+   <colorScheme name="Colorful">
+      <label>Colorful</label>
+   </colorScheme>
+   <colorScheme name="Dark">
+      <label>Dark</label>
+   </colorScheme>
+   <colorScheme name="Light">
+      <label>Light</label>
+   </colorScheme>
+
 </themeCapabilities>

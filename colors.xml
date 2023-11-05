@@ -1,0 +1,47 @@
+<theme>
+   <colorScheme name="Colorful">
+      <variables>
+         <systemBackgroundColor>${systemColor}</systemBackgroundColor>
+         <helpIconColor>ffffffaa</helpIconColor>
+         <helpTextColor>ffffffbb</helpTextColor>
+         <systemLabelColor>ffffffaa</systemLabelColor>
+         <systemNameColor>ffffff</systemNameColor>
+         <systemDescriptionColor>ffffff</systemDescriptionColor>
+         <systemGameCountColor>ffffff77</systemGameCountColor>
+         <gamelistSelectorColor>00000033</gamelistSelectorColor>
+         <gamelistPrimaryColor>ffffff88</gamelistPrimaryColor>
+         <gamelistSecondaryColor>ffffff88</gamelistSecondaryColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="Dark">
+      <variables>
+         <systemBackgroundColor>111111</systemBackgroundColor>
+         <helpIconColor>ffffffaa</helpIconColor>
+         <helpTextColor>ffffffbb</helpTextColor>
+         <systemLabelColor>ffffffaa</systemLabelColor>
+         <systemNameColor>ffffff</systemNameColor>
+         <systemDescriptionColor>ffffff</systemDescriptionColor>
+         <systemGameCountColor>ffffff77</systemGameCountColor>
+         <gamelistSelectorColor>00000033</gamelistSelectorColor>
+         <gamelistPrimaryColor>ffffff88</gamelistPrimaryColor>
+         <gamelistSecondaryColor>ffffff88</gamelistSecondaryColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="Light">
+      <variables>
+         <systemBackgroundColor>dddddd</systemBackgroundColor>
+         <helpIconColor>000000aa</helpIconColor>
+         <helpTextColor>000000bb</helpTextColor>
+         <systemLabelColor>000000aa</systemLabelColor>
+         <systemNameColor>000000</systemNameColor>
+         <systemDescriptionColor>000000</systemDescriptionColor>
+         <systemGameCountColor>00000077</systemGameCountColor>
+         <gamelistSelectorColor>00000011</gamelistSelectorColor>
+         <gamelistPrimaryColor>00000055</gamelistPrimaryColor>
+         <gamelistSecondaryColor>00000055</gamelistSecondaryColor>
+         <gamelistSelectedColor>000000</gamelistSelectedColor>
+      </variables>
+   </colorScheme>
+</theme>

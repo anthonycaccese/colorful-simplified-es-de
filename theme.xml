@@ -9,6 +9,7 @@ license:       creative commons CC-BY-NC-SA
    <include>./_inc/systems/metadata-global/_default.xml</include>
    <include>./_inc/systems/metadata-custom/_default.xml</include>
    <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+   <include>./colors.xml</include>
 
    <variables>
       <spacerImage>./_inc/images/space.png</spacerImage>
@@ -23,7 +24,7 @@ license:       creative commons CC-BY-NC-SA
          <size>1 1</size>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>${systemColor}</color>
+         <color>${systemBackgroundColor}</color>
          <zIndex>0</zIndex>
       </image>
       <helpsystem name="help">
@@ -31,8 +32,8 @@ license:       creative commons CC-BY-NC-SA
          <pos>0.5 0.95</pos>
          <posDimmed>0.5 0.97</posDimmed>
          <fontSize>0.02962962962963</fontSize><!-- 32 -->
-         <iconColor>ffffffaa</iconColor>
-         <textColor>ffffffbb</textColor>
+         <iconColor>${helpIconColor}</iconColor>
+         <textColor>${helpTextColor}</textColor>
       </helpsystem>
       <text name="system-label">
          <pos>0.075 0.111111111111111</pos><!-- 144 130 -->
@@ -40,7 +41,7 @@ license:       creative commons CC-BY-NC-SA
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.025925925925926</fontSize><!-- 28 -->
          <lineSpacing>1</lineSpacing>
-         <color>ffffffaa</color>
+         <color>${systemLabelColor}</color>
          <text>${systemManufacturer}  /  ${systemReleaseYear}  /  ${systemHardwareType}</text>
          <zIndex>5</zIndex>
       </text>
@@ -49,7 +50,7 @@ license:       creative commons CC-BY-NC-SA
          <size>0.3 0.2</size>
          <fontPath>${fontBold}</fontPath>
          <lineSpacing>1</lineSpacing>
-         <color>ffffff</color>
+         <color>${systemNameColor}</color>
          <verticalAlignment>top</verticalAlignment>
          <zIndex>5</zIndex>
       </text>
@@ -87,7 +88,7 @@ license:       creative commons CC-BY-NC-SA
          <lineSpacing>1.25</lineSpacing>
          <text>${systemDescription}</text>
          <verticalAlignment>bottom</verticalAlignment>
-         <color>ffffff</color>
+         <color>${systemDescriptionColor}</color>
          <container>true</container>
       </text>
       <text name="system-game-count">
@@ -98,7 +99,7 @@ license:       creative commons CC-BY-NC-SA
          <lineSpacing>1</lineSpacing>
          <letterCase>uppercase</letterCase>
          <systemdata>gamecount</systemdata>
-         <color>ffffff77</color>
+         <color>${systemGameCountColor}</color>
       </text>
    </view>
 
@@ -121,10 +122,10 @@ license:       creative commons CC-BY-NC-SA
          <size>0.308333333333333 0.555555555555556</size><!-- 592 -->
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.033333333333333</fontSize><!-- 36 -->
-         <selectorColor>00000033</selectorColor>
-         <primaryColor>ffffff88</primaryColor>
-         <secondaryColor>ffffff88</secondaryColor>
-         <selectedColor>ffffff</selectedColor>
+         <selectorColor>${gamelistSelectorColor}</selectorColor>
+         <primaryColor>${gamelistPrimaryColor}</primaryColor>
+         <secondaryColor>${gamelistSecondaryColor}</secondaryColor>
+         <selectedColor>${gamelistSelectedColor}</selectedColor>
          <horizontalMargin>0.009</horizontalMargin>
       </textlist>
    </view>

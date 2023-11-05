@@ -9,7 +9,7 @@
       <text name="custom-collection-name">
          <pos>0.075 0.2</pos><!-- 144 166 -->
          <metadata>systemFullname</metadata>
-         <color>ffffffaa</color>
+         <color>${systemNameColor}</color>
       </text>
    </view>
 </theme>
