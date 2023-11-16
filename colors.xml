@@ -2,8 +2,8 @@
    <colorScheme name="Colorful">
       <variables>
          <systemBackgroundColor>${systemColor}</systemBackgroundColor>
-         <helpIconColor>ffffffaa</helpIconColor>
-         <helpTextColor>ffffffbb</helpTextColor>
+         <helpIconColor>ffffff99</helpIconColor>
+         <helpTextColor>ffffff88</helpTextColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
          <systemNameColor>ffffff</systemNameColor>
          <systemDescriptionColor>ffffff</systemDescriptionColor>
@@ -12,6 +12,9 @@
          <gamelistPrimaryColor>ffffff88</gamelistPrimaryColor>
          <gamelistSecondaryColor>ffffff88</gamelistSecondaryColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gameDescription>ffffff</gameDescription>
+         <gameMetadataLabel>ffffffaa</gameMetadataLabel>
+         <gameMetadata>ffffff</gameMetadata>
       </variables>
    </colorScheme>
    <colorScheme name="Dark">
@@ -27,13 +30,16 @@
          <gamelistPrimaryColor>ffffff88</gamelistPrimaryColor>
          <gamelistSecondaryColor>ffffff88</gamelistSecondaryColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gameDescription>ffffff</gameDescription>
+         <gameMetadataLabel>ffffffaa</gameMetadataLabel>
+         <gameMetadata>ffffff</gameMetadata>
       </variables>
    </colorScheme>
    <colorScheme name="Light">
       <variables>
          <systemBackgroundColor>dddddd</systemBackgroundColor>
-         <helpIconColor>000000aa</helpIconColor>
-         <helpTextColor>000000bb</helpTextColor>
+         <helpIconColor>00000099</helpIconColor>
+         <helpTextColor>00000088</helpTextColor>
          <systemLabelColor>000000aa</systemLabelColor>
          <systemNameColor>000000</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
@@ -42,6 +48,9 @@
          <gamelistPrimaryColor>00000055</gamelistPrimaryColor>
          <gamelistSecondaryColor>00000055</gamelistSecondaryColor>
          <gamelistSelectedColor>000000</gamelistSelectedColor>
+         <gameDescription>222222</gameDescription>
+         <gameMetadataLabel>000000aa</gameMetadataLabel>
+         <gameMetadata>000000</gameMetadata>
       </variables>
    </colorScheme>
 </theme>

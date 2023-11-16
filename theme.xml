@@ -6,16 +6,16 @@ license:       creative commons CC-BY-NC-SA
 
 <theme>
 
-   <include>./_inc/systems/metadata-global/_default.xml</include>
-   <include>./_inc/systems/metadata-custom/_default.xml</include>
-   <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
-   <include>./colors.xml</include>
-
    <variables>
       <spacerImage>./_inc/images/space.png</spacerImage>
       <fontLight>./_inc/fonts/Gilroy-Light.ttf</fontLight>
       <fontBold>./_inc/fonts/Gilroy-Bold.ttf</fontBold>
    </variables>
+
+   <include>./_inc/systems/metadata-global/_default.xml</include>
+   <include>./_inc/systems/metadata-custom/_default.xml</include>
+   <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+   <include>./colors.xml</include>
 
    <view name="system,gamelist">
       <image name="background">
@@ -29,15 +29,34 @@ license:       creative commons CC-BY-NC-SA
       </image>
       <helpsystem name="help">
          <origin>0.5 1</origin>
-         <pos>0.5 0.95</pos>
-         <posDimmed>0.5 0.97</posDimmed>
-         <fontSize>0.02962962962963</fontSize><!-- 32 -->
+         <pos>0.5 0.93</pos>
+         <posDimmed>0.5 0.96</posDimmed>
+         <fontSize>0.025925925925926</fontSize><!-- 28 -->
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
+         <customButtonIcon button="dpad_updown">./_inc/images/help-dpad-updown.svg</customButtonIcon>
+         <customButtonIcon button="dpad_leftright">./_inc/images/help-dpad-leftright.svg</customButtonIcon>
+         <customButtonIcon button="dpad_all">./_inc/images/help-dpad-updownleftright.svg</customButtonIcon>
+         <customButtonIcon button="button_a_XBOX">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_a_PS">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_a_switch">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_a_SNES">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_b_XBOX">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_b_PS">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_b_switch">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_b_SNES">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_x_XBOX">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_x_PS">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_x_switch">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_x_SNES">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_y_XBOX">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="button_y_PS">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="button_y_switch">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="button_y_SNES">./_inc/images/help-button-north.svg</customButtonIcon>
       </helpsystem>
       <text name="system-label">
-         <pos>0.075 0.111111111111111</pos><!-- 144 130 -->
-         <size>0.3 0.025925925925926</size>
+         <pos>0.064583333333333 0.111111111111111</pos><!-- 124 120 -->
+         <size>0.291666666666667 0.025925925925926</size><!-- 560 -->
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.025925925925926</fontSize><!-- 28 -->
          <lineSpacing>1</lineSpacing>
@@ -46,8 +65,8 @@ license:       creative commons CC-BY-NC-SA
          <zIndex>5</zIndex>
       </text>
       <text name="system-name-no-collections,system-name-auto-collections,system-name-custom-collections,custom-collection-name">
-         <pos>0.075 0.153703703703704</pos><!-- 144 166 -->
-         <size>0.3 0.2</size>
+         <pos>0.064583333333333 0.153703703703704</pos><!-- 124 166 -->
+         <size>0.291666666666667 0.2</size><!-- 560 -->
          <fontPath>${fontBold}</fontPath>
          <lineSpacing>1</lineSpacing>
          <color>${systemNameColor}</color>
@@ -67,7 +86,7 @@ license:       creative commons CC-BY-NC-SA
       <carousel name="system-carousel">
          <origin>0.5 0.5</origin>
          <pos>0.6875 0.5</pos><!-- 1320 -->
-         <size>0.5625 1</size>
+         <size>0.65 1</size>
          <type>vertical</type>
          <itemScale>1</itemScale>
          <itemSize>1 1</itemSize>
@@ -76,13 +95,15 @@ license:       creative commons CC-BY-NC-SA
          <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
          <fastScrolling>true</fastScrolling>
          <color>00000000</color>
+         <zIndex>5</zIndex>
       </carousel>
       <text name="system-name,system-name-no-collections,system-name-auto-collections,system-name-custom-collections,custom-collection-name">
          <fontSize>0.062962962962963</fontSize><!-- 68 -->
+         <zIndex>20</zIndex>
       </text>
       <text name="system-description">
-         <pos>0.075 0.56</pos>
-         <size>0.3 0.22</size>
+         <pos>0.064583333333333 0.54</pos>
+         <size>0.291666666666667 0.22</size><!-- 560 -->
          <fontPath>${fontLight}</fontPath>
          <fontSize>0.02962962962963</fontSize><!-- 32 -->
          <lineSpacing>1.25</lineSpacing>
@@ -90,45 +111,250 @@ license:       creative commons CC-BY-NC-SA
          <verticalAlignment>bottom</verticalAlignment>
          <color>${systemDescriptionColor}</color>
          <container>true</container>
+         <zIndex>20</zIndex>
       </text>
       <text name="system-game-count">
-         <pos>0.075 0.81</pos>
-         <size>0.3 0</size>
+         <pos>0.064583333333333 0.79</pos>
+         <size>0.291666666666667 0</size><!-- 560 -->
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.033333333333333</fontSize><!-- 36 -->
          <lineSpacing>1</lineSpacing>
          <letterCase>uppercase</letterCase>
          <systemdata>gamecount</systemdata>
          <color>${systemGameCountColor}</color>
+         <zIndex>20</zIndex>
       </text>
+      <!--<video name="system-video">
+         <origin>0.5 0.5</origin>
+         <pos>0.6875 0.5</pos>
+         <size>0 1</size>
+         <path>./_inc/systems/videos/${system.theme}.mp4</path>
+         <pillarboxes>false</pillarboxes>
+         <delay>4</delay>
+         <iterationCount>1</iterationCount>
+         <zIndex>10</zIndex>
+      </video>-->
    </view>
 
    <view name="gamelist">
       <text name="system-name-no-collections,system-name-auto-collections,system-name-custom-collections">
          <fontSize>0.038888888888889</fontSize><!-- 42 -->
       </text>
-      <video name="game-art">
-         <origin>0.5 0.5</origin>
-         <pos>0.7 0.46</pos>
-         <maxSize>0.46875 0.7</maxSize><!-- 900 675 -->
-         <imageType>miximage</imageType>
-         <defaultImage>./_inc/systems/images/_default.png</defaultImage>
-         <pillarboxes>false</pillarboxes>
-         <delay>2</delay>
-      </video>
       <textlist name="game-list">
          <origin>0 0</origin>
-         <pos>0.066666666666667 0.277777777777778</pos><!-- 128 300 -->
-         <size>0.308333333333333 0.555555555555556</size><!-- 592 -->
+         <pos>0.05625 0.277777777777778</pos><!-- 108 300 -->
+         <size>0.291666666666667 0.555555555555556</size><!-- 560 600 -->
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.033333333333333</fontSize><!-- 36 -->
          <selectorColor>${gamelistSelectorColor}</selectorColor>
+         <!--<selectedBackgroundColor>${gamelistSelectorColor}</selectedBackgroundColor>-->
          <primaryColor>${gamelistPrimaryColor}</primaryColor>
          <secondaryColor>${gamelistSecondaryColor}</secondaryColor>
          <selectedColor>${gamelistSelectedColor}</selectedColor>
          <horizontalMargin>0.009</horizontalMargin>
       </textlist>
+      <badges name="badges">
+         <origin>1 0</origin>
+         <lines>1</lines>
+         <itemsPerLine>9</itemsPerLine>
+         <slots>all</slots>
+         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+         <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+         <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+         <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+         <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+         <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
+         <controllerSize>0.8</controllerSize>
+         <folderLinkSize>0.8</folderLinkSize>
+      </badges>
    </view>
+
+   <variant name="gamelist-basic">
+      <view name="gamelist">
+         <image name="system-art">
+            <origin>0.5 0.5</origin>
+            <pos>0.6875 0.5</pos><!-- 1320 -->
+            <size>0 1</size>
+            <path>./_inc/systems/images/${system.theme}.webp</path>
+            <default>./_inc/systems/images/_default.webp</default>
+         </image>
+         <badges name="badges">
+            <origin>1 0</origin>
+            <pos>0.960416666666667 0.074074074074074</pos><!-- 1844 80 -->
+            <size>0.035 0.722222222222222</size><!-- 780 -->
+            <itemMargin>-1 0</itemMargin>
+            <horizontalAlignment>right</horizontalAlignment>
+            <direction>column</direction>
+         </badges>
+      </view>
+   </variant>
+
+   <variant name="gamelist-metadata-off">
+      <view name="gamelist">
+         <video name="game-art">
+            <origin>0.5 0.5</origin>
+            <pos>0.671875 0.467592592592593</pos><!-- 1290 505 -->
+            <cropSize>0.541666666666667 0.722222222222222</cropSize><!-- 1040 780 -->
+            <imageType>miximage</imageType>
+            <defaultImage>./_inc/systems/images/_default.png</defaultImage>
+            <pillarboxes>false</pillarboxes>
+            <imageCornerRadius>.01</imageCornerRadius>
+            <videoCornerRadius>.01</videoCornerRadius>
+            <delay>4</delay>
+            <iterationCount>1</iterationCount>
+            <onIterationsDone>image</onIterationsDone>
+         </video>
+         <badges name="badges">
+            <origin>1 0</origin>
+            <pos>0.960416666666667 0.074074074074074</pos><!-- 1844 80 -->
+            <size>0.035 0.722222222222222</size><!-- 780 -->
+            <itemMargin>-1 0</itemMargin>
+            <horizontalAlignment>right</horizontalAlignment>
+            <direction>column</direction>
+         </badges>
+      </view>
+   </variant>
+
+   <variant name="gamelist-metadata-on">
+      <view name="gamelist">
+         <badges name="badges">
+            <origin>1 0</origin>
+            <pos>0.944791666666667 0.083333333333333</pos><!-- 1814 80 -->
+            <size>0.02 0.722222222222222</size><!-- 780 -->
+            <itemMargin>-1 0</itemMargin>
+            <horizontalAlignment>right</horizontalAlignment>
+            <direction>column</direction>
+         </badges>
+         <video name="game-art">
+            <origin>0.5 0.5</origin>
+            <pos>0.598958333333333 0.333333333333333</pos><!-- 1150 360 -->
+            <cropSize>0.333333333333333 0.444444444444444</cropSize><!-- 640 480 -->
+            <imageType>miximage</imageType>
+            <defaultImage>./_inc/systems/images/_default.png</defaultImage>
+            <pillarboxes>false</pillarboxes>
+            <imageCornerRadius>.01</imageCornerRadius>
+            <videoCornerRadius>.01</videoCornerRadius>
+            <delay>2</delay>
+            <iterationCount>1</iterationCount>
+            <onIterationsDone>image</onIterationsDone>
+         </video>
+         <text name="game-description">
+            <pos>0.4375 0.583333333333333</pos><!-- 840 630 -->
+            <size>0.328125 0.240740740740741</size><!-- 630 260 -->
+            <fontPath>${fontLight}</fontPath>
+            <fontSize>0.02962962962963</fontSize><!-- 32 -->
+            <color>${gameDescription}</color>
+            <metadata>description</metadata>
+         </text>
+         <text name="game-rating-label,game-released-label,game-players-label,game-genre-label,game-developer-label,game-publisher-label,game-last-played-label,game-times-played-label">
+            <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>middle</verticalAlignment>
+            <fontSize>0.019444444444444</fontSize><!-- 21 -->
+            <fontPath>${fontLight}</fontPath>
+            <color>${gameMetadataLabel}</color>
+            <metadataElement>true</metadataElement>
+         </text>
+         <text name="game-players,game-genre,game-developer,game-publisher,game-times-played">
+            <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>middle</verticalAlignment>
+            <fontSize>0.019444444444444</fontSize><!-- 21 -->
+            <fontPath>${fontBold}</fontPath>
+            <color>${gameMetadata}</color>
+            <container>true</container>
+            <containerType>horizontal</containerType>
+         </text>
+         <datetime name="game-released,game-last-played">
+            <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>middle</verticalAlignment>
+            <fontSize>0.019444444444444</fontSize><!-- 21 -->
+            <fontPath>${fontBold}</fontPath>
+            <color>${gameMetadata}</color>
+         </datetime>
+         <text name="game-rating-label">
+            <pos>0.808333333333333 0.118518518518519</pos><!-- 1552 128 --> 
+            <text>Rating</text>
+         </text>
+         <rating name="game-rating">
+            <origin>0.5 0</origin>
+            <pos>0.865885416666667 0.155555555555556</pos><!-- 1662.5 px 168 -->
+            <size>0.115104166666667 0.027777777777778</size><!-- 221 30 -->
+            <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
+            <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
+            <overlay>false</overlay>
+            <color>${gameMetadata}</color>
+         </rating>
+         <text name="game-released-label">
+            <pos>0.808333333333333 0.208333333333333</pos><!-- 1552 225 --> 
+            <text>Released</text>
+         </text>
+         <datetime name="game-released">
+            <pos>0.808333333333333 0.24537037037037</pos><!-- 1552 265 --> 
+            <metadata>releasedate</metadata>
+            <letterCase>capitalize</letterCase>
+         </datetime>
+         <text name="game-players-label">
+            <pos>0.808333333333333 0.298148148148148</pos><!-- 1552 322 --> 
+            <text>Players</text>
+         </text>
+         <text name="game-players">
+            <pos>0.808333333333333 0.335185185185185</pos><!-- 1552 362 -->
+            <metadata>players</metadata>
+         </text>
+         <text name="game-genre-label">
+            <pos>0.808333333333333 0.387962962962963</pos><!-- 1552 419 --> 
+            <text>Genre</text>
+         </text>
+         <text name="game-genre">
+            <pos>0.808333333333333 0.425</pos><!-- 1552 459 -->
+            <metadata>genre</metadata>
+         </text>
+         <text name="game-developer-label">
+            <pos>0.808333333333333 0.477777777777778</pos><!-- 1552 516 --> 
+            <text>Developer</text>
+         </text>
+         <text name="game-developer">
+            <pos>0.808333333333333 0.514814814814815</pos><!-- 1552 556 -->
+            <metadata>developer</metadata>
+         </text>
+         <text name="game-publisher-label">
+            <pos>0.808333333333333 0.567592592592593</pos><!-- 1552 613 --> 
+            <text>Publisher</text>
+         </text>
+         <text name="game-publisher">
+            <pos>0.808333333333333 0.60462962962963</pos><!-- 1552 653 -->
+            <metadata>publisher</metadata>
+         </text>
+         <text name="game-last-played-label">
+            <pos>0.808333333333333 0.657407407407407</pos><!-- 1552 710 --> 
+            <text>Last Played</text>
+         </text>
+         <datetime name="game-last-played">
+            <pos>0.808333333333333 0.694444444444444</pos><!-- 1552 750 --> 
+            <metadata>lastplayed</metadata>
+            <letterCase>capitalize</letterCase>
+         </datetime>
+         <text name="game-times-played-label">
+            <pos>0.808333333333333 0.747222222222222</pos><!-- 1552 807 --> 
+            <text>Times Played</text>
+         </text>
+         <text name="game-times-played">
+            <pos>0.808333333333333 0.784259259259259</pos><!-- 1552 847 -->
+            <metadata>playcount</metadata>
+         </text>
+         <image name="game-metadata-background">
+            <pos>0.796875 0.111111111111111</pos><!-- 1530 120 -->
+            <size>0.135416666666667 0.717592592592593</size><!-- 260 775 -->
+            <path>./_inc/images/metadata-background.svg</path>
+            <metadataElement>true</metadataElement>
+         </image>
+      </view>
+   </variant>
 
    <view name="all">
       <sound name="systembrowse">
