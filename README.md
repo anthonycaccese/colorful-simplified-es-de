@@ -12,9 +12,10 @@ This is simplified take on the Colorful theme (originally by [viking](https://fo
 
 ## **Preview**
 
-| System View | Gamelist View |
-|----|----|
-| <img alt="Screenshot 2023-03-11 at 11 28 20 PM" src="https://user-images.githubusercontent.com/1454947/224524385-46a8ca96-9fcb-419a-a34f-a3ca17f68a19.png"> | <img alt="Screenshot 2023-03-11 at 11 28 46 PM" src="https://user-images.githubusercontent.com/1454947/224524392-f5b21d6d-f9d9-41fa-92ac-0cf989fee109.png"> |
+| System View | Metadata Off | Metadata On |
+|----|----|----|
+| ![Screenshot 2023-11-16 at 2 39 01 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/c608c6e1-5689-4b6c-920d-22ba133a11f3) | ![Screenshot 2023-11-16 at 2 40 14 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/96367d83-f0a0-473d-b16c-c7b7e1403cf3) | ![Screenshot 2023-11-16 at 2 40 27 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/bf56cf40-9acb-469a-a6f2-c9a593b4c70c) |
+
 
 ## **Credit**
 - Most artwork originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
