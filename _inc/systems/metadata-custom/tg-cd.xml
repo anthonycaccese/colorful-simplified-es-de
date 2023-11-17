@@ -1,10 +1,10 @@
 <theme>
    <variables>
-      <systemName>${system.fullName.noCollections}</systemName>
+      <systemColor>5B6559</systemColor>
    </variables>
    <view name="system,gamelist">
       <text name="system-label">
-         <text>${systemHardwareType}</text>
+         <text>${systemManufacturer}  /  ${systemReleaseYear}  /  ${systemHardwareType}</text>
       </text>
    </view>
 </theme>

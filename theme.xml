@@ -9,12 +9,15 @@ license:       creative commons CC-BY-NC-SA
    <variables>
       <spacerImage>./_inc/images/space.png</spacerImage>
       <fontLight>./_inc/fonts/Gilroy-Light.ttf</fontLight>
+      <fontRegular>./_inc/fonts/Gilroy-Regular.ttf</fontRegular>
+      <fontSemiBold>./_inc/fonts/Gilroy-SemiBold.ttf</fontSemiBold>
       <fontBold>./_inc/fonts/Gilroy-Bold.ttf</fontBold>
    </variables>
 
    <include>./_inc/systems/metadata-global/_default.xml</include>
-   <include>./_inc/systems/metadata-custom/_default.xml</include>
    <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+   <include>./_inc/systems/metadata-custom/_default.xml</include>
+   <include>./_inc/systems/metadata-custom/${system.theme}.xml</include>
    <include>./colors.xml</include>
 
    <view name="system,gamelist">
@@ -53,20 +56,20 @@ license:       creative commons CC-BY-NC-SA
          <customButtonIcon button="button_y_PS">./_inc/images/help-button-north.svg</customButtonIcon>
          <customButtonIcon button="button_y_switch">./_inc/images/help-button-north.svg</customButtonIcon>
          <customButtonIcon button="button_y_SNES">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="thumbstick_click">./_inc/images/help-left-stick-click.svg</customButtonIcon>
       </helpsystem>
       <text name="system-label">
          <pos>0.064583333333333 0.111111111111111</pos><!-- 124 120 -->
-         <size>0.291666666666667 0.025925925925926</size><!-- 560 -->
+         <size>0.32 0.025925925925926</size><!-- 560 -->
          <fontPath>${fontBold}</fontPath>
          <fontSize>0.025925925925926</fontSize><!-- 28 -->
          <lineSpacing>1</lineSpacing>
          <color>${systemLabelColor}</color>
-         <text>${systemManufacturer}  /  ${systemReleaseYear}  /  ${systemHardwareType}</text>
          <zIndex>5</zIndex>
       </text>
       <text name="system-name-no-collections,system-name-auto-collections,system-name-custom-collections,custom-collection-name">
          <pos>0.064583333333333 0.153703703703704</pos><!-- 124 166 -->
-         <size>0.291666666666667 0.2</size><!-- 560 -->
+         <size>0.32 0.2</size><!-- 560 -->
          <fontPath>${fontBold}</fontPath>
          <lineSpacing>1</lineSpacing>
          <color>${systemNameColor}</color>
@@ -74,7 +77,7 @@ license:       creative commons CC-BY-NC-SA
          <zIndex>5</zIndex>
       </text>
       <text name="system-name-no-collections">
-         <text>${system.fullName.noCollections}</text>
+         <text>${systemName}</text>
       </text>
       <text name="system-name-auto-collections">
          <text>${system.fullName.autoCollections}</text>
@@ -144,7 +147,7 @@ license:       creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <pos>0.05625 0.277777777777778</pos><!-- 108 300 -->
          <size>0.291666666666667 0.555555555555556</size><!-- 560 600 -->
-         <fontPath>${fontBold}</fontPath>
+         <fontPath>${fontSemiBold}</fontPath>
          <fontSize>0.033333333333333</fontSize><!-- 36 -->
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <!--<selectedBackgroundColor>${gamelistSelectorColor}</selectedBackgroundColor>-->
@@ -254,7 +257,7 @@ license:       creative commons CC-BY-NC-SA
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>middle</verticalAlignment>
             <fontSize>0.019444444444444</fontSize><!-- 21 -->
-            <fontPath>${fontLight}</fontPath>
+            <fontPath>${fontRegular}</fontPath>
             <color>${gameMetadataLabel}</color>
             <metadataElement>true</metadataElement>
          </text>
@@ -263,7 +266,7 @@ license:       creative commons CC-BY-NC-SA
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>middle</verticalAlignment>
             <fontSize>0.019444444444444</fontSize><!-- 21 -->
-            <fontPath>${fontBold}</fontPath>
+            <fontPath>${fontSemiBold}</fontPath>
             <color>${gameMetadata}</color>
             <container>true</container>
             <containerType>horizontal</containerType>
