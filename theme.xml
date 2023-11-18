@@ -61,7 +61,7 @@ license:       creative commons CC-BY-NC-SA
       <text name="system-label">
          <pos>0.064583333333333 0.111111111111111</pos><!-- 124 120 -->
          <size>0.32 0.025925925925926</size><!-- 560 -->
-         <fontPath>${fontBold}</fontPath>
+         <fontPath>${fontSemiBold}</fontPath>
          <fontSize>0.025925925925926</fontSize><!-- 28 -->
          <lineSpacing>1</lineSpacing>
          <color>${systemLabelColor}</color>
@@ -147,7 +147,7 @@ license:       creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <pos>0.05625 0.277777777777778</pos><!-- 108 300 -->
          <size>0.291666666666667 0.555555555555556</size><!-- 560 600 -->
-         <fontPath>${fontSemiBold}</fontPath>
+         <fontPath>${fontRegular}</fontPath>
          <fontSize>0.033333333333333</fontSize><!-- 36 -->
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <!--<selectedBackgroundColor>${gamelistSelectorColor}</selectedBackgroundColor>-->
@@ -353,7 +353,7 @@ license:       creative commons CC-BY-NC-SA
          <image name="game-metadata-background">
             <pos>0.796875 0.111111111111111</pos><!-- 1530 120 -->
             <size>0.135416666666667 0.717592592592593</size><!-- 260 775 -->
-            <path>./_inc/images/metadata-background.svg</path>
+            <path>${gameMetadataBackground}</path>
             <metadataElement>true</metadataElement>
          </image>
       </view>
