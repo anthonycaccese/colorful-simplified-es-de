@@ -60,18 +60,18 @@ license:       creative commons CC-BY-NC-SA
       </helpsystem>
       <text name="system-label">
          <pos>0.064583333333333 0.111111111111111</pos><!-- 124 120 -->
-         <size>0.32 0.025925925925926</size><!-- 560 -->
-         <fontPath>${fontSemiBold}</fontPath>
+         <size>0.291666666666667 0.025925925925926</size><!-- 560 -->
          <fontSize>0.025925925925926</fontSize><!-- 28 -->
          <lineSpacing>1</lineSpacing>
+         <fontPath>${fontSemiBold}</fontPath>
          <color>${systemLabelColor}</color>
          <zIndex>5</zIndex>
       </text>
       <text name="system-name-no-collections,system-name-auto-collections,system-name-custom-collections,custom-collection-name">
          <pos>0.064583333333333 0.153703703703704</pos><!-- 124 166 -->
-         <size>0.32 0.2</size><!-- 560 -->
-         <fontPath>${fontBold}</fontPath>
+         <size>0.291666666666667 0.2</size><!-- 560 -->
          <lineSpacing>1</lineSpacing>
+         <fontPath>${fontBold}</fontPath>
          <color>${systemNameColor}</color>
          <verticalAlignment>top</verticalAlignment>
          <zIndex>5</zIndex>
@@ -102,41 +102,31 @@ license:       creative commons CC-BY-NC-SA
       </carousel>
       <text name="system-name,system-name-no-collections,system-name-auto-collections,system-name-custom-collections,custom-collection-name">
          <fontSize>0.062962962962963</fontSize><!-- 68 -->
-         <zIndex>20</zIndex>
+         <zIndex>5</zIndex>
       </text>
       <text name="system-description">
          <pos>0.064583333333333 0.54</pos>
          <size>0.291666666666667 0.22</size><!-- 560 -->
-         <fontPath>${fontLight}</fontPath>
          <fontSize>0.02962962962963</fontSize><!-- 32 -->
          <lineSpacing>1.25</lineSpacing>
+         <fontPath>${fontLight}</fontPath>
          <text>${systemDescription}</text>
-         <verticalAlignment>bottom</verticalAlignment>
          <color>${systemDescriptionColor}</color>
          <container>true</container>
-         <zIndex>20</zIndex>
+         <verticalAlignment>bottom</verticalAlignment>
+         <zIndex>5</zIndex>
       </text>
       <text name="system-game-count">
          <pos>0.064583333333333 0.79</pos>
          <size>0.291666666666667 0</size><!-- 560 -->
-         <fontPath>${fontBold}</fontPath>
          <fontSize>0.033333333333333</fontSize><!-- 36 -->
          <lineSpacing>1</lineSpacing>
+         <fontPath>${fontBold}</fontPath>
          <letterCase>uppercase</letterCase>
          <systemdata>gamecount</systemdata>
          <color>${systemGameCountColor}</color>
-         <zIndex>20</zIndex>
+         <zIndex>5</zIndex>
       </text>
-      <!--<video name="system-video">
-         <origin>0.5 0.5</origin>
-         <pos>0.6875 0.5</pos>
-         <size>0 1</size>
-         <path>./_inc/systems/videos/${system.theme}.mp4</path>
-         <pillarboxes>false</pillarboxes>
-         <delay>4</delay>
-         <iterationCount>1</iterationCount>
-         <zIndex>10</zIndex>
-      </video>-->
    </view>
 
    <view name="gamelist">
@@ -147,14 +137,14 @@ license:       creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <pos>0.05625 0.277777777777778</pos><!-- 108 300 -->
          <size>0.291666666666667 0.555555555555556</size><!-- 560 600 -->
-         <fontPath>${fontRegular}</fontPath>
          <fontSize>0.033333333333333</fontSize><!-- 36 -->
+         <horizontalMargin>0.009</horizontalMargin>
+         <fontPath>${fontRegular}</fontPath>
          <selectorColor>${gamelistSelectorColor}</selectorColor>
          <!--<selectedBackgroundColor>${gamelistSelectorColor}</selectedBackgroundColor>-->
          <primaryColor>${gamelistPrimaryColor}</primaryColor>
          <secondaryColor>${gamelistSecondaryColor}</secondaryColor>
          <selectedColor>${gamelistSelectedColor}</selectedColor>
-         <horizontalMargin>0.009</horizontalMargin>
       </textlist>
       <badges name="badges">
          <origin>1 0</origin>
@@ -247,25 +237,25 @@ license:       creative commons CC-BY-NC-SA
          <text name="game-description">
             <pos>0.4375 0.583333333333333</pos><!-- 840 630 -->
             <size>0.328125 0.240740740740741</size><!-- 630 260 -->
-            <fontPath>${fontLight}</fontPath>
             <fontSize>0.02962962962963</fontSize><!-- 32 -->
+            <fontPath>${fontLight}</fontPath>
             <color>${gameDescription}</color>
             <metadata>description</metadata>
          </text>
          <text name="game-rating-label,game-released-label,game-players-label,game-genre-label,game-developer-label,game-publisher-label,game-last-played-label,game-times-played-label">
             <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
+            <fontSize>0.019444444444444</fontSize><!-- 21 -->
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>middle</verticalAlignment>
-            <fontSize>0.019444444444444</fontSize><!-- 21 -->
             <fontPath>${fontRegular}</fontPath>
             <color>${gameMetadataLabel}</color>
             <metadataElement>true</metadataElement>
          </text>
          <text name="game-players,game-genre,game-developer,game-publisher,game-times-played">
             <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
+            <fontSize>0.019444444444444</fontSize><!-- 21 -->
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>middle</verticalAlignment>
-            <fontSize>0.019444444444444</fontSize><!-- 21 -->
             <fontPath>${fontSemiBold}</fontPath>
             <color>${gameMetadata}</color>
             <container>true</container>
@@ -273,10 +263,10 @@ license:       creative commons CC-BY-NC-SA
          </text>
          <datetime name="game-released,game-last-played">
             <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
+            <fontSize>0.019444444444444</fontSize><!-- 21 -->
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>middle</verticalAlignment>
-            <fontSize>0.019444444444444</fontSize><!-- 21 -->
-            <fontPath>${fontBold}</fontPath>
+            <fontPath>${fontSemiBold}</fontPath>
             <color>${gameMetadata}</color>
          </datetime>
          <text name="game-rating-label">
