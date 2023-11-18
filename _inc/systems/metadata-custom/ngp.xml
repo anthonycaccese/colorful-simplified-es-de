@@ -1,6 +1,5 @@
 <theme>
    <variables>
-      <systemName>Neo Geo Pocket</systemName>
       <systemColor>CE4B39</systemColor>
    </variables>
    <view name="system,gamelist">

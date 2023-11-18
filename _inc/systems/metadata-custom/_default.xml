@@ -1,7 +1,4 @@
 <theme>
-   <variables>
-      <systemName>${system.fullName.noCollections}</systemName>
-   </variables>
    <view name="system,gamelist">
       <text name="system-label">
          <text>${systemHardwareType}</text>

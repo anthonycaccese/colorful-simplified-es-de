@@ -1,7 +1,4 @@
 <theme>
-   <variables>
-      <systemName>Triforce Arcade System</systemName>
-   </variables>
    <view name="system,gamelist">
       <text name="system-label">
          <text>${systemManufacturer}  /  ${systemReleaseYear}  /  ${systemHardwareType}</text>
