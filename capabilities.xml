@@ -28,21 +28,57 @@
       <label>Dark</label>
    </colorScheme>
 
-   <variant name="gamelist-metadata-off">
-      <label>Metadata Off</label>
+   <variant name="gamelist-metadata-off-miximage">
+      <label>Metadata Off + Miximage</label>
       <selectable>true</selectable>
       <override>
          <trigger>noMedia</trigger>
-         <mediaType>miximage,screenshot,titlescreen,fanart,cover</mediaType>
+         <mediaType>miximage</mediaType>
          <useVariant>gamelist-basic</useVariant>
       </override>
    </variant>
-   <variant name="gamelist-metadata-on">
-      <label>Metadata On</label>
+   <variant name="gamelist-metadata-off-screenshot">
+      <label>Metadata Off + Screenshot</label>
       <selectable>true</selectable>
       <override>
          <trigger>noMedia</trigger>
-         <mediaType>miximage,screenshot,titlescreen,fanart,cover</mediaType>
+         <mediaType>screenshot</mediaType>
+         <useVariant>gamelist-basic</useVariant>
+      </override>
+   </variant>
+   <variant name="gamelist-metadata-off-titlescreen">
+      <label>Metadata Off + Title Screen</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>titlescreen</mediaType>
+         <useVariant>gamelist-basic</useVariant>
+      </override>
+   </variant>
+   <variant name="gamelist-metadata-on-miximage">
+      <label>Metadata On + Miximage</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>miximage</mediaType>
+         <useVariant>gamelist-basic</useVariant>
+      </override>
+   </variant>
+   <variant name="gamelist-metadata-on-screenshot">
+      <label>Metadata On + Screenshot</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>miximage</mediaType>
+         <useVariant>gamelist-basic</useVariant>
+      </override>
+   </variant>
+   <variant name="gamelist-metadata-on-titlescreen">
+      <label>Metadata On + Title Screen</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>titlescreen</mediaType>
          <useVariant>gamelist-basic</useVariant>
       </override>
    </variant>

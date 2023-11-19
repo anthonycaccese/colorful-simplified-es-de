@@ -185,13 +185,16 @@ license:       creative commons CC-BY-NC-SA
       </view>
    </variant>
 
-   <variant name="gamelist-metadata-off">
+   <variant name="
+      gamelist-metadata-off-miximage,
+      gamelist-metadata-off-screenshot,
+      gamelist-metadata-off-titlescreen
+      ">
       <view name="gamelist">
          <video name="game-art">
             <origin>0.5 0.5</origin>
             <pos>0.671875 0.467592592592593</pos><!-- 1290 505 -->
             <cropSize>0.541666666666667 0.722222222222222</cropSize><!-- 1040 780 -->
-            <imageType>miximage</imageType>
             <defaultImage>./_inc/systems/images/_default.png</defaultImage>
             <pillarboxes>false</pillarboxes>
             <imageCornerRadius>.01</imageCornerRadius>
@@ -210,8 +213,33 @@ license:       creative commons CC-BY-NC-SA
          </badges>
       </view>
    </variant>
+   <variant name="gamelist-metadata-off-miximage">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>miximage</imageType>
+         </video>
+      </view>
+   </variant>
+   <variant name="gamelist-metadata-off-screenshot">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>screenshot</imageType>
+         </video>
+      </view>
+   </variant>
+   <variant name="gamelist-metadata-off-titlescreen">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>titlescreen</imageType>
+         </video>
+      </view>
+   </variant>
 
-   <variant name="gamelist-metadata-on">
+   <variant name="
+      gamelist-metadata-on-miximage,
+      gamelist-metadata-on-screenshot,
+      gamelist-metadata-on-titlescreen
+      ">
       <view name="gamelist">
          <badges name="badges">
             <origin>1 0</origin>
@@ -225,7 +253,6 @@ license:       creative commons CC-BY-NC-SA
             <origin>0.5 0.5</origin>
             <pos>0.598958333333333 0.333333333333333</pos><!-- 1150 360 -->
             <cropSize>0.333333333333333 0.444444444444444</cropSize><!-- 640 480 -->
-            <imageType>miximage</imageType>
             <defaultImage>./_inc/systems/images/_default.png</defaultImage>
             <pillarboxes>false</pillarboxes>
             <imageCornerRadius>.01</imageCornerRadius>
@@ -346,6 +373,27 @@ license:       creative commons CC-BY-NC-SA
             <path>${gameMetadataBackground}</path>
             <metadataElement>true</metadataElement>
          </image>
+      </view>
+   </variant>
+   <variant name="gamelist-metadata-on-miximage">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>miximage</imageType>
+         </video>
+      </view>
+   </variant>
+   <variant name="gamelist-metadata-on-screenshot">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>screenshot</imageType>
+         </video>
+      </view>
+   </variant>
+   <variant name="gamelist-metadata-on-titlescreen">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>titlescreen</imageType>
+         </video>
       </view>
    </variant>
 
