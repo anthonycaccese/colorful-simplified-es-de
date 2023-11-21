@@ -75,6 +75,8 @@ license:       creative commons CC-BY-NC-SA
          <color>${systemNameColor}</color>
          <verticalAlignment>top</verticalAlignment>
          <zIndex>5</zIndex>
+      </text>
+      <text name="system-name">
          <text>${systemName}</text>
       </text>
    </view>
