@@ -67,7 +67,7 @@ license:       creative commons CC-BY-NC-SA
          <color>${systemLabelColor}</color>
          <zIndex>5</zIndex>
       </text>
-      <text name="system-name-no-collections,system-name-auto-collections,system-name-custom-collections,custom-collection-name">
+      <text name="system-name,custom-collection-name">
          <pos>0.064583333333333 0.153703703703704</pos><!-- 124 166 -->
          <size>0.291666666666667 0.2</size><!-- 560 -->
          <lineSpacing>1</lineSpacing>
@@ -75,13 +75,7 @@ license:       creative commons CC-BY-NC-SA
          <color>${systemNameColor}</color>
          <verticalAlignment>top</verticalAlignment>
          <zIndex>5</zIndex>
-      </text>
-      <text name="system-name-no-collections">
          <text>${systemName}</text>
-      </text>
-      <text name="system-name-auto-collections">
-         <text>${system.fullName.autoCollections}</text>
-         <letterCase>capitalize</letterCase>
       </text>
    </view>
 
@@ -100,7 +94,7 @@ license:       creative commons CC-BY-NC-SA
          <color>00000000</color>
          <zIndex>5</zIndex>
       </carousel>
-      <text name="system-name,system-name-no-collections,system-name-auto-collections,system-name-custom-collections,custom-collection-name">
+      <text name="system-name">
          <fontSize>0.062962962962963</fontSize><!-- 68 -->
          <zIndex>5</zIndex>
       </text>
@@ -130,7 +124,7 @@ license:       creative commons CC-BY-NC-SA
    </view>
 
    <view name="gamelist">
-      <text name="system-name-no-collections,system-name-auto-collections,system-name-custom-collections">
+      <text name="system-name,custom-collection-name">
          <fontSize>0.038888888888889</fontSize><!-- 42 -->
       </text>
       <textlist name="game-list">
@@ -188,6 +182,7 @@ license:       creative commons CC-BY-NC-SA
    <variant name="
       gamelist-metadata-off-miximage,
       gamelist-metadata-off-screenshot,
+      gamelist-metadata-off-boxart,
       gamelist-metadata-off-titlescreen
       ">
       <view name="gamelist">
@@ -227,6 +222,15 @@ license:       creative commons CC-BY-NC-SA
          </video>
       </view>
    </variant>
+   <variant name="gamelist-metadata-off-boxart">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>cover</imageType>
+            <maxSize>0.541666666666667 0.722222222222222</maxSize><!-- 1040 780 -->
+            <imageCornerRadius>0</imageCornerRadius>
+         </video>
+      </view>
+   </variant>
    <variant name="gamelist-metadata-off-titlescreen">
       <view name="gamelist">
          <video name="game-art">
@@ -238,6 +242,7 @@ license:       creative commons CC-BY-NC-SA
    <variant name="
       gamelist-metadata-on-miximage,
       gamelist-metadata-on-screenshot,
+      gamelist-metadata-on-boxart,
       gamelist-metadata-on-titlescreen
       ">
       <view name="gamelist">
@@ -386,6 +391,15 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <video name="game-art">
             <imageType>screenshot</imageType>
+         </video>
+      </view>
+   </variant>
+   <variant name="gamelist-metadata-on-boxart">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>cover</imageType>
+            <maxSize>0.333333333333333 0.444444444444444</maxSize><!-- 640 480 -->
+            <imageCornerRadius>0</imageCornerRadius>
          </video>
       </view>
    </variant>
