@@ -34,7 +34,7 @@ license:       creative commons CC-BY-NC-SA
          <origin>0.5 1</origin>
          <pos>0.5 0.93</pos>
          <posDimmed>0.5 0.96</posDimmed>
-         <fontSize>0.025925925925926</fontSize><!-- 28 -->
+         <fontSize>0.02962962962963</fontSize><!-- 28 -->
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
          <customButtonIcon button="dpad_updown">./_inc/images/help-dpad-updown.svg</customButtonIcon>
@@ -129,20 +129,6 @@ license:       creative commons CC-BY-NC-SA
       <text name="system-name,custom-collection-name">
          <fontSize>0.038888888888889</fontSize><!-- 42 -->
       </text>
-      <textlist name="game-list">
-         <origin>0 0</origin>
-         <pos>0.05625 0.277777777777778</pos><!-- 108 300 -->
-         <size>0.291666666666667 0.555555555555556</size><!-- 560 600 -->
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
-         <horizontalMargin>0.009</horizontalMargin>
-         <fontPath>${fontRegular}</fontPath>
-         <selectorColor>${gamelistSelectorColor}</selectorColor>
-         <!--<selectedBackgroundColor>${gamelistSelectorColor}</selectedBackgroundColor>-->
-         <primaryColor>${gamelistPrimaryColor}</primaryColor>
-         <secondaryColor>${gamelistSecondaryColor}</secondaryColor>
-         <selectedColor>${gamelistSelectedColor}</selectedColor>
-         <systemNameSuffix>false</systemNameSuffix>
-      </textlist>
       <badges name="badges">
          <origin>1 0</origin>
          <lines>1</lines>
@@ -161,6 +147,37 @@ license:       creative commons CC-BY-NC-SA
          <folderLinkSize>0.8</folderLinkSize>
       </badges>
    </view>
+
+   <variant name="
+      gamelist-metadata-off-miximage,
+      gamelist-metadata-off-screenshot,
+      gamelist-metadata-off-boxart,
+      gamelist-metadata-off-titlescreen,
+      gamelist-metadata-off-screenshot-marquee,
+      gamelist-metadata-on-miximage,
+      gamelist-metadata-on-screenshot,
+      gamelist-metadata-on-boxart,
+      gamelist-metadata-on-titlescreen,
+      gamelist-metadata-on-screenshot-marquee,
+      gamelist-basic
+      ">
+      <view name="gamelist">
+         <textlist name="game-list">
+            <origin>0 0</origin>
+            <pos>0.05625 0.277777777777778</pos><!-- 108 300 -->
+            <size>0.291666666666667 0.555555555555556</size><!-- 560 600 -->
+            <fontSize>0.033333333333333</fontSize><!-- 36 -->
+            <horizontalMargin>0.009</horizontalMargin>
+            <fontPath>${fontSemiBold}</fontPath>
+            <selectorColor>${gamelistSelectorColor}</selectorColor>
+            <!--<selectedBackgroundColor>${gamelistSelectorColor}</selectedBackgroundColor>-->
+            <primaryColor>${gamelistPrimaryColor}</primaryColor>
+            <secondaryColor>${gamelistSecondaryColor}</secondaryColor>
+            <selectedColor>${gamelistSelectedColor}</selectedColor>
+            <systemNameSuffix>false</systemNameSuffix>
+         </textlist>
+      </view>
+   </variant>
 
    <variant name="gamelist-basic">
       <view name="gamelist">
@@ -440,6 +457,74 @@ license:       creative commons CC-BY-NC-SA
             <pos>0.598958333333333 0.333333333333333</pos><!-- 1150 360 -->
             <maxSize>0.208333333333333 0.277777777777778</maxSize><!-- 400 300 -->
             <zIndex>200</zIndex>
+         </image>
+      </view>
+   </variant>
+
+   <variant name="gamelist-grid">
+      <include>./_inc/grids/${systemCoverSize}.xml</include>
+      <view name="gamelist">
+         <text name="system-name,custom-collection-name">
+            <pos>0.064583333333333 0.074074074074074</pos><!-- 124 80 -->
+            <size>0.416666666666667 0.031481481481481</size><!-- 800 34 -->
+            <fontSize>0.031481481481481</fontSize><!-- 34 -->
+            <verticalAlignment>bottom</verticalAlignment>
+         </text>
+         <text name="system-label">
+            <origin>1 0</origin>
+            <pos>0.932291666666667 0.074074074074074</pos><!-- 1790 80 -->
+            <size>0.291666666666667 0.031481481481481</size><!-- 560 34 -->
+            <fontSize>0.024074074074074</fontSize><!-- 26 -->
+            <horizontalAlignment>right</horizontalAlignment>
+            <verticalAlignment>bottom</verticalAlignment>
+         </text>
+         <image name="grid-top-border">
+            <origin>0 0</origin>
+            <pos>0.064583333333333 0.142592592592593</pos><!-- 124 154 -->
+            <size>0.870833333333333 0.005555555555556</size><!-- 1672 6 -->
+            <path>${spacerImage}</path>
+            <tile>true</tile>
+            <color>00000066</color>
+            <zIndex>2</zIndex>
+         </image>
+         <grid name="grid">
+            <origin>0 0</origin>
+            <pos>0.064583333333333 0.148148148148148</pos><!-- 124 164 -->
+            <size>0.870833333333333 0.703703703703704</size><!-- 1672 760 -->
+            <itemScale>1.2</itemScale>
+            <scaleInwards>true</scaleInwards>
+            <itemSpacing>0 0</itemSpacing>
+            <unfocusedItemOpacity>1</unfocusedItemOpacity>
+            <unfocusedItemDimming>0.5</unfocusedItemDimming>
+            <unfocusedItemSaturation>1</unfocusedItemSaturation>
+            <fractionalRows>true</fractionalRows>
+            <textColor>ffffff</textColor>
+            <textBackgroundColor>222222</textBackgroundColor>
+            <fontPath>${fontBold}</fontPath>
+            <fontSize>0.03</fontSize>
+            <imageRelativeScale>1</imageRelativeScale>
+            <selectorImage>./_inc/grids/${systemCoverSize}.svg</selectorImage>
+            <selectorColor>ffffff</selectorColor>
+            <backgroundColor>030303</backgroundColor>
+            <imageType>cover</imageType>
+         </grid>
+         <image name="grid-background">
+            <origin>0 0</origin>
+            <pos>0.064583333333333 0.148148148148148</pos><!-- 124 164 -->
+            <size>0.870833333333333 0.703703703703704</size><!-- 1672 760 -->
+            <path>${spacerImage}</path>
+            <tile>true</tile>
+            <color>000000dd</color>
+            <zIndex>2</zIndex>
+         </image>
+         <image name="grid-bottom-border">
+            <origin>0 0</origin>
+            <pos>0.064583333333333 0.851851851851852</pos><!-- 124 920 -->
+            <size>0.870833333333333 0.005555555555556</size><!-- 1672 6 -->
+            <path>${spacerImage}</path>
+            <tile>true</tile>
+            <color>00000066</color>
+            <zIndex>2</zIndex>
          </image>
       </view>
    </variant>

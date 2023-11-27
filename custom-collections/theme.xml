@@ -7,4 +7,11 @@
          <color>${systemNameColor}</color>
       </text>
    </view>
+   <variant name="gamelist-grid">
+      <view name="gamelist">
+         <text name="custom-collection-name">
+            <pos>0.23 0.074074074074074</pos><!-- 124 80 -->
+         </text>
+      </view>
+   </variant>
 </theme>
