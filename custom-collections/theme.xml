@@ -4,13 +4,16 @@
       <text name="custom-collection-name">
          <pos>0.064583333333333 0.2</pos><!-- 124 166 -->
          <metadata>systemFullname</metadata>
-         <color>${systemNameColor}</color>
+         <color>${systemNameColor}bb</color>
       </text>
    </view>
-   <variant name="gamelist-grid">
+   <variant name="
+      gamelist-grid,
+      gamelist-carousel
+      ">
       <view name="gamelist">
          <text name="custom-collection-name">
-            <pos>0.23 0.074074074074074</pos><!-- 124 80 -->
+            <pos>0.26875 0.064814814814815</pos><!-- 134 70 -->
          </text>
       </view>
    </variant>

@@ -261,7 +261,7 @@ license:       creative commons CC-BY-NC-SA
          <video name="game-art">
             <imageType>cover</imageType>
             <maxSize>0.541666666666667 0.722222222222222</maxSize><!-- 1040 780 -->
-            <imageCornerRadius>0</imageCornerRadius>
+            <imageCornerRadius>0.0025</imageCornerRadius>
          </video>
       </view>
    </variant>
@@ -451,7 +451,7 @@ license:       creative commons CC-BY-NC-SA
          <video name="game-art">
             <imageType>cover</imageType>
             <maxSize>0.333333333333333 0.444444444444444</maxSize><!-- 640 480 -->
-            <imageCornerRadius>0</imageCornerRadius>
+            <imageCornerRadius>0.0025</imageCornerRadius>
          </video>
       </view>
    </variant>
@@ -477,30 +477,38 @@ license:       creative commons CC-BY-NC-SA
       </view>
    </variant>
 
-   <variant name="gamelist-grid">
-      <include>./_inc/grids/${systemCoverSize}.xml</include>
+   <variant name="
+      gamelist-grid,
+      gamelist-carousel
+      ">
       <view name="gamelist">
          <text name="system-name,custom-collection-name">
-            <pos>0.064583333333333 0.074074074074074</pos><!-- 124 80 -->
-            <size>0.416666666666667 0.031481481481481</size><!-- 800 34 -->
-            <fontSize>0.031481481481481</fontSize><!-- 34 -->
+            <pos>0.064583333333333 0.064814814814815</pos><!-- 124 70 -->
+            <size>0.416666666666667 0.038888888888889</size><!-- 800 42 -->
+            <fontSize>0.038888888888889</fontSize><!-- 42 -->
             <verticalAlignment>bottom</verticalAlignment>
          </text>
          <text name="system-label">
             <origin>1 0</origin>
             <pos>0.932291666666667 0.074074074074074</pos><!-- 1790 80 -->
             <size>0.291666666666667 0.031481481481481</size><!-- 560 34 -->
-            <fontSize>0.024074074074074</fontSize><!-- 26 -->
+            <fontSize>0.031481481481481</fontSize><!-- 34 -->
             <horizontalAlignment>right</horizontalAlignment>
             <verticalAlignment>bottom</verticalAlignment>
          </text>
+      </view>
+   </variant>
+
+   <variant name="gamelist-grid">
+      <include>./_inc/grids/${systemCoverSize}.xml</include>
+      <view name="gamelist">
          <image name="grid-top-border">
             <origin>0 0</origin>
             <pos>0.064583333333333 0.142592592592593</pos><!-- 124 154 -->
             <size>0.870833333333333 0.005555555555556</size><!-- 1672 6 -->
             <path>${spacerImage}</path>
             <tile>true</tile>
-            <color>00000066</color>
+            <color>00000033</color>
             <zIndex>2</zIndex>
          </image>
          <grid name="grid">
@@ -511,7 +519,7 @@ license:       creative commons CC-BY-NC-SA
             <scaleInwards>true</scaleInwards>
             <itemSpacing>0 0</itemSpacing>
             <unfocusedItemOpacity>1</unfocusedItemOpacity>
-            <unfocusedItemDimming>0.5</unfocusedItemDimming>
+            <unfocusedItemDimming>0.8</unfocusedItemDimming>
             <unfocusedItemSaturation>1</unfocusedItemSaturation>
             <fractionalRows>true</fractionalRows>
             <textColor>ffffff</textColor>
@@ -539,9 +547,30 @@ license:       creative commons CC-BY-NC-SA
             <size>0.870833333333333 0.005555555555556</size><!-- 1672 6 -->
             <path>${spacerImage}</path>
             <tile>true</tile>
-            <color>00000066</color>
+            <color>00000033</color>
             <zIndex>2</zIndex>
          </image>
+      </view>
+   </variant>
+
+   <variant name="gamelist-carousel">
+      <view name="gamelist">
+         <carousel name="game-carousel">
+            <origin>0 0.5</origin>
+            <pos>0 0.5</pos>
+            <size>1 1</size><!-- 100% 608 -->
+            <itemSize>0.21875 0.388888888888889</itemSize><!-- 500 500 -->
+            <maxItemCount>4</maxItemCount>
+            <itemScale>1.6</itemScale>
+            <imageType>cover</imageType>
+            <imageCornerRadius>0.0025</imageCornerRadius>
+            <fastScrolling>true</fastScrolling>
+            <color>00000000</color>
+            <textColor>ffffff</textColor>
+            <textBackgroundColor>333333</textBackgroundColor>
+            <fontPath>${fontBold}</fontPath>
+            <fontSize>0.03</fontSize>
+         </carousel>
       </view>
    </variant>
 
