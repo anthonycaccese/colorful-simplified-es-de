@@ -485,7 +485,8 @@ license:       creative commons CC-BY-NC-SA
 
    <variant name="
       gamelist-grid,
-      gamelist-carousel
+      gamelist-carousel,
+      gamelist-carousel-physical-media
       ">
       <view name="gamelist">
          <text name="system-name,custom-collection-name">
@@ -559,13 +560,16 @@ license:       creative commons CC-BY-NC-SA
       </view>
    </variant>
 
-   <variant name="gamelist-carousel">
+   <variant name="
+      gamelist-carousel
+      gamelist-carousel-physical-media
+      ">
       <view name="gamelist">
          <carousel name="game-carousel">
-            <origin>0 0.5</origin>
-            <pos>0 0.5</pos>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
             <size>1 1</size><!-- 100% 608 -->
-            <itemSize>0.21875 0.388888888888889</itemSize><!-- 500 500 -->
+            <itemSize>0.21875 0.388888888888889</itemSize><!-- 420 420 -->
             <maxItemCount>4</maxItemCount>
             <itemScale>1.6</itemScale>
             <imageType>cover</imageType>
@@ -577,6 +581,26 @@ license:       creative commons CC-BY-NC-SA
             <fontPath>${fontBold}</fontPath>
             <fontSize>0.03</fontSize>
          </carousel>
+      </view>
+   </variant>
+
+   <variant name="gamelist-carousel-physical-media">
+      <view name="gamelist">
+         <carousel name="game-carousel">
+            <selectedItemMargins>-0.052083333333333 0.052083333333333</selectedItemMargins><!-- -100 100 -->
+            <horizontalOffset>-0.052083333333333</horizontalOffset><!-- -100 -->
+            <maxItemCount>3</maxItemCount>
+            <itemScale>1.5</itemScale>
+         </carousel>
+         <image name="game-physical-media">
+            <imageType>physicalmedia</imageType>
+            <origin>0.5 0.5</origin>
+            <pos>0.559895833333333 0.5</pos>
+            <maxSize>0.3125 0.555555555555556</maxSize><!-- 600 600 -->
+            <zIndex>200</zIndex>
+            <interpolation>linear</interpolation>
+            <zIndex>1</zIndex>
+         </image>
       </view>
    </variant>
 
