@@ -576,7 +576,6 @@ license:       creative commons CC-BY-NC-SA
             <textBackgroundColor>333333</textBackgroundColor>
             <fontPath>${fontBold}</fontPath>
             <fontSize>0.03</fontSize>
-            <interpolation>linear</interpolation>
          </carousel>
       </view>
    </variant>
