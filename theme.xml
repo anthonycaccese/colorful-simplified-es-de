@@ -246,6 +246,7 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <video name="game-art">
             <imageType>miximage</imageType>
+            <interpolation>linear</interpolation>
          </video>
       </view>
    </variant>
@@ -262,6 +263,7 @@ license:       creative commons CC-BY-NC-SA
             <imageType>cover</imageType>
             <maxSize>0.541666666666667 0.722222222222222</maxSize><!-- 1040 780 -->
             <imageCornerRadius>0.0025</imageCornerRadius>
+            <interpolation>linear</interpolation>
          </video>
       </view>
    </variant>
@@ -283,6 +285,7 @@ license:       creative commons CC-BY-NC-SA
             <pos>0.671875 0.467592592592593</pos><!-- 1290 505 -->
             <maxSize>0.260416666666667 0.462962962962963</maxSize><!-- 500 500 -->
             <zIndex>200</zIndex>
+            <interpolation>linear</interpolation>
          </image>
       </view>
    </variant>
@@ -436,6 +439,7 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <video name="game-art">
             <imageType>miximage</imageType>
+            <interpolation>linear</interpolation>
          </video>
       </view>
    </variant>
@@ -452,6 +456,7 @@ license:       creative commons CC-BY-NC-SA
             <imageType>cover</imageType>
             <maxSize>0.333333333333333 0.444444444444444</maxSize><!-- 640 480 -->
             <imageCornerRadius>0.0025</imageCornerRadius>
+            <interpolation>linear</interpolation>
          </video>
       </view>
    </variant>
@@ -473,6 +478,7 @@ license:       creative commons CC-BY-NC-SA
             <pos>0.598958333333333 0.333333333333333</pos><!-- 1150 360 -->
             <maxSize>0.208333333333333 0.277777777777778</maxSize><!-- 400 300 -->
             <zIndex>200</zIndex>
+            <interpolation>linear</interpolation>
          </image>
       </view>
    </variant>
@@ -570,6 +576,7 @@ license:       creative commons CC-BY-NC-SA
             <textBackgroundColor>333333</textBackgroundColor>
             <fontPath>${fontBold}</fontPath>
             <fontSize>0.03</fontSize>
+            <interpolation>linear</interpolation>
          </carousel>
       </view>
    </variant>
