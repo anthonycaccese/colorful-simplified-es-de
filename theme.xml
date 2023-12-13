@@ -570,7 +570,8 @@ license:       creative commons CC-BY-NC-SA
             <pos>0 0</pos>
             <size>1 1</size><!-- 100% 608 -->
             <itemSize>0.21875 0.388888888888889</itemSize><!-- 420 420 -->
-            <maxItemCount>4</maxItemCount>
+            <selectedItemMargins>0.052083333333333 0.052083333333333</selectedItemMargins><!-- -100 100 -->
+            <maxItemCount>4.5</maxItemCount>
             <itemScale>1.6</itemScale>
             <imageType>cover</imageType>
             <imageCornerRadius>0.0025</imageCornerRadius>
