@@ -4,10 +4,11 @@
          <systemBackgroundColor>${systemColor}</systemBackgroundColor>
          <helpIconColor>ffffff99</helpIconColor>
          <helpTextColor>ffffff88</helpTextColor>
+         <helpBackgroundColor>00000011</helpBackgroundColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
          <systemNameColor>ffffff</systemNameColor>
          <systemDescriptionColor>ffffff</systemDescriptionColor>
-         <systemGameCountColor>ffffff77</systemGameCountColor>
+         <systemGameCountColor>ffffff99</systemGameCountColor>
          <gamelistSelectorColor>00000033</gamelistSelectorColor>
          <gamelistPrimaryColor>ffffff66</gamelistPrimaryColor>
          <gamelistSecondaryColor>ffffff66</gamelistSecondaryColor>
@@ -23,10 +24,11 @@
          <systemBackgroundColor>dddddd</systemBackgroundColor>
          <helpIconColor>00000099</helpIconColor>
          <helpTextColor>00000088</helpTextColor>
+         <helpBackgroundColor>ffffff66</helpBackgroundColor>
          <systemLabelColor>999999</systemLabelColor>
          <systemNameColor>000000</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
-         <systemGameCountColor>00000077</systemGameCountColor>
+         <systemGameCountColor>00000099</systemGameCountColor>
          <gamelistSelectorColor>ffffffdd</gamelistSelectorColor>
          <gamelistPrimaryColor>888888</gamelistPrimaryColor>
          <gamelistSecondaryColor>888888</gamelistSecondaryColor>
@@ -42,10 +44,11 @@
          <systemBackgroundColor>111111</systemBackgroundColor>
          <helpIconColor>ffffffaa</helpIconColor>
          <helpTextColor>ffffffbb</helpTextColor>
+         <helpBackgroundColor>222222</helpBackgroundColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
          <systemNameColor>ffffff</systemNameColor>
          <systemDescriptionColor>ffffff</systemDescriptionColor>
-         <systemGameCountColor>ffffff77</systemGameCountColor>
+         <systemGameCountColor>ffffff99</systemGameCountColor>
          <gamelistSelectorColor>000000</gamelistSelectorColor>
          <gamelistPrimaryColor>ffffff55</gamelistPrimaryColor>
          <gamelistSecondaryColor>ffffff55</gamelistSecondaryColor>

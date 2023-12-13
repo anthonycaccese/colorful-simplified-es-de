@@ -6,6 +6,7 @@ license:       creative commons CC-BY-NC-SA
 
 <theme>
 
+   <!-- Variables -->
    <variables>
       <spacerImage>./_inc/images/space.png</spacerImage>
       <fontLight>./_inc/fonts/Gilroy-Light.ttf</fontLight>
@@ -14,6 +15,7 @@ license:       creative commons CC-BY-NC-SA
       <fontBold>./_inc/fonts/Gilroy-Bold.ttf</fontBold>
    </variables>
 
+   <!-- System Metadata -->
    <include>./_inc/systems/metadata-global/_default.xml</include>
    <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
    <include>./_inc/systems/metadata-custom/_default.xml</include>
@@ -32,9 +34,9 @@ license:       creative commons CC-BY-NC-SA
       </image>
       <helpsystem name="help">
          <origin>0.5 1</origin>
-         <pos>0.5 0.93</pos>
-         <posDimmed>0.5 0.96</posDimmed>
-         <fontSize>0.02962962962963</fontSize><!-- 28 -->
+         <pos>0.5 0.965</pos>
+         <posDimmed>0.5 0.965</posDimmed>
+         <fontSize>0.031481481481481</fontSize><!-- 34 -->
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
          <customButtonIcon button="dpad_updown">./_inc/images/help-dpad-updown.svg</customButtonIcon>
@@ -58,10 +60,19 @@ license:       creative commons CC-BY-NC-SA
          <customButtonIcon button="button_y_SNES">./_inc/images/help-button-north.svg</customButtonIcon>
          <customButtonIcon button="thumbstick_click">./_inc/images/help-left-stick-click.svg</customButtonIcon>
       </helpsystem>
+      <image name="helpBackground">
+         <origin>0 1</origin>
+         <pos>0 1</pos>
+         <size>1 0.1</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>${helpBackgroundColor}</color>
+         <zIndex>50</zIndex>
+      </image>
       <text name="system-label">
          <pos>0.064583333333333 0.111111111111111</pos><!-- 124 120 -->
          <size>0.291666666666667 0.025925925925926</size><!-- 560 -->
-         <fontSize>0.025925925925926</fontSize><!-- 28 -->
+         <fontSize>0.031481481481481</fontSize><!-- 34 -->
          <lineSpacing>1</lineSpacing>
          <fontPath>${fontSemiBold}</fontPath>
          <color>${systemLabelColor}</color>
@@ -102,8 +113,8 @@ license:       creative commons CC-BY-NC-SA
       </text>
       <text name="system-description">
          <pos>0.064583333333333 0.54</pos>
-         <size>0.291666666666667 0.22</size><!-- 560 -->
-         <fontSize>0.02962962962963</fontSize><!-- 32 -->
+         <size>0.291666666666667 0.174074074074074</size><!-- 560 188 -->
+         <fontSize>0.033333333333333</fontSize><!-- 36 -->
          <lineSpacing>1.25</lineSpacing>
          <fontPath>${fontLight}</fontPath>
          <text>${systemDescription}</text>
@@ -111,11 +122,13 @@ license:       creative commons CC-BY-NC-SA
          <container>true</container>
          <verticalAlignment>bottom</verticalAlignment>
          <zIndex>5</zIndex>
+         <containerVerticalSnap>false</containerVerticalSnap>
+         <containerScrollSpeed>0.6</containerScrollSpeed>
       </text>
       <text name="system-game-count">
-         <pos>0.064583333333333 0.79</pos>
-         <size>0.291666666666667 0</size><!-- 560 -->
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
+         <pos>0.064583333333333 0.78</pos>
+         <size>0.291666666666667 0</size><!-- 560 - -->
+         <fontSize>0.038888888888889</fontSize><!-- 42 -->
          <lineSpacing>1</lineSpacing>
          <fontPath>${fontBold}</fontPath>
          <letterCase>uppercase</letterCase>
@@ -303,16 +316,19 @@ license:       creative commons CC-BY-NC-SA
             <onIterationsDone>image</onIterationsDone>
          </video>
          <text name="game-description">
-            <pos>0.4375 0.583333333333333</pos><!-- 840 630 -->
-            <size>0.328125 0.240740740740741</size><!-- 630 260 -->
-            <fontSize>0.02962962962963</fontSize><!-- 32 -->
-            <fontPath>${fontLight}</fontPath>
+            <pos>0.4375 0.574074074074074</pos><!-- 840 620 -->
+            <size>0.328125 0.25</size><!-- 630 270 -->
+            <fontSize>0.033333333333333</fontSize><!-- 36 -->
+            <lineSpacing>1.5</lineSpacing>
+            <fontPath>${fontRegular}</fontPath>
             <color>${gameDescription}</color>
             <metadata>description</metadata>
+            <containerVerticalSnap>false</containerVerticalSnap>
+            <containerScrollSpeed>0.6</containerScrollSpeed>
          </text>
          <text name="game-rating-label,game-released-label,game-players-label,game-genre-label,game-developer-label,game-publisher-label,game-last-played-label,game-times-played-label">
             <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
-            <fontSize>0.019444444444444</fontSize><!-- 21 -->
+            <fontSize>0.024074074074074</fontSize><!-- 26 -->
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>middle</verticalAlignment>
             <fontPath>${fontRegular}</fontPath>
@@ -321,7 +337,7 @@ license:       creative commons CC-BY-NC-SA
          </text>
          <text name="game-players,game-genre,game-developer,game-publisher,game-times-played">
             <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
-            <fontSize>0.019444444444444</fontSize><!-- 21 -->
+            <fontSize>0.024074074074074</fontSize><!-- 26 -->
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>middle</verticalAlignment>
             <fontPath>${fontSemiBold}</fontPath>
@@ -331,7 +347,7 @@ license:       creative commons CC-BY-NC-SA
          </text>
          <datetime name="game-released,game-last-played">
             <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
-            <fontSize>0.019444444444444</fontSize><!-- 21 -->
+            <fontSize>0.024074074074074</fontSize><!-- 26 -->
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>middle</verticalAlignment>
             <fontPath>${fontSemiBold}</fontPath>
@@ -344,7 +360,7 @@ license:       creative commons CC-BY-NC-SA
          <rating name="game-rating">
             <origin>0.5 0</origin>
             <pos>0.865885416666667 0.155555555555556</pos><!-- 1662.5 px 168 -->
-            <size>0.115104166666667 0.027777777777778</size><!-- 221 30 -->
+            <size>0.115104166666667 0.031481481481481</size><!-- 221 34 -->
             <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
             <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
             <overlay>false</overlay>
