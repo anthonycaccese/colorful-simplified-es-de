@@ -1,7 +1,0 @@
-<theme>
-   <view name="gamelist">
-      <grid name="grid">
-         <itemSize>0.174166666666667 0.412839506172839</itemSize><!-- 334.4 445.8666666666666 -->
-      </grid>
-   </view>
-</theme>

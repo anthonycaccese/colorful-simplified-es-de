@@ -488,6 +488,7 @@ license:       creative commons CC-BY-NC-SA
       gamelist-carousel,
       gamelist-carousel-physical-media
       ">
+      <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
       <view name="gamelist">
          <text name="system-name,custom-collection-name">
             <pos>0.064583333333333 0.064814814814815</pos><!-- 124 70 -->
@@ -507,7 +508,6 @@ license:       creative commons CC-BY-NC-SA
    </variant>
 
    <variant name="gamelist-grid">
-      <include>./_inc/grids/${systemCoverSize}.xml</include>
       <view name="gamelist">
          <image name="grid-top-border">
             <origin>0 0</origin>
@@ -534,7 +534,7 @@ license:       creative commons CC-BY-NC-SA
             <fontPath>${fontBold}</fontPath>
             <fontSize>0.03</fontSize>
             <imageRelativeScale>1</imageRelativeScale>
-            <selectorImage>./_inc/grids/${systemCoverSize}.svg</selectorImage>
+            <selectorImage>./_inc/systems/coversize/${systemCoverSize}.svg</selectorImage>
             <selectorColor>ffffff</selectorColor>
             <backgroundColor>030303</backgroundColor>
             <imageType>cover</imageType>
@@ -568,11 +568,7 @@ license:       creative commons CC-BY-NC-SA
          <carousel name="game-carousel">
             <origin>0 0</origin>
             <pos>0 0</pos>
-            <size>1 1</size><!-- 100% 608 -->
-            <itemSize>0.21875 0.388888888888889</itemSize><!-- 420 420 -->
-            <selectedItemMargins>0.052083333333333 0.052083333333333</selectedItemMargins><!-- -100 100 -->
-            <maxItemCount>4.5</maxItemCount>
-            <itemScale>1.6</itemScale>
+            <size>1 1</size>
             <imageType>cover</imageType>
             <imageCornerRadius>0.0025</imageCornerRadius>
             <fastScrolling>true</fastScrolling>

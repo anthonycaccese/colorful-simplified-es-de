@@ -1,0 +1,22 @@
+<theme>
+   <variant name="gamelist-grid">
+      <view name="gamelist">
+         <grid name="grid">
+            <itemSize>0.217708333333333 0.290277777777778</itemSize><!--418 313.5 -->
+         </grid>
+      </view>
+   </variant>
+   <variant name="
+      gamelist-carousel
+      gamelist-carousel-physical-media
+      ">
+      <view name="gamelist">
+         <carousel name="game-carousel">
+            <itemSize>0.291666666666667 0.388888888888889</itemSize><!-- 560 420 -->
+            <selectedItemMargins>0.078125 0.078125</selectedItemMargins><!-- 150 150 -->
+            <maxItemCount>3</maxItemCount>
+            <itemScale>1.6</itemScale>
+         </carousel>
+      </view>
+   </variant>
+</theme>
