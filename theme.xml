@@ -224,7 +224,7 @@ license:       creative commons CC-BY-NC-SA
             <origin>0.5 0.5</origin>
             <pos>0.671875 0.467592592592593</pos><!-- 1290 505 -->
             <cropSize>0.541666666666667 0.722222222222222</cropSize><!-- 1040 780 -->
-            <defaultImage>./_inc/systems/images/_default.png</defaultImage>
+            <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
             <pillarboxes>false</pillarboxes>
             <imageCornerRadius>.01</imageCornerRadius>
             <videoCornerRadius>.01</videoCornerRadius>
@@ -310,7 +310,7 @@ license:       creative commons CC-BY-NC-SA
             <origin>0.5 0.5</origin>
             <pos>0.598958333333333 0.333333333333333</pos><!-- 1150 360 -->
             <cropSize>0.333333333333333 0.444444444444444</cropSize><!-- 640 480 -->
-            <defaultImage>./_inc/systems/images/_default.png</defaultImage>
+            <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
             <pillarboxes>false</pillarboxes>
             <imageCornerRadius>.01</imageCornerRadius>
             <videoCornerRadius>.01</videoCornerRadius>
