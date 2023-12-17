@@ -333,7 +333,7 @@ license:       creative commons CC-BY-NC-SA
             <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
             <fontSize>0.024074074074074</fontSize><!-- 26 -->
             <horizontalAlignment>center</horizontalAlignment>
-            <verticalAlignment>middle</verticalAlignment>
+            <verticalAlignment>center</verticalAlignment>
             <fontPath>${fontRegular}</fontPath>
             <color>${gameMetadataLabel}</color>
             <metadataElement>true</metadataElement>
@@ -342,7 +342,7 @@ license:       creative commons CC-BY-NC-SA
             <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
             <fontSize>0.024074074074074</fontSize><!-- 26 -->
             <horizontalAlignment>center</horizontalAlignment>
-            <verticalAlignment>middle</verticalAlignment>
+            <verticalAlignment>center</verticalAlignment>
             <fontPath>${fontSemiBold}</fontPath>
             <color>${gameMetadata}</color>
             <container>true</container>
@@ -352,7 +352,7 @@ license:       creative commons CC-BY-NC-SA
             <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
             <fontSize>0.024074074074074</fontSize><!-- 26 -->
             <horizontalAlignment>center</horizontalAlignment>
-            <verticalAlignment>middle</verticalAlignment>
+            <verticalAlignment>center</verticalAlignment>
             <fontPath>${fontSemiBold}</fontPath>
             <color>${gameMetadata}</color>
          </datetime>
