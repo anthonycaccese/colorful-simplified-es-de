@@ -13,6 +13,7 @@ license:       creative commons CC-BY-NC-SA
       <fontRegular>./_inc/fonts/Gilroy-Regular.ttf</fontRegular>
       <fontSemiBold>./_inc/fonts/Gilroy-SemiBold.ttf</fontSemiBold>
       <fontBold>./_inc/fonts/Gilroy-Bold.ttf</fontBold>
+      <fontHelpSystem>./_inc/fonts/Akrobat-Bold.ttf</fontHelpSystem>
    </variables>
 
    <!-- System Metadata -->
@@ -36,9 +37,10 @@ license:       creative commons CC-BY-NC-SA
          <origin>0.5 1</origin>
          <pos>0.5 0.965</pos>
          <posDimmed>0.5 0.965</posDimmed>
-         <fontSize>0.031481481481481</fontSize><!-- 34 -->
+         <fontSize>0.033333333333333</fontSize><!-- 36 -->
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
+         <fontPath>${fontHelpSystem}</fontPath>
          <customButtonIcon button="dpad_updown">./_inc/images/help-dpad-updown.svg</customButtonIcon>
          <customButtonIcon button="dpad_leftright">./_inc/images/help-dpad-leftright.svg</customButtonIcon>
          <customButtonIcon button="dpad_all">./_inc/images/help-dpad-updownleftright.svg</customButtonIcon>
@@ -152,17 +154,13 @@ license:       creative commons CC-BY-NC-SA
       <badges name="badges">
          <origin>1 0</origin>
          <lines>1</lines>
-         <itemsPerLine>9</itemsPerLine>
-         <slots>all</slots>
+         <itemsPerLine>5</itemsPerLine>
+         <slots>favorite,completed,controller,altemulator,folder</slots>
          <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
-         <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
          <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
          <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
-         <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
-         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
          <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
          <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
-         <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
          <controllerSize>0.8</controllerSize>
          <folderLinkSize>0.8</folderLinkSize>
       </badges>
@@ -577,7 +575,7 @@ license:       creative commons CC-BY-NC-SA
             <pos>0 0</pos>
             <size>1 1</size>
             <imageType>cover</imageType>
-            <imageCornerRadius>0.0025</imageCornerRadius>
+            <imageCornerRadius>0.005</imageCornerRadius>
             <fastScrolling>true</fastScrolling>
             <color>00000000</color>
             <textColor>ffffff</textColor>
@@ -585,6 +583,15 @@ license:       creative commons CC-BY-NC-SA
             <fontPath>${fontBold}</fontPath>
             <fontSize>0.03</fontSize>
          </carousel>
+         <badges name="badges">
+            <origin>0.5 0</origin>
+            <pos>0.5 0.777777777777778</pos><!-- 50% 800 -->
+            <size>1 0.055555555555556</size><!-- 100% 60 -->
+            <itemMargin>-1 0</itemMargin>
+            <horizontalAlignment>center</horizontalAlignment>
+            <direction>row</direction>
+            <zIndex>100</zIndex>
+         </badges>
       </view>
    </variant>
 

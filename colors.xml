@@ -2,8 +2,8 @@
    <colorScheme name="Colorful">
       <variables>
          <systemBackgroundColor>${systemColor}</systemBackgroundColor>
-         <helpIconColor>ffffff99</helpIconColor>
-         <helpTextColor>ffffff88</helpTextColor>
+         <helpIconColor>ffffffbb</helpIconColor>
+         <helpTextColor>ffffffcc</helpTextColor>
          <helpBackgroundColor>00000011</helpBackgroundColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
          <systemNameColor>ffffff</systemNameColor>
@@ -22,10 +22,10 @@
    <colorScheme name="Light">
       <variables>
          <systemBackgroundColor>dddddd</systemBackgroundColor>
-         <helpIconColor>00000099</helpIconColor>
-         <helpTextColor>00000088</helpTextColor>
+         <helpIconColor>777777</helpIconColor>
+         <helpTextColor>777777</helpTextColor>
          <helpBackgroundColor>ffffff66</helpBackgroundColor>
-         <systemLabelColor>999999</systemLabelColor>
+         <systemLabelColor>777777</systemLabelColor>
          <systemNameColor>000000</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
          <systemGameCountColor>00000099</systemGameCountColor>
@@ -42,8 +42,8 @@
    <colorScheme name="Dark">
       <variables>
          <systemBackgroundColor>111111</systemBackgroundColor>
-         <helpIconColor>ffffffaa</helpIconColor>
-         <helpTextColor>ffffffbb</helpTextColor>
+         <helpIconColor>ffffffbb</helpIconColor>
+         <helpTextColor>ffffffcc</helpTextColor>
          <helpBackgroundColor>222222</helpBackgroundColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
          <systemNameColor>ffffff</systemNameColor>
