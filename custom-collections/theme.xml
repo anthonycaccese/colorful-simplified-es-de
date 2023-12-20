@@ -2,19 +2,41 @@
    <include>./../theme.xml</include>
    <view name="gamelist">
       <text name="custom-collection-name">
-         <pos>0.064583333333333 0.2</pos><!-- 124 166 -->
          <metadata>systemFullname</metadata>
          <color>${systemNameColor}bb</color>
       </text>
    </view>
    <variant name="
+      gamelist-metadata-off-miximage,
+      gamelist-metadata-off-screenshot,
+      gamelist-metadata-off-boxart,
+      gamelist-metadata-off-titlescreen,
+      gamelist-metadata-off-screenshot-marquee,
+      gamelist-metadata-on-miximage,
+      gamelist-metadata-on-screenshot,
+      gamelist-metadata-on-boxart,
+      gamelist-metadata-on-titlescreen,
+      gamelist-metadata-on-screenshot-marquee,
+      gamelist-basic
+      ">
+      <aspectRatio name="16:9">
+         <view name="gamelist">
+            <text name="custom-collection-name">
+               <pos>0.064583333333333 0.2</pos><!-- 124 166 -->
+            </text>
+         </view>
+      </aspectRatio>
+   </variant>
+   <variant name="
       gamelist-grid,
       gamelist-carousel
       ">
-      <view name="gamelist">
-         <text name="custom-collection-name">
-            <pos>0.26875 0.064814814814815</pos><!-- 134 70 -->
-         </text>
-      </view>
+      <aspectRatio name="16:9">
+         <view name="gamelist">
+            <text name="custom-collection-name">
+               <pos>0.26875 0.064814814814815</pos><!-- 134 70 -->
+            </text>
+         </view>
+      </aspectRatio>
    </variant>
 </theme>

@@ -6,7 +6,21 @@ license:       creative commons CC-BY-NC-SA
 
 <theme>
 
-   <!-- Variables -->
+   <!--
+   ///
+   System Metadata
+   ///
+   -->
+   <include>./_inc/systems/metadata-global/_default.xml</include>
+   <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+   <include>./_inc/systems/metadata-custom/_default.xml</include>
+   <include>./_inc/systems/metadata-custom/${system.theme}.xml</include>
+
+   <!--
+   ///
+   Variables
+   ///
+   -->
    <variables>
       <spacerImage>./_inc/images/space.png</spacerImage>
       <fontLight>./_inc/fonts/Gilroy-Light.ttf</fontLight>
@@ -15,14 +29,13 @@ license:       creative commons CC-BY-NC-SA
       <fontBold>./_inc/fonts/Gilroy-Bold.ttf</fontBold>
       <fontHelpSystem>./_inc/fonts/Akrobat-Bold.ttf</fontHelpSystem>
    </variables>
-
-   <!-- System Metadata -->
-   <include>./_inc/systems/metadata-global/_default.xml</include>
-   <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
-   <include>./_inc/systems/metadata-custom/_default.xml</include>
-   <include>./_inc/systems/metadata-custom/${system.theme}.xml</include>
    <include>./colors.xml</include>
 
+   <!--
+   ///
+   All Views
+   ///
+   -->
    <view name="system,gamelist">
       <image name="background">
          <origin>0 0</origin>
@@ -35,9 +48,6 @@ license:       creative commons CC-BY-NC-SA
       </image>
       <helpsystem name="help">
          <origin>0.5 1</origin>
-         <pos>0.5 0.965</pos>
-         <posDimmed>0.5 0.965</posDimmed>
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
          <fontPath>${fontHelpSystem}</fontPath>
@@ -65,24 +75,18 @@ license:       creative commons CC-BY-NC-SA
       <image name="helpBackground">
          <origin>0 1</origin>
          <pos>0 1</pos>
-         <size>1 0.1</size>
          <path>${spacerImage}</path>
          <tile>true</tile>
          <color>${helpBackgroundColor}</color>
          <zIndex>50</zIndex>
       </image>
       <text name="system-label">
-         <pos>0.064583333333333 0.111111111111111</pos><!-- 124 120 -->
-         <size>0.395833333333333 0.025925925925926</size><!-- 760 -->
-         <fontSize>0.031481481481481</fontSize><!-- 34 -->
          <lineSpacing>1</lineSpacing>
          <fontPath>${fontSemiBold}</fontPath>
          <color>${systemLabelColor}</color>
          <zIndex>5</zIndex>
       </text>
       <text name="system-name,custom-collection-name">
-         <pos>0.064583333333333 0.153703703703704</pos><!-- 124 166 -->
-         <size>0.291666666666667 0.2</size><!-- 560 -->
          <lineSpacing>1</lineSpacing>
          <fontPath>${fontBold}</fontPath>
          <color>${systemNameColor}</color>
@@ -94,11 +98,14 @@ license:       creative commons CC-BY-NC-SA
       </text>
    </view>
 
+   <!--
+   ///
+   System View
+   ///
+   -->
    <view name="system">
       <carousel name="system-carousel">
          <origin>0.5 0.5</origin>
-         <pos>0.6875 0.5</pos><!-- 1320 -->
-         <size>0.65 1</size>
          <type>vertical</type>
          <itemScale>1</itemScale>
          <itemSize>1 1</itemSize>
@@ -111,20 +118,13 @@ license:       creative commons CC-BY-NC-SA
       </carousel>
       <!--<video name="system-video">
          <origin>0.5 0.5</origin>
-         <pos>0.6875 0.5</pos>
-         <size>1 1</size>
          <path>./_inc/systems/video/${system.theme}.mp4</path>
          <zIndex>6</zIndex>
       </video>-->
       <text name="system-name">
-         <fontSize>0.062962962962963</fontSize><!-- 68 -->
          <zIndex>5</zIndex>
       </text>
       <text name="system-description">
-         <pos>0.064583333333333 0.54</pos>
-         <size>0.291666666666667 0.174074074074074</size><!-- 560 188 -->
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
-         <lineSpacing>1.25</lineSpacing>
          <fontPath>${fontLight}</fontPath>
          <text>${systemDescription}</text>
          <color>${systemDescriptionColor}</color>
@@ -135,10 +135,6 @@ license:       creative commons CC-BY-NC-SA
          <containerScrollSpeed>0.6</containerScrollSpeed>
       </text>
       <text name="system-game-count">
-         <pos>0.064583333333333 0.78</pos>
-         <size>0.34375 0</size><!-- 660 - -->
-         <fontSize>0.038888888888889</fontSize><!-- 42 -->
-         <lineSpacing>1</lineSpacing>
          <fontPath>${fontBold}</fontPath>
          <letterCase>uppercase</letterCase>
          <systemdata>gamecount</systemdata>
@@ -147,9 +143,14 @@ license:       creative commons CC-BY-NC-SA
       </text>
    </view>
 
+   <!--
+   ///
+   Gamelist View - Global
+   ///
+   -->
    <view name="gamelist">
       <text name="system-name,custom-collection-name">
-         <fontSize>0.038888888888889</fontSize><!-- 42 -->
+         <!-- Properties handled in aspect ratio files -->
       </text>
       <badges name="badges">
          <origin>1 0</origin>
@@ -166,6 +167,11 @@ license:       creative commons CC-BY-NC-SA
       </badges>
    </view>
 
+   <!--
+   ///
+   Gamelist View - List Variants
+   ///
+   -->
    <variant name="
       gamelist-metadata-off-miximage,
       gamelist-metadata-off-screenshot,
@@ -182,10 +188,6 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <textlist name="game-list">
             <origin>0 0</origin>
-            <pos>0.05625 0.277777777777778</pos><!-- 108 300 -->
-            <size>0.291666666666667 0.555555555555556</size><!-- 560 600 -->
-            <fontSize>0.033333333333333</fontSize><!-- 36 -->
-            <horizontalMargin>0.009</horizontalMargin>
             <fontPath>${fontSemiBold}</fontPath>
             <selectorColor>${gamelistSelectorColor}</selectorColor>
             <!--<selectedBackgroundColor>${gamelistSelectorColor}</selectedBackgroundColor>-->
@@ -201,15 +203,12 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <image name="system-art">
             <origin>0.5 0.5</origin>
-            <pos>0.6875 0.5</pos><!-- 1320 -->
             <size>0 1</size>
             <path>./_inc/systems/images/${system.theme}.webp</path>
             <default>./_inc/systems/images/_default.webp</default>
          </image>
          <badges name="badges">
             <origin>1 0</origin>
-            <pos>0.960416666666667 0.074074074074074</pos><!-- 1844 80 -->
-            <size>0.035 0.722222222222222</size><!-- 780 -->
             <itemMargin>-1 0</itemMargin>
             <horizontalAlignment>right</horizontalAlignment>
             <direction>column</direction>
@@ -227,8 +226,6 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <video name="game-art">
             <origin>0.5 0.5</origin>
-            <pos>0.671875 0.467592592592593</pos><!-- 1290 505 -->
-            <cropSize>0.541666666666667 0.722222222222222</cropSize><!-- 1040 780 -->
             <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
             <pillarboxes>false</pillarboxes>
             <imageCornerRadius>.01</imageCornerRadius>
@@ -239,8 +236,6 @@ license:       creative commons CC-BY-NC-SA
          </video>
          <badges name="badges">
             <origin>1 0</origin>
-            <pos>0.960416666666667 0.074074074074074</pos><!-- 1844 80 -->
-            <size>0.035 0.722222222222222</size><!-- 780 -->
             <itemMargin>-1 0</itemMargin>
             <horizontalAlignment>right</horizontalAlignment>
             <direction>column</direction>
@@ -266,7 +261,6 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <video name="game-art">
             <imageType>cover</imageType>
-            <maxSize>0.541666666666667 0.722222222222222</maxSize><!-- 1040 780 -->
             <imageCornerRadius>0.0025</imageCornerRadius>
             <interpolation>linear</interpolation>
          </video>
@@ -287,8 +281,6 @@ license:       creative commons CC-BY-NC-SA
          <image name="game-marquee">
             <imageType>marquee</imageType>
             <origin>0.5 0.5</origin>
-            <pos>0.671875 0.467592592592593</pos><!-- 1290 505 -->
-            <maxSize>0.260416666666667 0.462962962962963</maxSize><!-- 500 500 -->
             <zIndex>200</zIndex>
             <interpolation>linear</interpolation>
          </image>
@@ -305,16 +297,12 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <badges name="badges">
             <origin>1 0</origin>
-            <pos>0.944791666666667 0.083333333333333</pos><!-- 1814 80 -->
-            <size>0.02 0.722222222222222</size><!-- 780 -->
             <itemMargin>-1 0</itemMargin>
             <horizontalAlignment>right</horizontalAlignment>
             <direction>column</direction>
          </badges>
          <video name="game-art">
             <origin>0.5 0.5</origin>
-            <pos>0.598958333333333 0.333333333333333</pos><!-- 1150 360 -->
-            <cropSize>0.333333333333333 0.444444444444444</cropSize><!-- 640 480 -->
             <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
             <pillarboxes>false</pillarboxes>
             <imageCornerRadius>.01</imageCornerRadius>
@@ -324,10 +312,6 @@ license:       creative commons CC-BY-NC-SA
             <onIterationsDone>image</onIterationsDone>
          </video>
          <text name="game-description">
-            <pos>0.4375 0.574074074074074</pos><!-- 840 620 -->
-            <size>0.328125 0.25</size><!-- 630 270 -->
-            <fontSize>0.033333333333333</fontSize><!-- 36 -->
-            <lineSpacing>1.5</lineSpacing>
             <fontPath>${fontRegular}</fontPath>
             <color>${gameDescription}</color>
             <metadata>description</metadata>
@@ -335,8 +319,6 @@ license:       creative commons CC-BY-NC-SA
             <containerScrollSpeed>0.6</containerScrollSpeed>
          </text>
          <text name="game-rating-label,game-released-label,game-players-label,game-genre-label,game-developer-label,game-publisher-label,game-last-played-label,game-times-played-label">
-            <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
-            <fontSize>0.024074074074074</fontSize><!-- 26 -->
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
             <fontPath>${fontRegular}</fontPath>
@@ -344,8 +326,6 @@ license:       creative commons CC-BY-NC-SA
             <metadataElement>true</metadataElement>
          </text>
          <text name="game-players,game-genre,game-developer,game-publisher,game-times-played">
-            <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
-            <fontSize>0.024074074074074</fontSize><!-- 26 -->
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
             <fontPath>${fontSemiBold}</fontPath>
@@ -354,87 +334,66 @@ license:       creative commons CC-BY-NC-SA
             <containerType>horizontal</containerType>
          </text>
          <datetime name="game-released,game-last-played">
-            <size>0.115104166666667 0.037037037037037</size><!-- 221 40 -->
-            <fontSize>0.024074074074074</fontSize><!-- 26 -->
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
             <fontPath>${fontSemiBold}</fontPath>
             <color>${gameMetadata}</color>
          </datetime>
          <text name="game-rating-label">
-            <pos>0.808333333333333 0.118518518518519</pos><!-- 1552 128 --> 
             <text>Rating</text>
          </text>
          <rating name="game-rating">
             <origin>0.5 0</origin>
-            <pos>0.865885416666667 0.155555555555556</pos><!-- 1662.5 px 168 -->
-            <size>0.115104166666667 0.027777777777778</size><!-- 221 30 -->
             <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
             <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
             <overlay>false</overlay>
             <color>${gameMetadata}</color>
          </rating>
          <text name="game-released-label">
-            <pos>0.808333333333333 0.208333333333333</pos><!-- 1552 225 --> 
             <text>Released</text>
          </text>
          <datetime name="game-released">
-            <pos>0.808333333333333 0.24537037037037</pos><!-- 1552 265 --> 
             <metadata>releasedate</metadata>
             <letterCase>capitalize</letterCase>
          </datetime>
          <text name="game-players-label">
-            <pos>0.808333333333333 0.298148148148148</pos><!-- 1552 322 --> 
             <text>Players</text>
          </text>
          <text name="game-players">
-            <pos>0.808333333333333 0.335185185185185</pos><!-- 1552 362 -->
             <metadata>players</metadata>
          </text>
          <text name="game-genre-label">
-            <pos>0.808333333333333 0.387962962962963</pos><!-- 1552 419 --> 
             <text>Genre</text>
          </text>
          <text name="game-genre">
-            <pos>0.808333333333333 0.425</pos><!-- 1552 459 -->
             <metadata>genre</metadata>
          </text>
          <text name="game-developer-label">
-            <pos>0.808333333333333 0.477777777777778</pos><!-- 1552 516 --> 
             <text>Developer</text>
          </text>
          <text name="game-developer">
-            <pos>0.808333333333333 0.514814814814815</pos><!-- 1552 556 -->
             <metadata>developer</metadata>
          </text>
          <text name="game-publisher-label">
-            <pos>0.808333333333333 0.567592592592593</pos><!-- 1552 613 --> 
             <text>Publisher</text>
          </text>
          <text name="game-publisher">
-            <pos>0.808333333333333 0.60462962962963</pos><!-- 1552 653 -->
             <metadata>publisher</metadata>
          </text>
          <text name="game-last-played-label">
-            <pos>0.808333333333333 0.657407407407407</pos><!-- 1552 710 --> 
             <text>Last Played</text>
          </text>
          <datetime name="game-last-played">
-            <pos>0.808333333333333 0.694444444444444</pos><!-- 1552 750 --> 
             <metadata>lastplayed</metadata>
             <letterCase>capitalize</letterCase>
          </datetime>
          <text name="game-times-played-label">
-            <pos>0.808333333333333 0.747222222222222</pos><!-- 1552 807 --> 
             <text>Times Played</text>
          </text>
          <text name="game-times-played">
-            <pos>0.808333333333333 0.784259259259259</pos><!-- 1552 847 -->
             <metadata>playcount</metadata>
          </text>
          <image name="game-metadata-background">
-            <pos>0.796875 0.111111111111111</pos><!-- 1530 120 -->
-            <size>0.135416666666667 0.717592592592593</size><!-- 260 775 -->
             <path>${gameMetadataBackground}</path>
             <metadataElement>true</metadataElement>
          </image>
@@ -459,7 +418,6 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <video name="game-art">
             <imageType>cover</imageType>
-            <maxSize>0.333333333333333 0.444444444444444</maxSize><!-- 640 480 -->
             <imageCornerRadius>0.0025</imageCornerRadius>
             <interpolation>linear</interpolation>
          </video>
@@ -480,32 +438,28 @@ license:       creative commons CC-BY-NC-SA
          <image name="game-marquee">
             <imageType>marquee</imageType>
             <origin>0.5 0.5</origin>
-            <pos>0.598958333333333 0.333333333333333</pos><!-- 1150 360 -->
-            <maxSize>0.208333333333333 0.277777777777778</maxSize><!-- 400 300 -->
             <zIndex>200</zIndex>
             <interpolation>linear</interpolation>
          </image>
       </view>
    </variant>
 
+   <!--
+   ///
+   Gamelist View - Grid & Carousel Variants
+   ///
+   -->
    <variant name="
       gamelist-grid,
-      gamelist-carousel,
-      gamelist-carousel-physical-media
+      gamelist-carousel
       ">
       <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
       <view name="gamelist">
          <text name="system-name,custom-collection-name">
-            <pos>0.064583333333333 0.064814814814815</pos><!-- 124 70 -->
-            <size>0.416666666666667 0.038888888888889</size><!-- 800 42 -->
-            <fontSize>0.038888888888889</fontSize><!-- 42 -->
             <verticalAlignment>bottom</verticalAlignment>
          </text>
          <text name="system-label">
             <origin>1 0</origin>
-            <pos>0.932291666666667 0.074074074074074</pos><!-- 1790 80 -->
-            <size>0.291666666666667 0.031481481481481</size><!-- 560 34 -->
-            <fontSize>0.031481481481481</fontSize><!-- 34 -->
             <horizontalAlignment>right</horizontalAlignment>
             <verticalAlignment>bottom</verticalAlignment>
          </text>
@@ -516,8 +470,6 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <image name="grid-top-border">
             <origin>0 0</origin>
-            <pos>0.064583333333333 0.142592592592593</pos><!-- 124 154 -->
-            <size>0.870833333333333 0.005555555555556</size><!-- 1672 6 -->
             <path>${spacerImage}</path>
             <tile>true</tile>
             <color>00000033</color>
@@ -525,9 +477,6 @@ license:       creative commons CC-BY-NC-SA
          </image>
          <grid name="grid">
             <origin>0 0</origin>
-            <pos>0.064583333333333 0.148148148148148</pos><!-- 124 164 -->
-            <size>0.870833333333333 0.703703703703704</size><!-- 1672 760 -->
-            <itemScale>1.2</itemScale>
             <scaleInwards>true</scaleInwards>
             <itemSpacing>0 0</itemSpacing>
             <unfocusedItemOpacity>1</unfocusedItemOpacity>
@@ -537,7 +486,6 @@ license:       creative commons CC-BY-NC-SA
             <textColor>ffffff</textColor>
             <textBackgroundColor>222222</textBackgroundColor>
             <fontPath>${fontBold}</fontPath>
-            <fontSize>0.03</fontSize>
             <imageRelativeScale>1</imageRelativeScale>
             <selectorImage>./_inc/systems/coversize/${systemCoverSize}.svg</selectorImage>
             <selectorColor>ffffff</selectorColor>
@@ -546,8 +494,6 @@ license:       creative commons CC-BY-NC-SA
          </grid>
          <image name="grid-background">
             <origin>0 0</origin>
-            <pos>0.064583333333333 0.148148148148148</pos><!-- 124 164 -->
-            <size>0.870833333333333 0.703703703703704</size><!-- 1672 760 -->
             <path>${spacerImage}</path>
             <tile>true</tile>
             <color>000000dd</color>
@@ -555,8 +501,6 @@ license:       creative commons CC-BY-NC-SA
          </image>
          <image name="grid-bottom-border">
             <origin>0 0</origin>
-            <pos>0.064583333333333 0.851851851851852</pos><!-- 124 920 -->
-            <size>0.870833333333333 0.005555555555556</size><!-- 1672 6 -->
             <path>${spacerImage}</path>
             <tile>true</tile>
             <color>00000033</color>
@@ -565,10 +509,7 @@ license:       creative commons CC-BY-NC-SA
       </view>
    </variant>
 
-   <variant name="
-      gamelist-carousel
-      gamelist-carousel-physical-media
-      ">
+   <variant name="gamelist-carousel">
       <view name="gamelist">
          <carousel name="game-carousel">
             <origin>0 0</origin>
@@ -581,12 +522,9 @@ license:       creative commons CC-BY-NC-SA
             <textColor>ffffff</textColor>
             <textBackgroundColor>333333</textBackgroundColor>
             <fontPath>${fontBold}</fontPath>
-            <fontSize>0.03</fontSize>
          </carousel>
          <badges name="badges">
             <origin>0.5 0</origin>
-            <pos>0.5 0.777777777777778</pos><!-- 50% 800 -->
-            <size>1 0.055555555555556</size><!-- 100% 60 -->
             <itemMargin>-1 0</itemMargin>
             <horizontalAlignment>center</horizontalAlignment>
             <direction>row</direction>
@@ -595,26 +533,26 @@ license:       creative commons CC-BY-NC-SA
       </view>
    </variant>
 
-   <variant name="gamelist-carousel-physical-media">
-      <view name="gamelist">
-         <carousel name="game-carousel">
-            <selectedItemMargins>-0.052083333333333 0.052083333333333</selectedItemMargins><!-- -100 100 -->
-            <horizontalOffset>-0.052083333333333</horizontalOffset><!-- -100 -->
-            <maxItemCount>3</maxItemCount>
-            <itemScale>1.5</itemScale>
-         </carousel>
-         <image name="game-physical-media">
-            <imageType>physicalmedia</imageType>
-            <origin>0.5 0.5</origin>
-            <pos>0.559895833333333 0.5</pos>
-            <maxSize>0.3125 0.555555555555556</maxSize><!-- 600 600 -->
-            <zIndex>200</zIndex>
-            <interpolation>linear</interpolation>
-            <zIndex>1</zIndex>
-         </image>
-      </view>
-   </variant>
+   <!--
+   ///
+   Aspect Ratios
+   ///
+   -->
+   <aspectRatio name="16:9">
+      <include>./aspect-ratio-16-9.xml</include>
+   </aspectRatio>
+   <!--<aspectRatio name="16:10">
+      <include>./aspect-ratio-16-10.xml</include>
+   </aspectRatio>
+   <aspectRatio name="4:3">
+      <include>./aspect-ratio-4-3.xml</include>
+   </aspectRatio>-->
 
+   <!--
+   ///
+   Sounds
+   ///
+   -->
    <view name="all">
       <sound name="systembrowse">
          <path>./_inc/sounds/systembrowse.wav</path>

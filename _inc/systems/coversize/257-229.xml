@@ -1,21 +1,22 @@
 <theme>
    <variant name="gamelist-grid">
-      <view name="gamelist">
-         <grid name="grid">
-            <itemSize>0.174166666666667 0.275895662199164</itemSize><!-- 334.4 297.9673151750972 -->
-         </grid>
-      </view>
+      <aspectRatio name="16:9">
+         <view name="gamelist">
+            <grid name="grid">
+               <itemSize>0.174166666666667 0.275895662199164</itemSize><!-- 334.4 297.9673151750972 -->
+            </grid>
+         </view>
+      </aspectRatio>
    </variant>
-   <variant name="
-      gamelist-carousel
-      gamelist-carousel-physical-media
-      ">
-      <view name="gamelist">
-         <carousel name="game-carousel">
-            <itemSize>0.21875 0.346519671422395</itemSize><!-- 420 374.24124513618676 -->
-            <maxItemCount>3</maxItemCount>
-            <itemScale>1.6</itemScale>
-         </carousel>
-      </view>
+   <variant name="gamelist-carousel">
+      <aspectRatio name="16:9">
+         <view name="gamelist">
+            <carousel name="game-carousel">
+               <itemSize>0.21875 0.346519671422395</itemSize><!-- 420 374.24124513618676 -->
+               <maxItemCount>3</maxItemCount>
+               <itemScale>1.6</itemScale>
+            </carousel>
+         </view>
+      </aspectRatio>
    </variant>
 </theme>

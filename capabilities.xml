@@ -2,6 +2,10 @@
    
    <themeName>Colorful (Simplified)</themeName>
 
+   <aspectRatio>16:9</aspectRatio>
+   <aspectRatio>16:10</aspectRatio>
+   <aspectRatio>4:3</aspectRatio>
+
    <transitions name="transitions">
       <label>transitions</label>
       <selectable>false</selectable>
@@ -132,10 +136,6 @@
    <variant name="gamelist-carousel">
       <label>Carousel: Boxart</label>
       <selectable>true</selectable>
-   </variant>
-   <variant name="gamelist-carousel-physical-media">
-      <label>Carousel: Boxart + Physical Media</label>
-      <selectable>false</selectable>
    </variant>
 
    <!-- Basic -->
