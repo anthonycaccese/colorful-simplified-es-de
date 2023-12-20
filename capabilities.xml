@@ -3,8 +3,6 @@
    <themeName>Colorful (Simplified)</themeName>
 
    <aspectRatio>16:9</aspectRatio>
-   <aspectRatio>16:10</aspectRatio>
-   <aspectRatio>4:3</aspectRatio>
 
    <transitions name="transitions">
       <label>transitions</label>
