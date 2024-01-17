@@ -98,6 +98,7 @@
    <variant name="gamelist-basic">
       <view name="gamelist">
          <image name="system-art">
+            <size>0 1</size>
             <pos>0.6875 0.5</pos><!-- 1320 50% -->
          </image>
          <badges name="badges">
