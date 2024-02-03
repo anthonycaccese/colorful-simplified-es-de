@@ -22,8 +22,8 @@
    <colorScheme name="Light">
       <variables>
          <systemBackgroundColor>dddddd</systemBackgroundColor>
-         <helpIconColor>777777</helpIconColor>
-         <helpTextColor>777777</helpTextColor>
+         <helpIconColor>555555</helpIconColor>
+         <helpTextColor>555555</helpTextColor>
          <helpBackgroundColor>ffffff66</helpBackgroundColor>
          <systemLabelColor>777777</systemLabelColor>
          <systemNameColor>000000</systemNameColor>

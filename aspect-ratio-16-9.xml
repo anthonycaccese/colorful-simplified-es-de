@@ -7,9 +7,8 @@
    -->
    <view name="system,gamelist">
       <helpsystem name="help">
-         <pos>0.5 0.965</pos>
-         <posDimmed>0.5 0.965</posDimmed>
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
+         <pos>0.5 0.95</pos><!-- 50% 1026 -->
+         <fontSize>0.038888888888889</fontSize><!-- 42 -->
       </helpsystem>
       <image name="helpBackground">
          <size>1 0.1</size>
@@ -32,7 +31,7 @@
    -->
    <view name="system">
       <carousel name="system-carousel">
-         <pos>0.6875 0.5</pos><!-- 1320 50% -->
+         <pos>0.6875 0.46</pos><!-- 1320 50% -->
          <size>0.65 1</size>
       </carousel>
       <!--<video name="system-video">
@@ -87,8 +86,8 @@
       ">
       <view name="gamelist">
          <textlist name="game-list">
-            <pos>0.048958333333333 0.259259259259259</pos><!-- 94 280 -->
-            <size>0.291666666666667 0.555555555555556</size><!-- 560 600 -->
+            <pos>0.046875 0.259259259259259</pos><!-- 90 280 -->
+            <size>0.3125 0.555555555555556</size><!-- 600 600 -->
             <fontSize>0.033333333333333</fontSize><!-- 36 -->
             <horizontalMargin>0.009</horizontalMargin>
          </textlist>
@@ -123,7 +122,7 @@
       ">
       <view name="gamelist">
          <video name="game-art">
-            <pos>0.682291666666667 0.453703703703704</pos><!-- 1290 505 -->
+            <pos>0.682291666666667 0.453703703703704</pos><!-- 1310 505 -->
             <cropSize>0.520833333333333 0.694444444444444</cropSize><!-- 1040 780 -->
          </video>
          <badges name="badges">
@@ -142,7 +141,7 @@
    <variant name="gamelist-metadata-off-screenshot-marquee">
       <view name="gamelist">
          <image name="game-marquee">
-            <pos>0.671875 0.467592592592593</pos><!-- 1290 505 -->
+            <pos>0.682291666666667 0.467592592592593</pos><!-- 1310 505 -->
             <maxSize>0.260416666666667 0.462962962962963</maxSize><!-- 500 500 -->
          </image>
       </view>
