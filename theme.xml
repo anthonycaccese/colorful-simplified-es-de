@@ -111,7 +111,7 @@ license:       creative commons CC-BY-NC-SA
          <container>true</container>
          <verticalAlignment>bottom</verticalAlignment>
          <zIndex>5</zIndex>
-         <containerVerticalSnap>false</containerVerticalSnap>
+         <containerVerticalSnap>true</containerVerticalSnap>
          <containerScrollSpeed>0.6</containerScrollSpeed>
       </text>
       <text name="system-game-count">
