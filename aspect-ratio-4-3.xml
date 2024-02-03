@@ -261,11 +261,6 @@ based on 1440x1080
             <size>0.291666666666667 0.031481481481481</size><!-- 560 34 -->
             <fontSize>0.031481481481481</fontSize><!-- 34 -->
          </text>
-      </view>
-   </variant>
-
-   <variant name="gamelist-carousel">
-      <view name="gamelist">
          <carousel name="game-carousel">
             <fontSize>0.03</fontSize>
          </carousel>

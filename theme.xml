@@ -458,11 +458,6 @@ license:       creative commons CC-BY-NC-SA
             <horizontalAlignment>right</horizontalAlignment>
             <verticalAlignment>bottom</verticalAlignment>
          </text>
-      </view>
-   </variant>
-
-   <variant name="gamelist-carousel">
-      <view name="gamelist">
          <carousel name="game-carousel">
             <origin>0 0</origin>
             <pos>0 0</pos>
