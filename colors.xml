@@ -4,7 +4,7 @@
          <systemBackgroundColor>${systemColor}</systemBackgroundColor>
          <helpIconColor>ffffffbb</helpIconColor>
          <helpTextColor>ffffffcc</helpTextColor>
-         <helpBackgroundColor>00000011</helpBackgroundColor>
+         <helpBackgroundColor>00000022</helpBackgroundColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
          <systemNameColor>ffffff</systemNameColor>
          <systemDescriptionColor>ffffff</systemDescriptionColor>

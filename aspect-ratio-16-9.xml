@@ -31,13 +31,9 @@
    -->
    <view name="system">
       <carousel name="system-carousel">
-         <pos>0.6875 0.46</pos><!-- 1320 50% -->
+         <pos>0.6875 0.459259259259259</pos><!-- 1320 496 -->
          <size>0.65 1</size>
       </carousel>
-      <!--<video name="system-video">
-         <pos>0.6875 0.5</pos>
-         <size>1 1</size>
-      </video>-->
       <text name="system-name">
          <fontSize>0.062962962962963</fontSize><!-- 68 -->
       </text>
@@ -101,7 +97,7 @@
       <view name="gamelist">
          <image name="system-art">
             <size>0 1</size>
-            <pos>0.6875 0.5</pos><!-- 1320 50% -->
+            <pos>0.6875 0.459259259259259</pos><!-- 1320 496 -->
          </image>
          <badges name="badges">
             <pos>0.960416666666667 0.074074074074074</pos><!-- 1844 80 -->
