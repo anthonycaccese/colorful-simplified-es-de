@@ -101,23 +101,6 @@ license:       creative commons CC-BY-NC-SA
    ///
    -->
    <view name="system">
-      <carousel name="system-carousel">
-         <origin>0.5 0.5</origin>
-         <type>horizontal</type>
-         <itemScale>1</itemScale>
-         <itemSize>1 1</itemSize>
-         <maxItemCount>1</maxItemCount>
-         <staticImage>./_inc/systems/images/${system.theme}.webp</staticImage>
-         <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
-         <fastScrolling>true</fastScrolling>
-         <color>00000000</color>
-         <zIndex>5</zIndex>
-      </carousel>
-      <!--<video name="system-video">
-         <origin>0.5 0.5</origin>
-         <path>./_inc/systems/video/${system.theme}.mp4</path>
-         <zIndex>6</zIndex>
-      </video>-->
       <text name="system-name">
          <zIndex>5</zIndex>
       </text>
@@ -138,6 +121,18 @@ license:       creative commons CC-BY-NC-SA
          <color>${systemGameCountColor}</color>
          <zIndex>5</zIndex>
       </text>
+      <carousel name="system-carousel">
+         <origin>0.5 0.5</origin>
+         <type>horizontal</type>
+         <itemScale>1</itemScale>
+         <itemSize>1 1</itemSize>
+         <maxItemCount>1</maxItemCount>
+         <staticImage>./_inc/systems/images/${system.theme}.webp</staticImage>
+         <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
+         <fastScrolling>true</fastScrolling>
+         <color>00000000</color>
+         <zIndex>5</zIndex>
+      </carousel>
    </view>
 
    <!--

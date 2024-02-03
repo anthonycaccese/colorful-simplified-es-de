@@ -30,10 +30,6 @@
    ///
    -->
    <view name="system">
-      <carousel name="system-carousel">
-         <pos>0.6875 0.459259259259259</pos><!-- 1320 496 -->
-         <size>0.65 1</size>
-      </carousel>
       <text name="system-name">
          <fontSize>0.062962962962963</fontSize><!-- 68 -->
       </text>
@@ -44,11 +40,15 @@
          <lineSpacing>1.25</lineSpacing>
       </text>
       <text name="system-game-count">
-         <pos>0.057291666666667 0.77962962962963</pos><!-- 110 842 -->
+         <pos>0.057291666666667 0.768518518518519</pos><!-- 110 830 -->
          <size>0.34375 0</size><!-- 660 - -->
          <fontSize>0.038888888888889</fontSize><!-- 42 -->
          <lineSpacing>1</lineSpacing>
       </text>
+      <carousel name="system-carousel">
+         <pos>0.6875 0.459259259259259</pos><!-- 1320 496 -->
+         <size>0.65 1</size>
+      </carousel>
    </view>
 
    <!--

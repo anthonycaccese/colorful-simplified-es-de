@@ -29,13 +29,6 @@ based on 1440x1080
    ///
    -->
    <view name="system">
-      <carousel name="system-carousel">
-         <type>horizontal</type>
-         <origin>0.5 0</origin>
-         <pos>0.5 -0.05</pos><!-- 50% 50% -->
-         <size>1 0.85</size>
-         <itemSize>1 0.9</itemSize>
-      </carousel>
       <text name="system-name">
          <origin>0.5 0</origin>
          <pos>0.5 0.72</pos><!-- 50%  -->
@@ -50,6 +43,13 @@ based on 1440x1080
       <text name="system-game-count">
          <visible>false</visible>
       </text>
+      <carousel name="system-carousel">
+         <type>horizontal</type>
+         <origin>0.5 0</origin>
+         <pos>0.5 -0.05</pos><!-- 50% 50% -->
+         <size>1 0.85</size>
+         <itemSize>1 0.9</itemSize>
+      </carousel>
    </view>
 
    <!--

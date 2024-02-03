@@ -1,9 +1,13 @@
 <theme>
    <include>./../theme.xml</include>
    <view name="gamelist">
+      <text name="system-name">
+         <visible>false</visible>
+      </text>
       <text name="custom-collection-name">
          <metadata>systemFullname</metadata>
-         <color>${systemNameColor}bb</color>
+         <defaultValue>Custom Collections</defaultValue>
+         <color>${systemNameColor}</color>
       </text>
    </view>
    <variant name="
@@ -22,7 +26,7 @@
       <aspectRatio name="16:9">
          <view name="gamelist">
             <text name="custom-collection-name">
-               <pos>0.064583333333333 0.2</pos><!-- 124 166 -->
+               <pos>0.057291666666667 0.139814814814815</pos><!-- 110 151 -->
             </text>
          </view>
       </aspectRatio>
@@ -33,7 +37,7 @@
       <aspectRatio name="16:9">
          <view name="gamelist">
             <text name="custom-collection-name">
-               <pos>0.248958333333333 0.064814814814815</pos><!-- 478 70 -->
+               <pos>0.038541666666667 0.064814814814815</pos><!-- 74 70 -->
             </text>
          </view>
       </aspectRatio>
