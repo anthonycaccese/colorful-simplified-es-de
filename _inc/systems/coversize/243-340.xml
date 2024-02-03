@@ -1,13 +1,4 @@
 <theme>
-   <variant name="gamelist-grid">
-      <aspectRatio name="16:9">
-         <view name="gamelist">
-            <grid name="grid">
-               <itemSize>0.174166666666667 0.43322664228014</itemSize><!-- 334.4 467.8847736625514 -->
-            </grid>
-         </view>
-      </aspectRatio>
-   </variant>
    <variant name="gamelist-carousel">
       <aspectRatio name="16:9">
          <view name="gamelist">

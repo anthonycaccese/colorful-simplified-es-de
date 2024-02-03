@@ -28,13 +28,12 @@
       </aspectRatio>
    </variant>
    <variant name="
-      gamelist-grid,
       gamelist-carousel
       ">
       <aspectRatio name="16:9">
          <view name="gamelist">
             <text name="custom-collection-name">
-               <pos>0.26875 0.064814814814815</pos><!-- 134 70 -->
+               <pos>0.248958333333333 0.064814814814815</pos><!-- 478 70 -->
             </text>
          </view>
       </aspectRatio>

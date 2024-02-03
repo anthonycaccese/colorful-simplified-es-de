@@ -22,9 +22,9 @@ This is simplified take on the Colorful theme (originally by [viking](https://fo
 |----|----|
 | ![Screenshot 2023-12-13 at 12 58 28 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/493efe4e-479b-4ee4-8947-a9c074d7ba41) | ![Screenshot 2023-12-13 at 12 59 50 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/e66cf58b-1dd0-45f4-8b3a-593828c11a57) |
 
-| Gamelist View: Grid | Gamelist View: Carousel |
-|----|----|
-| ![Screenshot 2023-12-13 at 1 00 20 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/e356c0c1-3b06-4f57-b0ef-557b4f54fb56) | ![Screenshot 2023-12-13 at 1 04 14 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/73ce5b19-7666-45fc-bd12-7f1d8e99a193) |
+| Gamelist View: Carousel |
+|----|
+| ![Screenshot 2023-12-13 at 1 04 14 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/73ce5b19-7666-45fc-bd12-7f1d8e99a193) |
 
 ## **Configuration Options**
 
@@ -43,7 +43,6 @@ This is simplified take on the Colorful theme (originally by [viking](https://fo
       - `List: Metadata & Screenshot` - Displays Metadata & Screenshots
       - `List: Metadata & Screenshot + Marquee` - Displays Metadata & Screenshots with a Marquee overlay
       - `List: Metadata & Title Screen` - Displays Metadata & Title Screens
-   - `Grid: Boxart` - Displays Boxart in a grid layout
    - `Carousel: Boxart` - Displays Boxart in a carousel layout
 - `Theme Color Scheme` - sets the color scheme that is used for the overall theme on all views.  There are 3 built in color schems:
    - `Colorful` - The default color scheme.  Displays a custom color for each system based on the Colorful media set.

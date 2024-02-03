@@ -51,9 +51,6 @@ license:       creative commons CC-BY-NC-SA
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
          <fontPath>${fontHelpSystem}</fontPath>
-         <customButtonIcon button="dpad_updown">./_inc/images/help-dpad-updown.svg</customButtonIcon>
-         <customButtonIcon button="dpad_leftright">./_inc/images/help-dpad-leftright.svg</customButtonIcon>
-         <customButtonIcon button="dpad_all">./_inc/images/help-dpad-updownleftright.svg</customButtonIcon>
          <customButtonIcon button="button_a_XBOX">./_inc/images/help-button-south.svg</customButtonIcon>
          <customButtonIcon button="button_a_PS">./_inc/images/help-button-south.svg</customButtonIcon>
          <customButtonIcon button="button_a_switch">./_inc/images/help-button-east.svg</customButtonIcon>
@@ -106,7 +103,7 @@ license:       creative commons CC-BY-NC-SA
    <view name="system">
       <carousel name="system-carousel">
          <origin>0.5 0.5</origin>
-         <type>vertical</type>
+         <type>horizontal</type>
          <itemScale>1</itemScale>
          <itemSize>1 1</itemSize>
          <maxItemCount>1</maxItemCount>
@@ -445,11 +442,10 @@ license:       creative commons CC-BY-NC-SA
 
    <!--
    ///
-   Gamelist View - Grid & Carousel Variants
+   Gamelist View - Carousel Variants
    ///
    -->
    <variant name="
-      gamelist-grid,
       gamelist-carousel
       ">
       <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
@@ -462,49 +458,6 @@ license:       creative commons CC-BY-NC-SA
             <horizontalAlignment>right</horizontalAlignment>
             <verticalAlignment>bottom</verticalAlignment>
          </text>
-      </view>
-   </variant>
-
-   <variant name="gamelist-grid">
-      <view name="gamelist">
-         <image name="grid-top-border">
-            <origin>0 0</origin>
-            <path>${spacerImage}</path>
-            <tile>true</tile>
-            <color>00000033</color>
-            <zIndex>2</zIndex>
-         </image>
-         <grid name="grid">
-            <origin>0 0</origin>
-            <scaleInwards>true</scaleInwards>
-            <itemSpacing>0 0</itemSpacing>
-            <unfocusedItemOpacity>1</unfocusedItemOpacity>
-            <unfocusedItemDimming>0.8</unfocusedItemDimming>
-            <unfocusedItemSaturation>1</unfocusedItemSaturation>
-            <fractionalRows>true</fractionalRows>
-            <textColor>ffffff</textColor>
-            <textBackgroundColor>222222</textBackgroundColor>
-            <fontPath>${fontBold}</fontPath>
-            <imageRelativeScale>1</imageRelativeScale>
-            <selectorImage>./_inc/systems/coversize/${systemCoverSize}.svg</selectorImage>
-            <selectorColor>ffffff</selectorColor>
-            <backgroundColor>030303</backgroundColor>
-            <imageType>cover</imageType>
-         </grid>
-         <image name="grid-background">
-            <origin>0 0</origin>
-            <path>${spacerImage}</path>
-            <tile>true</tile>
-            <color>000000dd</color>
-            <zIndex>2</zIndex>
-         </image>
-         <image name="grid-bottom-border">
-            <origin>0 0</origin>
-            <path>${spacerImage}</path>
-            <tile>true</tile>
-            <color>00000033</color>
-            <zIndex>2</zIndex>
-         </image>
       </view>
    </variant>
 

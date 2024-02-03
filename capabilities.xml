@@ -125,12 +125,6 @@
       </override>
    </variant>
 
-   <!-- Grid -->
-   <variant name="gamelist-grid">
-      <label>Grid: Boxart</label>
-      <selectable>true</selectable>
-   </variant>
-
    <!-- Carousel -->
    <variant name="gamelist-carousel">
       <label>Carousel: Boxart</label>
