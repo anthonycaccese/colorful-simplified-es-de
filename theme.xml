@@ -165,11 +165,12 @@ license:       creative commons CC-BY-NC-SA
    ///
    -->
    <variant name="
+      gamelist-metadata-off-boxart,
       gamelist-metadata-off-miximage,
       gamelist-metadata-off-screenshot,
-      gamelist-metadata-off-boxart,
-      gamelist-metadata-off-titlescreen,
       gamelist-metadata-off-screenshot-marquee,
+      gamelist-metadata-off-titlescreen,
+      gamelist-metadata-off-physicalmedia,
       gamelist-metadata-on-miximage,
       gamelist-metadata-on-screenshot,
       gamelist-metadata-on-boxart,
@@ -208,11 +209,12 @@ license:       creative commons CC-BY-NC-SA
    </variant>
 
    <variant name="
+      gamelist-metadata-off-boxart,
       gamelist-metadata-off-miximage,
       gamelist-metadata-off-screenshot,
-      gamelist-metadata-off-boxart,
+      gamelist-metadata-off-screenshot-marquee,
       gamelist-metadata-off-titlescreen,
-      gamelist-metadata-off-screenshot-marquee
+      gamelist-metadata-off-physicalmedia
       ">
       <view name="gamelist">
          <video name="game-art">
@@ -221,7 +223,7 @@ license:       creative commons CC-BY-NC-SA
             <pillarboxes>false</pillarboxes>
             <imageCornerRadius>.01</imageCornerRadius>
             <videoCornerRadius>.01</videoCornerRadius>
-            <delay>2</delay>
+            <delay>3</delay>
             <iterationCount>1</iterationCount>
             <onIterationsDone>image</onIterationsDone>
          </video>
@@ -231,6 +233,15 @@ license:       creative commons CC-BY-NC-SA
             <horizontalAlignment>right</horizontalAlignment>
             <direction>column</direction>
          </badges>
+      </view>
+   </variant>
+   <variant name="gamelist-metadata-off-boxart">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>cover</imageType>
+            <imageCornerRadius>0.0025</imageCornerRadius>
+            <interpolation>linear</interpolation>
+         </video>
       </view>
    </variant>
    <variant name="gamelist-metadata-off-miximage">
@@ -248,22 +259,6 @@ license:       creative commons CC-BY-NC-SA
          </video>
       </view>
    </variant>
-   <variant name="gamelist-metadata-off-boxart">
-      <view name="gamelist">
-         <video name="game-art">
-            <imageType>cover</imageType>
-            <imageCornerRadius>0.0025</imageCornerRadius>
-            <interpolation>linear</interpolation>
-         </video>
-      </view>
-   </variant>
-   <variant name="gamelist-metadata-off-titlescreen">
-      <view name="gamelist">
-         <video name="game-art">
-            <imageType>titlescreen</imageType>
-         </video>
-      </view>
-   </variant>
    <variant name="gamelist-metadata-off-screenshot-marquee">
       <view name="gamelist">
          <video name="game-art">
@@ -275,6 +270,21 @@ license:       creative commons CC-BY-NC-SA
             <zIndex>200</zIndex>
             <interpolation>linear</interpolation>
          </image>
+      </view>
+   </variant>
+   <variant name="gamelist-metadata-off-titlescreen">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>titlescreen</imageType>
+         </video>
+      </view>
+   </variant>
+   <variant name="gamelist-metadata-off-physicalmedia">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>physicalmedia</imageType>
+            <interpolation>linear</interpolation>
+         </video>
       </view>
    </variant>
 

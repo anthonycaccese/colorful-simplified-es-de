@@ -80,6 +80,15 @@
          <useVariant>gamelist-basic</useVariant>
       </override>
    </variant>
+   <variant name="gamelist-metadata-off-physicalmedia">
+      <label>List: Physical Media</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>physicalmedia</mediaType>
+         <useVariant>gamelist-basic</useVariant>
+      </override>
+   </variant>
 
    <!-- List: Metadata On -->
    <variant name="gamelist-metadata-on-boxart">

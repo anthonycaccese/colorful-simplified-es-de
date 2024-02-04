@@ -11,11 +11,12 @@
       </text>
    </view>
    <variant name="
+      gamelist-metadata-off-boxart,
       gamelist-metadata-off-miximage,
       gamelist-metadata-off-screenshot,
-      gamelist-metadata-off-boxart,
-      gamelist-metadata-off-titlescreen,
       gamelist-metadata-off-screenshot-marquee,
+      gamelist-metadata-off-titlescreen,
+      gamelist-metadata-off-physicalmedia,
       gamelist-metadata-on-miximage,
       gamelist-metadata-on-screenshot,
       gamelist-metadata-on-boxart,
