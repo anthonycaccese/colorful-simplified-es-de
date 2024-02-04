@@ -8,7 +8,8 @@
    <view name="system,gamelist">
       <helpsystem name="help">
          <pos>0.5 0.95</pos><!-- 50% 1026 -->
-         <fontSize>0.038888888888889</fontSize><!-- 42 -->
+         <fontSize>${helpSystemFontSize}</fontSize>
+         <entrySpacing>0.020833333333333</entrySpacing><!-- 40 -->
       </helpsystem>
       <image name="helpBackground">
          <size>1 0.1</size>
@@ -23,6 +24,16 @@
          <size>0.291666666666667 0.2</size><!-- 560 -->
       </text>
    </view>
+   <fontSize name="medium">
+      <variables>
+         <helpSystemFontSize>0.033333333333333</helpSystemFontSize><!-- 36 -->
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <helpSystemFontSize>0.037037037037037</helpSystemFontSize><!-- 40 -->
+      </variables>
+   </fontSize>
 
    <!--
    ///
@@ -53,17 +64,6 @@
 
    <!--
    ///
-   Gamelist View - Global
-   ///
-   -->
-   <view name="gamelist">
-      <text name="system-name,custom-collection-name">
-         <fontSize>0.038888888888889</fontSize><!-- 42 -->
-      </text>
-   </view>
-
-   <!--
-   ///
    Gamelist View - List Variants
    ///
    -->
@@ -81,14 +81,40 @@
       gamelist-basic
       ">
       <view name="gamelist">
+         <text name="system-label">
+            <visible>${gamelistSystemLabelDisplay}</visible>
+         </text>
+         <text name="system-name,custom-collection-name">
+            <pos>${gamelistSystemNamePos}</pos>
+            <fontSize>${gamelistSystemNameFontSize}</fontSize>
+         </text>
          <textlist name="game-list">
             <pos>0.046875 0.259259259259259</pos><!-- 90 280 -->
             <size>0.3125 0.555555555555556</size><!-- 600 600 -->
-            <fontSize>0.033333333333333</fontSize><!-- 36 -->
+            <fontSize>${gamelistFontSize}</fontSize>
+            <lineSpacing>${gamelistLineSpacing}</lineSpacing>
             <horizontalMargin>0.009</horizontalMargin>
          </textlist>
       </view>
    </variant>
+   <fontSize name="medium">
+      <variables>
+         <gamelistSystemLabelDisplay>true</gamelistSystemLabelDisplay>
+         <gamelistSystemNamePos>0.057291666666667 0.139814814814815</gamelistSystemNamePos><!-- 110 151 -->
+         <gamelistSystemNameFontSize>0.038888888888889</gamelistSystemNameFontSize><!-- 42 -->
+         <gamelistFontSize>0.033333333333333</gamelistFontSize><!-- 36 -->
+         <gamelistLineSpacing>1.5</gamelistLineSpacing>
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <gamelistSystemLabelDisplay>false</gamelistSystemLabelDisplay>
+         <gamelistSystemNamePos>0.057291666666667 0.097222222222222</gamelistSystemNamePos><!-- 110 105 -->
+         <gamelistSystemNameFontSize>0.048148148148148</gamelistSystemNameFontSize><!-- 52 -->
+         <gamelistFontSize>0.042592592592593</gamelistFontSize><!-- 46 -->
+         <gamelistLineSpacing>1.62</gamelistLineSpacing>
+      </variables>
+   </fontSize>
 
    <!--
    Gamelist View - List: Basic
