@@ -306,14 +306,14 @@
       <view name="gamelist">
          <text name="system-name,custom-collection-name">
             <pos>0.038541666666667 0.064814814814815</pos><!-- 74 70 -->
-            <size>0.416666666666667 0.038888888888889</size><!-- 800 42 -->
-            <fontSize>0.038888888888889</fontSize><!-- 42 -->
+            <size>0.520833333333333 0.038888888888889</size><!-- 1000 42 -->
+            <fontSize>${gamelistSystemNameFontSize}</fontSize>
          </text>
          <text name="system-label">
             <origin>1 0</origin>
-            <pos>0.958333333333333 0.074074074074074</pos><!-- 1840 80 -->
+            <pos>0.958333333333333 0.064814814814815</pos><!-- 1840 70 -->
             <size>0.291666666666667 0.031481481481481</size><!-- 560 34 -->
-            <fontSize>0.031481481481481</fontSize><!-- 34 -->
+            <fontSize>${gamelistSystemLabelFontSize}</fontSize>
          </text>
          <carousel name="game-carousel">
             <fontSize>0.03</fontSize>
@@ -323,6 +323,18 @@
             <size>1 0.055555555555556</size><!-- 100% 60 -->
          </badges>
       </view>
+      <fontSize name="medium">
+         <variables>
+            <gamelistSystemNameFontSize>0.038888888888889</gamelistSystemNameFontSize><!-- 42 -->
+            <gamelistSystemLabelFontSize>0.031481481481481</gamelistSystemLabelFontSize><!-- 34 -->
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <gamelistSystemNameFontSize>0.048148148148148</gamelistSystemNameFontSize><!-- 52 -->
+            <gamelistSystemLabelFontSize>0.037037037037037</gamelistSystemLabelFontSize><!-- 40 -->
+         </variables>
+      </fontSize>
    </variant>
 
 </theme>
