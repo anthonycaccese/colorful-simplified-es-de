@@ -59,4 +59,44 @@
          <gameMetadataBackground>./_inc/images/metadata-background-dark.svg</gameMetadataBackground>
       </variables>
    </colorScheme>
+   <colorScheme name="OLED">
+      <variables>
+         <systemBackgroundColor>000000</systemBackgroundColor>
+         <helpIconColor>ffffffbb</helpIconColor>
+         <helpTextColor>ffffffcc</helpTextColor>
+         <helpBackgroundColor>111111</helpBackgroundColor>
+         <systemLabelColor>ffffffaa</systemLabelColor>
+         <systemNameColor>ffffff</systemNameColor>
+         <systemDescriptionColor>ffffff</systemDescriptionColor>
+         <systemGameCountColor>ffffff99</systemGameCountColor>
+         <gamelistSelectorColor>222222</gamelistSelectorColor>
+         <gamelistPrimaryColor>ffffff55</gamelistPrimaryColor>
+         <gamelistSecondaryColor>ffffff55</gamelistSecondaryColor>
+         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+         <gameDescription>ffffff</gameDescription>
+         <gameMetadataLabel>ffffffaa</gameMetadataLabel>
+         <gameMetadata>ffffff</gameMetadata>
+         <gameMetadataBackground>./_inc/images/metadata-background-dark.svg</gameMetadataBackground>
+      </variables>
+   </colorScheme>
+   <colorScheme name="RetroBright">
+      <variables>
+         <systemBackgroundColor>acacac</systemBackgroundColor>
+         <helpIconColor>555555</helpIconColor>
+         <helpTextColor>555555</helpTextColor>
+         <helpBackgroundColor>ffffff33</helpBackgroundColor>
+         <systemLabelColor>666666</systemLabelColor>
+         <systemNameColor>000000</systemNameColor>
+         <systemDescriptionColor>000000</systemDescriptionColor>
+         <systemGameCountColor>333333</systemGameCountColor>
+         <gamelistSelectorColor>cacaca</gamelistSelectorColor>
+         <gamelistPrimaryColor>777777</gamelistPrimaryColor>
+         <gamelistSecondaryColor>888888</gamelistSecondaryColor>
+         <gamelistSelectedColor>000000</gamelistSelectedColor>
+         <gameDescription>000000</gameDescription>
+         <gameMetadataLabel>777777</gameMetadataLabel>
+         <gameMetadata>333333</gameMetadata>
+         <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
+      </variables>
+   </colorScheme>
 </theme>

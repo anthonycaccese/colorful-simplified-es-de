@@ -77,12 +77,6 @@ license:       creative commons CC-BY-NC-SA
          <color>${helpBackgroundColor}</color>
          <zIndex>50</zIndex>
       </image>
-      <text name="system-label">
-         <lineSpacing>1</lineSpacing>
-         <fontPath>${fontSemiBold}</fontPath>
-         <color>${systemLabelColor}</color>
-         <zIndex>5</zIndex>
-      </text>
       <text name="system-name,custom-collection-name">
          <lineSpacing>1</lineSpacing>
          <fontPath>${fontBold}</fontPath>
@@ -101,6 +95,12 @@ license:       creative commons CC-BY-NC-SA
    ///
    -->
    <view name="system">
+      <text name="system-label">
+         <lineSpacing>1</lineSpacing>
+         <fontPath>${fontSemiBold}</fontPath>
+         <color>${systemLabelColor}</color>
+         <zIndex>5</zIndex>
+      </text>
       <text name="system-name">
          <zIndex>5</zIndex>
       </text>
@@ -455,17 +455,15 @@ license:       creative commons CC-BY-NC-SA
       ">
       <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
       <view name="gamelist">
-         <text name="system-name,custom-collection-name">
-            <verticalAlignment>bottom</verticalAlignment>
-         </text>
-         <text name="system-label">
+         <gamelistinfo name="gamelist-info">
             <origin>1 0</origin>
+            <fontPath>${fontBold}</fontPath>
+            <color>${systemNameColor}</color>
             <horizontalAlignment>right</horizontalAlignment>
-            <verticalAlignment>bottom</verticalAlignment>
-         </text>
+         </gamelistinfo>
          <carousel name="game-carousel">
-            <origin>0 0</origin>
-            <pos>0 0</pos>
+            <origin>0 0.5</origin>
+            <pos>0 0.5</pos>
             <size>1 1</size>
             <imageType>cover</imageType>
             <imageCornerRadius>0.005</imageCornerRadius>

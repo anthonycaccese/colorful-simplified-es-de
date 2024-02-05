@@ -2,7 +2,7 @@
    <variables>
       <systemColor>AA9D96</systemColor>
    </variables>
-   <view name="system,gamelist">
+   <view name="system">
       <text name="system-label">
          <text>${systemManufacturer} / ${systemReleaseYear} / ${systemHardwareType}</text>
       </text>

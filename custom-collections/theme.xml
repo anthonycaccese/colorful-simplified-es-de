@@ -27,19 +27,9 @@
       <aspectRatio name="16:9">
          <view name="gamelist">
             <text name="custom-collection-name">
-               <pos>${gamelistCollectionNamePos}</pos>
+               <pos>0.057291666666667 0.097222222222222</pos><!-- 110 105 -->
             </text>
          </view>
-         <fontSize name="medium">
-            <variables>
-               <gamelistCollectionNamePos>0.057291666666667 0.139814814814815</gamelistCollectionNamePos><!-- 110 151 -->
-            </variables>
-         </fontSize>
-         <fontSize name="large">
-            <variables>
-               <gamelistCollectionNamePos>0.057291666666667 0.097222222222222</gamelistCollectionNamePos><!-- 110 105 -->
-            </variables>
-         </fontSize>
       </aspectRatio>
    </variant>
    <variant name="
