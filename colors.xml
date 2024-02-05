@@ -39,6 +39,26 @@
          <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
       </variables>
    </colorScheme>
+   <colorScheme name="RetroBright">
+      <variables>
+         <systemBackgroundColor>b2b4b2</systemBackgroundColor>
+         <helpIconColor>54585a</helpIconColor>
+         <helpTextColor>54585a</helpTextColor>
+         <helpBackgroundColor>ffffff33</helpBackgroundColor>
+         <systemLabelColor>54585a</systemLabelColor>
+         <systemNameColor>000000</systemNameColor>
+         <systemDescriptionColor>000000</systemDescriptionColor>
+         <systemGameCountColor>000000aa</systemGameCountColor>
+         <gamelistSelectorColor>cacaca</gamelistSelectorColor>
+         <gamelistPrimaryColor>707372</gamelistPrimaryColor>
+         <gamelistSecondaryColor>707372</gamelistSecondaryColor>
+         <gamelistSelectedColor>000000</gamelistSelectedColor>
+         <gameDescription>000000</gameDescription>
+         <gameMetadataLabel>54585a</gameMetadataLabel>
+         <gameMetadata>333333</gameMetadata>
+         <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
+      </variables>
+   </colorScheme>
    <colorScheme name="Dark">
       <variables>
          <systemBackgroundColor>111111</systemBackgroundColor>
@@ -77,26 +97,6 @@
          <gameMetadataLabel>ffffffaa</gameMetadataLabel>
          <gameMetadata>ffffff</gameMetadata>
          <gameMetadataBackground>./_inc/images/metadata-background-dark.svg</gameMetadataBackground>
-      </variables>
-   </colorScheme>
-   <colorScheme name="RetroBright">
-      <variables>
-         <systemBackgroundColor>b2b4b2</systemBackgroundColor>
-         <helpIconColor>54585a</helpIconColor>
-         <helpTextColor>54585a</helpTextColor>
-         <helpBackgroundColor>ffffff33</helpBackgroundColor>
-         <systemLabelColor>54585a</systemLabelColor>
-         <systemNameColor>000000</systemNameColor>
-         <systemDescriptionColor>000000</systemDescriptionColor>
-         <systemGameCountColor>000000aa</systemGameCountColor>
-         <gamelistSelectorColor>cacaca</gamelistSelectorColor>
-         <gamelistPrimaryColor>707372</gamelistPrimaryColor>
-         <gamelistSecondaryColor>707372</gamelistSecondaryColor>
-         <gamelistSelectedColor>000000</gamelistSelectedColor>
-         <gameDescription>000000</gameDescription>
-         <gameMetadataLabel>54585a</gameMetadataLabel>
-         <gameMetadata>333333</gameMetadata>
-         <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
       </variables>
    </colorScheme>
 </theme>

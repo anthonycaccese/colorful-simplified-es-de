@@ -30,14 +30,14 @@
    <colorScheme name="Light">
       <label>Light</label>
    </colorScheme>
+   <colorScheme name="RetroBright">
+      <label>Retro Bright</label>
+   </colorScheme>
    <colorScheme name="Dark">
       <label>Dark</label>
    </colorScheme>
    <colorScheme name="OLED">
       <label>OLED</label>
-   </colorScheme>
-   <colorScheme name="RetroBright">
-      <label>Retro Bright</label>
    </colorScheme>
 
    <!-- List: Metadata Off -->
