@@ -81,20 +81,20 @@
    </colorScheme>
    <colorScheme name="RetroBright">
       <variables>
-         <systemBackgroundColor>acacac</systemBackgroundColor>
-         <helpIconColor>555555</helpIconColor>
-         <helpTextColor>555555</helpTextColor>
+         <systemBackgroundColor>b2b4b2</systemBackgroundColor>
+         <helpIconColor>54585a</helpIconColor>
+         <helpTextColor>54585a</helpTextColor>
          <helpBackgroundColor>ffffff33</helpBackgroundColor>
-         <systemLabelColor>666666</systemLabelColor>
+         <systemLabelColor>54585a</systemLabelColor>
          <systemNameColor>000000</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
-         <systemGameCountColor>333333</systemGameCountColor>
+         <systemGameCountColor>000000aa</systemGameCountColor>
          <gamelistSelectorColor>cacaca</gamelistSelectorColor>
-         <gamelistPrimaryColor>777777</gamelistPrimaryColor>
-         <gamelistSecondaryColor>888888</gamelistSecondaryColor>
+         <gamelistPrimaryColor>707372</gamelistPrimaryColor>
+         <gamelistSecondaryColor>707372</gamelistSecondaryColor>
          <gamelistSelectedColor>000000</gamelistSelectedColor>
          <gameDescription>000000</gameDescription>
-         <gameMetadataLabel>777777</gameMetadataLabel>
+         <gameMetadataLabel>54585a</gameMetadataLabel>
          <gameMetadata>333333</gameMetadata>
          <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
       </variables>
