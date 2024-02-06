@@ -67,13 +67,13 @@
          <helpBackgroundColor>aaa7a6</helpBackgroundColor>
          <systemLabelColor>4a4948</systemLabelColor>
          <systemNameColor>1d1d1c</systemNameColor>
-         <systemDescriptionColor>1d1d1c</systemDescriptionColor>
+         <systemDescriptionColor>000000</systemDescriptionColor>
          <systemGameCountColor>1d1d1caa</systemGameCountColor>
          <gamelistSelectorColor>bfbdbc</gamelistSelectorColor>
          <gamelistPrimaryColor>1d1d1c66</gamelistPrimaryColor>
          <gamelistSecondaryColor>1d1d1c66</gamelistSecondaryColor>
-         <gamelistSelectedColor>1d1d1c</gamelistSelectedColor>
-         <gameDescription>1d1d1c</gameDescription>
+         <gamelistSelectedColor>000000</gamelistSelectedColor>
+         <gameDescription>000000</gameDescription>
          <gameMetadataLabel>4a4948</gameMetadataLabel>
          <gameMetadata>333333</gameMetadata>
          <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>

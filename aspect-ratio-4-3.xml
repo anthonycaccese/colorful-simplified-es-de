@@ -321,9 +321,6 @@ based on 1440x1080
             <pos>0 0.505</pos>
             <fontSize>0.03</fontSize>
          </carousel>
-         <badges name="badges">
-            <visible>false</visible>
-         </badges>
       </view>
       <fontSize name="medium">
          <variables>

@@ -326,10 +326,6 @@ based on 1920x1080
          <carousel name="game-carousel">
             <fontSize>0.03</fontSize>
          </carousel>
-         <badges name="badges">
-            <pos>0.5 0.777777777777778</pos><!-- 50% 800 -->
-            <size>1 0.055555555555556</size><!-- 100% 60 -->
-         </badges>
       </view>
       <fontSize name="medium">
          <variables>
