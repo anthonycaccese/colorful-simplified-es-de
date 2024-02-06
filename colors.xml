@@ -59,6 +59,26 @@
          <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
       </variables>
    </colorScheme>
+   <colorScheme name="DMG">
+      <variables>
+         <systemBackgroundColor>959290</systemBackgroundColor>
+         <helpIconColor>4a4948</helpIconColor>
+         <helpTextColor>4a4948</helpTextColor>
+         <helpBackgroundColor>aaa7a6</helpBackgroundColor>
+         <systemLabelColor>4a4948</systemLabelColor>
+         <systemNameColor>1d1d1c</systemNameColor>
+         <systemDescriptionColor>1d1d1c</systemDescriptionColor>
+         <systemGameCountColor>1d1d1caa</systemGameCountColor>
+         <gamelistSelectorColor>bfbdbc</gamelistSelectorColor>
+         <gamelistPrimaryColor>1d1d1c66</gamelistPrimaryColor>
+         <gamelistSecondaryColor>1d1d1c66</gamelistSecondaryColor>
+         <gamelistSelectedColor>1d1d1c</gamelistSelectedColor>
+         <gameDescription>1d1d1c</gameDescription>
+         <gameMetadataLabel>4a4948</gameMetadataLabel>
+         <gameMetadata>333333</gameMetadata>
+         <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
+      </variables>
+   </colorScheme>
    <colorScheme name="Dark">
       <variables>
          <systemBackgroundColor>111111</systemBackgroundColor>

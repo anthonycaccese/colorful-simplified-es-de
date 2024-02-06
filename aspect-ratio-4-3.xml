@@ -6,74 +6,72 @@ based on 1440x1080
 
    <!--
    ///
-   All Views: Defaults
+   All Views
    ///
    -->
    <view name="system,gamelist">
       <helpsystem name="help">
-         <pos>0.5 0.965</pos>
-         <posDimmed>0.5 0.965</posDimmed>
-         <fontSize>0.033333333333333</fontSize><!-- 36 -->
+         <pos>0.5 0.95</pos><!-- 50% 1026 -->
+         <fontSize>${helpSystemFontSize}</fontSize>
+         <entrySpacing>0.020833333333333</entrySpacing><!-- 40 -->
       </helpsystem>
       <image name="helpBackground">
          <size>1 0.1</size>
       </image>
-      <text name="system-label">
-         <visible>false</visible>
-      </text>
    </view>
+   <fontSize name="medium">
+      <variables>
+         <helpSystemFontSize>0.038888888888889</helpSystemFontSize><!-- 42 -->
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <helpSystemFontSize>0.042592592592593</helpSystemFontSize><!-- 46 -->
+      </variables>
+   </fontSize>
 
    <!--
    ///
-   System View: Defaults
+   System View
    ///
    -->
    <view name="system">
+      <text name="
+         system-label,
+         system-description,
+         system-game-count
+         ">
+         <visible>false</visible>
+      </text>
       <text name="system-name">
          <origin>0.5 0</origin>
-         <pos>0.5 0.72</pos><!-- 50%  -->
+         <pos>0.5 0.712962962962963</pos><!-- 50% 770 -->
          <size>0.652777777777778 0.138888888888889</size><!-- 940 150 -->
          <fontSize>0.066666666666667</fontSize><!-- 72 -->
          <horizontalAlignment>center</horizontalAlignment>
-         <verticalAlignment>middle</verticalAlignment>
-      </text>
-      <text name="system-description">
-         <visible>false</visible>
-      </text>
-      <text name="system-game-count">
-         <visible>false</visible>
+         <verticalAlignment>bottom</verticalAlignment>
       </text>
       <carousel name="system-carousel">
          <type>horizontal</type>
          <origin>0.5 0</origin>
-         <pos>0.5 -0.05</pos><!-- 50% 50% -->
-         <size>1 0.85</size>
-         <itemSize>1 0.9</itemSize>
+         <pos>0.5 0</pos><!-- 50% 50% -->
+         <size>1 0.8</size><!-- 100% 864 -->
+         <itemSize>1 0.9</itemSize><!-- 100% 972 -->
       </carousel>
    </view>
 
    <!--
    ///
-   Gamelist View: Defaults
-   ///
-   -->
-   <view name="gamelist">
-      <text name="system-name,custom-collection-name">
-         <fontSize>0.038888888888889</fontSize><!-- 42 -->
-      </text>
-   </view>
-
-   <!--
-   ///
-   Gamelist View: List Variants
+   Gamelist View - List Variants
    ///
    -->
    <variant name="
+      gamelist-metadata-off-boxart,
       gamelist-metadata-off-miximage,
       gamelist-metadata-off-screenshot,
-      gamelist-metadata-off-boxart,
-      gamelist-metadata-off-titlescreen,
       gamelist-metadata-off-screenshot-marquee,
+      gamelist-metadata-off-titlescreen,
+      gamelist-metadata-off-physicalmedia,
       gamelist-metadata-on-miximage,
       gamelist-metadata-on-screenshot,
       gamelist-metadata-on-boxart,
@@ -84,31 +82,58 @@ based on 1440x1080
       <view name="gamelist">
          <text name="system-name,custom-collection-name">
             <pos>0.048611111111111 0.068518518518519</pos><!-- 70 74 -->
-            <size>0.422222222222222 0.138888888888889</size><!-- 608 150 -->
-            <fontSize>0.038888888888889</fontSize><!-- 42 -->
+            <size>0.422222222222222 0.185185185185185</size><!-- 608 200 -->
+            <fontSize>${gamelistSystemNameFontSize}</fontSize>
          </text>
          <textlist name="game-list">
-            <pos>0.039583333333333 0.188888888888889</pos><!-- 54 204 -->
-            <size>0.43125 0.638888888888889</size><!-- 621 690 -->
-            <fontSize>0.038888888888889</fontSize><!-- 42 -->
+            <pos>${gamelistPos}</pos>
+            <size>${gamelistSize}</size>
+            <fontSize>${gamelistFontSize}</fontSize>
+            <lineSpacing>${gamelistLineSpacing}</lineSpacing>
             <horizontalMargin>0.009027777777778</horizontalMargin><!-- 13 -->
          </textlist>
       </view>
    </variant>
+   <fontSize name="medium">
+      <variables>
+         <gamelistSystemNameFontSize>0.042592592592593</gamelistSystemNameFontSize><!-- 46 -->
+         <gamelistPos>0.039583333333333 0.188888888888889</gamelistPos><!-- 57 204 -->
+         <gamelistSize>0.43125 0.638888888888889</gamelistSize><!-- 621 690 -->
+         <gamelistFontSize>0.038888888888889</gamelistFontSize><!-- 42 -->
+         <gamelistLineSpacing>1.5</gamelistLineSpacing>
+      </variables>
+   </fontSize>
+   <fontSize name="large">
+      <variables>
+         <gamelistSystemNameFontSize>0.048148148148148</gamelistSystemNameFontSize><!-- 52 -->
+         <gamelistPos>0.039583333333333 0.207407407407407</gamelistPos><!-- 57 224 -->
+         <gamelistSize>0.43125 0.62962962962963</gamelistSize><!-- 621 680 -->
+         <gamelistFontSize>0.046296296296296</gamelistFontSize><!-- 50 -->
+         <gamelistLineSpacing>1.5</gamelistLineSpacing>
+      </variables>
+   </fontSize>
 
+   <!--
+   Gamelist View - List: Basic
+   -->
    <variant name="gamelist-basic">
       <view name="gamelist">
          <image name="system-art">
-            <size>0 1</size><!-- 608 820 -->
-            <pos>0.740277777777778 0.448148148148148</pos><!-- 1066 484 -->
+            <pos>0.75 0.448148148148148</pos><!-- 75% 484 -->
+            <maxSize>0.9 0.9</maxSize>
+            <opacity>0.2</opacity>
          </image>
          <badges name="badges">
-            <pos>0.960416666666667 0.074074074074074</pos>
-            <size>0.035416666666667 0.722222222222222</size>
+            <pos>0.965277777777778 0.05</pos><!-- 1390 54 -->
+            <size>0.069444444444444 0.722222222222222</size><!-- 100 780 -->
+            <itemMargin>0 0.009259259259259</itemMargin><!-- 0 10 -->
          </badges>
       </view>
    </variant>
 
+   <!--
+   Gamelist View - List: Metadata Off
+   -->
    <variant name="
       gamelist-metadata-off-miximage,
       gamelist-metadata-off-screenshot,
@@ -117,25 +142,61 @@ based on 1440x1080
       gamelist-metadata-off-screenshot-marquee
       ">
       <view name="gamelist">
-         <video name="game-art">
-            <pos>0.740277777777778 0.448148148148148</pos><!-- 1066 484 -->
-            <maxSize>0.422222222222222 0.759259259259259</maxSize><!-- 608 820 -->
-         </video>
          <badges name="badges">
-            <pos>0.960416666666667 0.074074074074074</pos><!-- 1844 80 -->
-            <size>0.035416666666667 0.722222222222222</size><!-- 68 780 -->
+            <pos>0.965277777777778 0.05</pos><!-- 1390 54 -->
+            <size>0.069444444444444 0.722222222222222</size><!-- 100 780 -->
+            <itemMargin>0 0.009259259259259</itemMargin><!-- 0 10 -->
          </badges>
       </view>
    </variant>
-   <variant name="gamelist-metadata-off-screenshot-marquee">
+   <variant name="
+      gamelist-metadata-off-boxart,
+      gamelist-metadata-off-miximage,
+      gamelist-metadata-off-physicalmedia
+      ">
       <view name="gamelist">
+         <video name="game-art">
+            <origin>1 0</origin>
+            <pos>0.951388888888889 0.068518518518519</pos><!-- 1370 74 -->
+            <maxSize>0.422222222222222 0.759259259259259</maxSize><!-- 608 820 -->
+         </video>
+      </view>
+   </variant>
+   <variant name="
+      gamelist-metadata-off-screenshot,
+      gamelist-metadata-off-titlescreen
+      ">
+      <view name="gamelist">
+         <video name="game-art">
+            <origin>1 0.5</origin>
+            <pos>1 0.45</pos><!-- 100% 486 -->
+            <cropSize>0.470833333333333 0.9</cropSize><!-- 678 972 -->
+            <imageCornerRadius>0</imageCornerRadius>
+            <videoCornerRadius>0</videoCornerRadius>
+         </video>
+      </view>
+   </variant>
+   <variant name="
+      gamelist-metadata-off-screenshot-marquee
+      ">
+      <view name="gamelist">
+         <video name="game-art">
+            <origin>1 0.5</origin>
+            <pos>1 0.45</pos><!-- 100% 486 -->
+            <cropSize>0.470833333333333 0.9</cropSize><!-- 678 972 -->
+            <imageCornerRadius>0</imageCornerRadius>
+            <videoCornerRadius>0</videoCornerRadius>
+         </video>
          <image name="game-marquee">
-            <pos>0.740277777777778 0.448148148148148</pos><!-- 1066 484 -->
-            <maxSize>0.347222222222222 0.462962962962963</maxSize><!-- 500 500 -->
+            <pos>0.764583333333333 0.45</pos><!-- 1101 486 -->
+            <maxSize>0.277777777777778 0.462962962962963</maxSize><!-- 400 500 -->
          </image>
       </view>
    </variant>
 
+   <!--
+   Gamelist View - List: Metadata On
+   -->
    <variant name="
       gamelist-metadata-on-miximage,
       gamelist-metadata-on-screenshot,
@@ -251,24 +312,29 @@ based on 1440x1080
       ">
       <view name="gamelist">
          <text name="system-name,custom-collection-name">
-            <pos>0.064583333333333 0.064814814814815</pos><!-- 124 70 -->
-            <size>0.416666666666667 0.038888888888889</size><!-- 800 42 -->
-            <fontSize>0.038888888888889</fontSize><!-- 42 -->
-         </text>
-         <text name="system-label">
-            <origin>1 0</origin>
-            <pos>0.932291666666667 0.074074074074074</pos><!-- 1790 80 -->
-            <size>0.291666666666667 0.031481481481481</size><!-- 560 34 -->
-            <fontSize>0.031481481481481</fontSize><!-- 34 -->
+            <pos>0.0625 0.064814814814815</pos><!-- 90 70 -->
+            <size>0.875 0</size><!-- 1260 - -->
+            <fontSize>${gamelistSystemNameFontSize}</fontSize>
+            <horizontalAlignment>center</horizontalAlignment>
          </text>
          <carousel name="game-carousel">
+            <pos>0 0.505</pos>
             <fontSize>0.03</fontSize>
          </carousel>
          <badges name="badges">
-            <pos>0.5 0.777777777777778</pos><!-- 50% 800 -->
-            <size>1 0.055555555555556</size><!-- 100% 60 -->
+            <visible>false</visible>
          </badges>
       </view>
+      <fontSize name="medium">
+         <variables>
+            <gamelistSystemNameFontSize>0.038888888888889</gamelistSystemNameFontSize><!-- 42 -->
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <gamelistSystemNameFontSize>0.055555555555556</gamelistSystemNameFontSize><!-- 60 -->
+         </variables>
+      </fontSize>
    </variant>
 
 </theme>

@@ -148,11 +148,11 @@ license:       creative commons CC-BY-NC-SA
          <origin>1 0</origin>
          <lines>1</lines>
          <itemsPerLine>5</itemsPerLine>
-         <slots>favorite,completed,controller,altemulator,folder</slots>
+         <slots>favorite,completed,collection,altemulator,folder</slots>
          <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
          <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
          <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
-         <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
          <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
          <controllerSize>0.8</controllerSize>
          <folderLinkSize>0.8</folderLinkSize>
@@ -450,9 +450,7 @@ license:       creative commons CC-BY-NC-SA
    Gamelist View - Carousel Variants
    ///
    -->
-   <variant name="
-      gamelist-carousel
-      ">
+   <variant name="gamelist-carousel">
       <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
       <view name="gamelist">
          <gamelistinfo name="gamelist-info">

@@ -1,3 +1,7 @@
+<!--
+4:3 resolution: 
+based on 1920x1080
+-->
 <theme>
 
    <!--
@@ -96,7 +100,7 @@
             <fontSize>${gamelistSystemNameFontSize}</fontSize>
          </text>
          <textlist name="game-list">
-            <pos>${gamelistPos}</pos><!-- 90 280 -->
+            <pos>${gamelistPos}</pos>
             <size>${gamelistSize}</size>
             <fontSize>${gamelistFontSize}</fontSize>
             <lineSpacing>${gamelistLineSpacing}</lineSpacing>

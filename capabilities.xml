@@ -33,6 +33,9 @@
    <colorScheme name="RetroBright">
       <label>Retro Bright</label>
    </colorScheme>
+   <colorScheme name="DMG">
+      <label>DMG</label>
+   </colorScheme>
    <colorScheme name="Dark">
       <label>Dark</label>
    </colorScheme>
