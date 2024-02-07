@@ -1,6 +1,6 @@
 <theme>
    <variant name="gamelist-carousel">
-      <aspectRatio name="16:9">
+      <aspectRatio name="16:9,16:10">
          <view name="gamelist">
             <carousel name="game-carousel">
                <itemSize>0.260416666666667 0.347222222222222</itemSize><!-- 500 375 -->
