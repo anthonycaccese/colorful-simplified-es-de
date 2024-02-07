@@ -16,21 +16,39 @@ This is simplified take on the Colorful theme (originally by [viking](https://fo
 
 | System View |
 |----|
-| ![Screenshot 2023-12-13 at 12 58 03 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/25f79129-e962-4b96-8f6c-f93420d9e7a0) |
+| ![Screenshot 2024-02-07 at 4 45 20 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/c9875a2a-ea0e-450d-bd2f-7581d64ec5ab) |
 
 | Gamelist View: List | Gamelist View: List with Metadata |
 |----|----|
-| ![Screenshot 2023-12-13 at 12 58 28 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/493efe4e-479b-4ee4-8947-a9c074d7ba41) | ![Screenshot 2023-12-13 at 12 59 50 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/e66cf58b-1dd0-45f4-8b3a-593828c11a57) |
+| ![Screenshot 2024-02-07 at 4 46 39 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/fabe2a9f-7b3c-4d57-a675-78c5faf783f0) | ![Screenshot 2024-02-07 at 4 47 20 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/b28103aa-181c-4b00-94f5-0b80f1ac2ecc) |
 
 | Gamelist View: Carousel |
 |----|
-| ![Screenshot 2023-12-13 at 1 04 14 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/73ce5b19-7666-45fc-bd12-7f1d8e99a193) |
+| ![Screenshot 2024-02-07 at 4 47 50 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/5bc7639a-9bfa-483d-b549-6f185519c1ef) |
 
 ## **Configuration Options**
 
-- The theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE 
+The theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE 
+
+### **Aspect Ratios**
+
 - `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
-   - 16:9 is supported
+   - Supported Aspect Ratios:
+   - `16:9`
+   - `16:10`
+   - `4:3`
+
+#### Preview
+
+
+| 16:9 System View | 16:9 List View | 16:9 List View Metadata | 16:9 Carousel |
+|:---:|:---:|:---:|:---:|
+| ![Screenshot 2024-02-07 at 4 45 20 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/c9875a2a-ea0e-450d-bd2f-7581d64ec5ab) | ![Screenshot 2024-02-07 at 4 46 39 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/fabe2a9f-7b3c-4d57-a675-78c5faf783f0) | ![Screenshot 2024-02-07 at 4 47 20 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/b28103aa-181c-4b00-94f5-0b80f1ac2ecc) | ![Screenshot 2024-02-07 at 4 47 50 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/5bc7639a-9bfa-483d-b549-6f185519c1ef) |
+| 4:3 System View | 4:3 List View | 4:3 List View Metadata | 4:3 Carousel |
+| ![Screenshot 2024-02-07 at 5 05 52 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/950be07e-d2c2-41a3-a0e7-ed05cfeb523e) | ![Screenshot 2024-02-07 at 5 06 05 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/aff4cc2b-0089-4792-9e8e-fc07ee7313a9) | ![Screenshot 2024-02-07 at 5 06 45 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/16c8ae2a-c2da-4368-a0f7-b1bd37224fc2) | ![Screenshot 2024-02-07 at 5 06 54 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/f4385d75-ba81-48e8-bc94-cc7a312dd5ef) |
+
+### **Theme Variants**
+
 - `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  There are a few variants to choose from:
    - Lists - There are a few options available to allow for dfferent media to be displayed. Please select the one that best matches the media you have downloaded for your games.
       - `List: Boxart` - Displays Boxart
@@ -38,22 +56,34 @@ This is simplified take on the Colorful theme (originally by [viking](https://fo
       - `List: Screenshot` - Displays Screenshots
       - `List: Screenshot + Marquee` - Displays Screenshots with a Marquee overlay
       - `List: Title Screen` - Displays Title Screens
+      - `List: Physical Media` - Displays Physical Media
       - `List: Metadata & Boxart` - Displays Metadata & Boxart
       - `List: Metadata & Miximage` - Displays Metadata & Miximages
       - `List: Metadata & Screenshot` - Displays Metadata & Screenshots
       - `List: Metadata & Screenshot + Marquee` - Displays Metadata & Screenshots with a Marquee overlay
       - `List: Metadata & Title Screen` - Displays Metadata & Title Screens
+      - `List: Metadata & Physical Media` - Displays Metadata & Physical Media
    - `Carousel: Boxart` - Displays Boxart in a carousel layout
+
+### **Theme Color Schemes**
+
 - `Theme Color Scheme` - sets the color scheme that is used for the overall theme on all views.  There are 3 built in color schems:
    - `Colorful` - The default color scheme.  Displays a custom color for each system based on the Colorful media set.
    - `Light` - Sets a light color scheme that displays for all systems
+   - `RetroBright` - Sets a light color scheme that displays for all systems
+   - `DMG` - Sets a light color scheme that displays for all systems
    - `Dark` - Sets a dark color scheme that displays for all systems
- 
-### **Color Scheme Preview**
+   - `OLED` - Sets a dark color scheme that displays for all systems
 
-| Colorful | Light | Dark |
-|----|----|----|
-| ![Screenshot 2023-12-13 at 12 58 03 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/25f79129-e962-4b96-8f6c-f93420d9e7a0) | ![Screenshot 2023-12-13 at 1 31 57 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/a886d616-8570-46ce-a316-4f2e8778aaab) | ![Screenshot 2023-12-13 at 1 32 07 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/903906e2-ff17-42d7-8812-279470364727) |
+#### Preview
+
+| Colorful | Light |
+|:---:|:---:|
+| ![Screenshot 2024-02-07 at 4 45 20 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/91f2c968-dadb-4ae1-8197-250a54785f0b) | ![Screenshot 2024-02-07 at 4 48 29 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/ebca482e-73c2-475e-a830-3161d5315380) |
+| RetroBright | DMG |
+| ![Screenshot 2024-02-07 at 4 48 36 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/5e7f7cbd-0feb-497e-b27d-8ba0a72181d0) | ![Screenshot 2024-02-07 at 4 48 43 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/107ac980-b3a4-455f-b0d4-9d31c9a8e9cb) |
+| Dark | OLED |
+| ![Screenshot 2024-02-07 at 4 48 49 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/b35defdf-3b37-4aa3-b741-2e1a0813fe90) | ![Screenshot 2024-02-07 at 4 48 56 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/e4c5e9ca-248a-4898-a783-13f0f8a10d1f) |
 
 ## Additional Notes
 
