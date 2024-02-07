@@ -30,23 +30,6 @@ This is simplified take on the Colorful theme (originally by [viking](https://fo
 
 The theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE 
 
-### **Aspect Ratios**
-
-- `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
-   - Supported Aspect Ratios:
-   - `16:9`
-   - `16:10`
-   - `4:3`
-
-#### Preview
-
-
-| 16:9 System View | 16:9 List View | 16:9 List View Metadata | 16:9 Carousel |
-|:---:|:---:|:---:|:---:|
-| ![Screenshot 2024-02-07 at 4 45 20 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/c9875a2a-ea0e-450d-bd2f-7581d64ec5ab) | ![Screenshot 2024-02-07 at 4 46 39 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/fabe2a9f-7b3c-4d57-a675-78c5faf783f0) | ![Screenshot 2024-02-07 at 4 47 20 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/b28103aa-181c-4b00-94f5-0b80f1ac2ecc) | ![Screenshot 2024-02-07 at 4 47 50 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/5bc7639a-9bfa-483d-b549-6f185519c1ef) |
-| 4:3 System View | 4:3 List View | 4:3 List View Metadata | 4:3 Carousel |
-| ![Screenshot 2024-02-07 at 5 05 52 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/950be07e-d2c2-41a3-a0e7-ed05cfeb523e) | ![Screenshot 2024-02-07 at 5 06 05 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/aff4cc2b-0089-4792-9e8e-fc07ee7313a9) | ![Screenshot 2024-02-07 at 5 06 45 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/16c8ae2a-c2da-4368-a0f7-b1bd37224fc2) | ![Screenshot 2024-02-07 at 5 06 54 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/f4385d75-ba81-48e8-bc94-cc7a312dd5ef) |
-
 ### **Theme Variants**
 
 - `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  There are a few variants to choose from:
@@ -85,6 +68,29 @@ The theme has a simple set of options that can be changed directly from the UI S
 | Dark | OLED |
 | ![Screenshot 2024-02-07 at 4 48 49 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/b35defdf-3b37-4aa3-b741-2e1a0813fe90) | ![Screenshot 2024-02-07 at 4 48 56 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/e4c5e9ca-248a-4898-a783-13f0f8a10d1f) |
 
+### **Theme Font Sizes**
+
+- `Theme Font Size` - sets the size that text in the theme will render at. This can be helpful when using the theme on small screens.
+   - Supported Font Sizes:
+   - `Medium` - Default size, good for computer monitors and tv.
+   - `Large` - Larger size, good for small handheld screens under 6 inches in size.
+
+### **Theme Aspect Ratios**
+
+- `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
+   - Supported Aspect Ratios:
+   - `16:9`
+   - `16:10`
+   - `4:3`
+
+#### Preview
+
+| 16:9 System View | 16:9 List View | 16:9 List View Metadata | 16:9 Carousel |
+|:---:|:---:|:---:|:---:|
+| ![Screenshot 2024-02-07 at 4 45 20 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/c9875a2a-ea0e-450d-bd2f-7581d64ec5ab) | ![Screenshot 2024-02-07 at 4 46 39 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/fabe2a9f-7b3c-4d57-a675-78c5faf783f0) | ![Screenshot 2024-02-07 at 4 47 20 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/b28103aa-181c-4b00-94f5-0b80f1ac2ecc) | ![Screenshot 2024-02-07 at 4 47 50 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/5bc7639a-9bfa-483d-b549-6f185519c1ef) |
+| 4:3 System View | 4:3 List View | 4:3 List View Metadata | 4:3 Carousel |
+| ![Screenshot 2024-02-07 at 5 05 52 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/950be07e-d2c2-41a3-a0e7-ed05cfeb523e) | ![Screenshot 2024-02-07 at 5 06 05 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/aff4cc2b-0089-4792-9e8e-fc07ee7313a9) | ![Screenshot 2024-02-07 at 5 06 45 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/16c8ae2a-c2da-4368-a0f7-b1bd37224fc2) | ![Screenshot 2024-02-07 at 5 06 54 PM](https://github.com/anthonycaccese/colorful-simplified-es-de/assets/1454947/f4385d75-ba81-48e8-bc94-cc7a312dd5ef) |
+
 ## Additional Notes
 
 ### Versions for other ES forks:
@@ -98,7 +104,6 @@ The theme has a simple set of options that can be changed directly from the UI S
 - M.U.G.E.N. sprites originally created by [mpadillathespriter](https://www.deviantart.com/mpadillathespriter)
 - EasyRPG artwork originally by [SeraphCircle](https://twitter.com/SeraphCircle)
 - Doom artwork originally by [azakachi-rd-17](https://www.deviantart.com/azakachi-rd-17)
-- Navigation sound effects were sourced from [SteamOS](https://store.steampowered.com/steamos) 
 
 ## **License**
 
