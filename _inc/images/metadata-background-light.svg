@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="100%" height="100%" viewBox="0 0 260 775" version="1.1" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="100%" viewBox="0 0 275 775" version="1.1" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" xmlns="http://www.w3.org/2000/svg">
   <path d="M 0 -0.007 L 5 -0.007 L 5 774.993 L 0 774.993 L 0 -0.007 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.5;"/>
-  <path d="M 5 0 H 259.999 V 96 H 5 V 0 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
-  <path d="M 5 679 H 259.999 V 775 H 5 V 679 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
-  <path d="M 5 582 H 259.999 V 678 H 5 V 582 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
-  <path d="M 5 485 H 259.999 V 581 H 5 V 485 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
-  <path d="M 5 291 H 259.999 V 387 H 5 V 291 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
-  <path d="M 5 388 H 259.999 V 484 H 5 V 388 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
-  <path d="M 5 97 H 259.999 V 193 H 5 V 97 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
-  <path d="M 5 194 H 259.999 V 290 H 5 V 194 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
+  <path d="M 5 0 L 275 0 L 275 96 L 5 96 L 5 0 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
+  <path d="M 5 679 L 275 679 L 275 775 L 5 775 L 5 679 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
+  <path d="M 5 582 L 275 582 L 275 678 L 5 678 L 5 582 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
+  <path d="M 5 485 L 275 485 L 275 581 L 5 581 L 5 485 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
+  <path d="M 5 291 L 275 291 L 275 387 L 5 387 L 5 291 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
+  <path d="M 5 388 L 275 388 L 275 484 L 5 484 L 5 388 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
+  <path d="M 5 97 L 275 97 L 275 193 L 5 193 L 5 97 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
+  <path d="M 5 194 L 275 194 L 275 290 L 5 290 L 5 194 Z" style="fill: rgb(255, 255, 255); fill-opacity: 0.3;"/>
 </svg>

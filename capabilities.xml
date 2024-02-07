@@ -145,6 +145,15 @@
          <useVariant>gamelist-basic</useVariant>
       </override>
    </variant>
+   <variant name="gamelist-metadata-on-physicalmedia">
+      <label>List: Metadata &amp; Physical Media</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>physicalmedia</mediaType>
+         <useVariant>gamelist-basic</useVariant>
+      </override>
+   </variant>
 
    <!-- Carousel -->
    <variant name="gamelist-carousel">
@@ -155,7 +164,7 @@
    <!-- Basic -->
    <variant name="gamelist-basic">
       <label>Basic</label>
-      <selectable>true</selectable>
+      <selectable>false</selectable>
    </variant>
 
 </themeCapabilities>

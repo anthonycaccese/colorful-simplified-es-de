@@ -17,6 +17,7 @@
          <gameMetadataLabel>ffffffaa</gameMetadataLabel>
          <gameMetadata>ffffff</gameMetadata>
          <gameMetadataBackground>./_inc/images/metadata-background-dark.svg</gameMetadataBackground>
+         <allowSystemVideo>true</allowSystemVideo>
       </variables>
    </colorScheme>
    <colorScheme name="Light">
@@ -37,6 +38,7 @@
          <gameMetadataLabel>777777</gameMetadataLabel>
          <gameMetadata>333333</gameMetadata>
          <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
+         <allowSystemVideo>false</allowSystemVideo>
       </variables>
    </colorScheme>
    <colorScheme name="RetroBright">
@@ -57,6 +59,7 @@
          <gameMetadataLabel>54585a</gameMetadataLabel>
          <gameMetadata>333333</gameMetadata>
          <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
+         <allowSystemVideo>false</allowSystemVideo>
       </variables>
    </colorScheme>
    <colorScheme name="DMG">
@@ -77,6 +80,7 @@
          <gameMetadataLabel>4a4948</gameMetadataLabel>
          <gameMetadata>333333</gameMetadata>
          <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
+         <allowSystemVideo>false</allowSystemVideo>
       </variables>
    </colorScheme>
    <colorScheme name="Dark">
@@ -97,6 +101,7 @@
          <gameMetadataLabel>ffffffaa</gameMetadataLabel>
          <gameMetadata>ffffff</gameMetadata>
          <gameMetadataBackground>./_inc/images/metadata-background-dark.svg</gameMetadataBackground>
+         <allowSystemVideo>false</allowSystemVideo>
       </variables>
    </colorScheme>
    <colorScheme name="OLED">
@@ -117,6 +122,7 @@
          <gameMetadataLabel>ffffffaa</gameMetadataLabel>
          <gameMetadata>ffffff</gameMetadata>
          <gameMetadataBackground>./_inc/images/metadata-background-dark.svg</gameMetadataBackground>
+         <allowSystemVideo>false</allowSystemVideo>
       </variables>
    </colorScheme>
 </theme>

@@ -171,11 +171,12 @@ license:       creative commons CC-BY-NC-SA
       gamelist-metadata-off-screenshot-marquee,
       gamelist-metadata-off-titlescreen,
       gamelist-metadata-off-physicalmedia,
+      gamelist-metadata-on-boxart,
       gamelist-metadata-on-miximage,
       gamelist-metadata-on-screenshot,
-      gamelist-metadata-on-boxart,
-      gamelist-metadata-on-titlescreen,
       gamelist-metadata-on-screenshot-marquee,
+      gamelist-metadata-on-titlescreen,
+      gamelist-metadata-on-physicalmedia,
       gamelist-basic
       ">
       <view name="gamelist">
@@ -289,19 +290,14 @@ license:       creative commons CC-BY-NC-SA
    </variant>
 
    <variant name="
+      gamelist-metadata-on-boxart,
       gamelist-metadata-on-miximage,
       gamelist-metadata-on-screenshot,
-      gamelist-metadata-on-boxart,
+      gamelist-metadata-on-screenshot-marquee,
       gamelist-metadata-on-titlescreen,
-      gamelist-metadata-on-screenshot-marquee
+      gamelist-metadata-on-physicalmedia
       ">
       <view name="gamelist">
-         <badges name="badges">
-            <origin>1 0</origin>
-            <itemMargin>-1 0</itemMargin>
-            <horizontalAlignment>right</horizontalAlignment>
-            <direction>column</direction>
-         </badges>
          <video name="game-art">
             <origin>0.5 0.5</origin>
             <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
@@ -316,7 +312,7 @@ license:       creative commons CC-BY-NC-SA
             <fontPath>${fontRegular}</fontPath>
             <color>${gameDescription}</color>
             <metadata>description</metadata>
-            <containerVerticalSnap>false</containerVerticalSnap>
+            <containerVerticalSnap>true</containerVerticalSnap>
             <containerScrollSpeed>0.6</containerScrollSpeed>
          </text>
          <text name="game-rating-label,game-released-label,game-players-label,game-genre-label,game-developer-label,game-publisher-label,game-last-played-label,game-times-played-label">
@@ -325,6 +321,7 @@ license:       creative commons CC-BY-NC-SA
             <fontPath>${fontRegular}</fontPath>
             <color>${gameMetadataLabel}</color>
             <metadataElement>true</metadataElement>
+            <visible>false</visible>
          </text>
          <text name="game-players,game-genre,game-developer,game-publisher,game-times-played">
             <horizontalAlignment>center</horizontalAlignment>
@@ -333,12 +330,14 @@ license:       creative commons CC-BY-NC-SA
             <color>${gameMetadata}</color>
             <container>true</container>
             <containerType>horizontal</containerType>
+            <visible>false</visible>
          </text>
          <datetime name="game-released,game-last-played">
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
             <fontPath>${fontSemiBold}</fontPath>
             <color>${gameMetadata}</color>
+            <visible>false</visible>
          </datetime>
          <text name="game-rating-label">
             <text>Rating</text>
@@ -349,6 +348,7 @@ license:       creative commons CC-BY-NC-SA
             <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
             <overlay>false</overlay>
             <color>${gameMetadata}</color>
+            <visible>false</visible>
          </rating>
          <text name="game-released-label">
             <text>Released</text>
@@ -368,6 +368,7 @@ license:       creative commons CC-BY-NC-SA
          </text>
          <text name="game-genre">
             <metadata>genre</metadata>
+            <letterCase>capitalize</letterCase>
          </text>
          <text name="game-developer-label">
             <text>Developer</text>
@@ -397,7 +398,23 @@ license:       creative commons CC-BY-NC-SA
          <image name="game-metadata-background">
             <path>${gameMetadataBackground}</path>
             <metadataElement>true</metadataElement>
+            <visible>false</visible>
          </image>
+         <badges name="badges">
+            <origin>1 0</origin>
+            <itemMargin>-1 0</itemMargin>
+            <horizontalAlignment>right</horizontalAlignment>
+            <direction>column</direction>
+         </badges>
+      </view>
+   </variant>
+   <variant name="gamelist-metadata-on-boxart">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>cover</imageType>
+            <imageCornerRadius>0.0025</imageCornerRadius>
+            <interpolation>linear</interpolation>
+         </video>
       </view>
    </variant>
    <variant name="gamelist-metadata-on-miximage">
@@ -415,22 +432,6 @@ license:       creative commons CC-BY-NC-SA
          </video>
       </view>
    </variant>
-   <variant name="gamelist-metadata-on-boxart">
-      <view name="gamelist">
-         <video name="game-art">
-            <imageType>cover</imageType>
-            <imageCornerRadius>0.0025</imageCornerRadius>
-            <interpolation>linear</interpolation>
-         </video>
-      </view>
-   </variant>
-   <variant name="gamelist-metadata-on-titlescreen">
-      <view name="gamelist">
-         <video name="game-art">
-            <imageType>titlescreen</imageType>
-         </video>
-      </view>
-   </variant>
    <variant name="gamelist-metadata-on-screenshot-marquee">
       <view name="gamelist">
          <video name="game-art">
@@ -442,6 +443,21 @@ license:       creative commons CC-BY-NC-SA
             <zIndex>200</zIndex>
             <interpolation>linear</interpolation>
          </image>
+      </view>
+   </variant>
+   <variant name="gamelist-metadata-on-titlescreen">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>titlescreen</imageType>
+         </video>
+      </view>
+   </variant>
+   <variant name="gamelist-metadata-on-physicalmedia">
+      <view name="gamelist">
+         <video name="game-art">
+            <imageType>physicalmedia</imageType>
+            <interpolation>linear</interpolation>
+         </video>
       </view>
    </variant>
 
