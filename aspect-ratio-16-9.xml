@@ -26,7 +26,7 @@ based on 1920x1080
    </fontSize>
    <fontSize name="large">
       <variables>
-         <helpSystemFontSize>0.037037037037037</helpSystemFontSize><!-- 40 -->
+         <helpSystemFontSize>0.040740740740741</helpSystemFontSize><!-- 44 -->
       </variables>
    </fontSize>
 
