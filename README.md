@@ -104,6 +104,8 @@ The theme has a simple set of options that can be changed directly from the UI S
 - M.U.G.E.N. sprites originally created by [mpadillathespriter](https://www.deviantart.com/mpadillathespriter)
 - EasyRPG artwork originally by [SeraphCircle](https://twitter.com/SeraphCircle)
 - Doom artwork originally by [azakachi-rd-17](https://www.deviantart.com/azakachi-rd-17)
+- Quake artwork by [noorkabir](https://imgbin.com/png/TpRDSTtK/quake-champions-quake-iii-arena-quake-4-video-game-2017-dreamhack-winter-png)
+- LowresNX artwork by [Duimon](https://forums.libretro.com/t/duimon-hsm-mega-bezel-graphics-and-presets-feedback-and-updates/28146/1049)
 - The base folder image used to create the All Games, Favorites, Last Played and Custom Collections images was sourced from [Rick Patrick](https://www.softicons.com/designers/rick-patrick).
 - The icons on the folder images were sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
 
