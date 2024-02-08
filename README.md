@@ -1,8 +1,8 @@
 # Colorful (Simplified) for ES-DE
 
-This is simplified take on the Colorful theme (originally by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/profile/76940-faeran/)) for [ES-DE](https://es-de.org/)
+This is simplified take on the Colorful theme which was originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/profile/76940-faeran/)) for Launchbox.
 
-**Most artwork was originally created by viking & faeran.  I translated things into the theming engine used by ES-DE. The original version of the theme can be found [here](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)**
+Most artwork was originally created by viking & faeran (_additional artwork credits can be found in the credits section below_). I translated things for the theming engine used by ES-DE. The original version of the Colorful theme for Launchbox can be found [here](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
 
 ### Changes Made
 
@@ -50,7 +50,7 @@ The theme has a simple set of options that can be changed directly from the UI S
 
 ### **Theme Color Schemes**
 
-- `Theme Color Scheme` - sets the color scheme that is used for the overall theme on all views.  There are 3 built in color schems:
+- `Theme Color Scheme` - sets the color scheme that is used for the overall theme on all views.  There are 6 built in color schems:
    - `Colorful` - The default color scheme.  Displays a custom color for each system based on the Colorful media set.
    - `Light` - Sets a light color scheme that displays for all systems
    - `RetroBright` - Sets a light color scheme that displays for all systems
@@ -70,14 +70,14 @@ The theme has a simple set of options that can be changed directly from the UI S
 
 ### **Theme Font Sizes**
 
-- `Theme Font Size` - sets the size that text in the theme will render at. This can be helpful when using the theme on small screens.
+- `Theme Font Size` - sets the size that text will render at. This can be helpful when using the theme on small screens.
    - Supported Font Sizes:
    - `Medium` - Default size, good for computer monitors and tv.
    - `Large` - Larger size, good for small handheld screens under 6 inches in size.
 
 ### **Theme Aspect Ratios**
 
-- `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
+- `Theme Aspect Ratio` - sets the aspect ratio to match your display. This should happen automatically but can also be set manually if needed.
    - Supported Aspect Ratios:
    - `16:9`
    - `16:10`
