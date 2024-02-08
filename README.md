@@ -1,12 +1,12 @@
 # Colorful (Simplified) for ES-DE
 
-This is simplified take on the Colorful theme (originally by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/profile/76940-faeran/)) for [ES-DE](https://es-de.org/) v2.x
+This is simplified take on the Colorful theme which was originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/profile/76940-faeran/)) for Launchbox.
 
-**Most artwork was originally created by viking & faeran.  I translated things into the theming engine used by ES-DE. The original version of the theme can be found [here](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)**
+Most artwork was originally created by viking & faeran (_additional artwork credits can be found in the credits section below_). I translated things for the theming engine used by ES-DE. The original version of the Colorful theme for Launchbox can be found [here](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
 
 ### Changes Made
 
-- Translated and rewrote all Launchbox specific aspects to make the theme compatible with ES-DE v2.x
+- Translated and rewrote all Launchbox specific aspects to make the theme compatible with ES-DE
 - Updated system image names to match the standard used by ES-DE
 - Created images & color schemes for additional systems supported by ES-DE
 - Added support for ES-DE capabilities such as badges
@@ -50,7 +50,7 @@ The theme has a simple set of options that can be changed directly from the UI S
 
 ### **Theme Color Schemes**
 
-- `Theme Color Scheme` - sets the color scheme that is used for the overall theme on all views.  There are 3 built in color schems:
+- `Theme Color Scheme` - sets the color scheme that is used for the overall theme on all views.  There are 6 built in color schems:
    - `Colorful` - The default color scheme.  Displays a custom color for each system based on the Colorful media set.
    - `Light` - Sets a light color scheme that displays for all systems
    - `RetroBright` - Sets a light color scheme that displays for all systems
@@ -70,14 +70,14 @@ The theme has a simple set of options that can be changed directly from the UI S
 
 ### **Theme Font Sizes**
 
-- `Theme Font Size` - sets the size that text in the theme will render at. This can be helpful when using the theme on small screens.
+- `Theme Font Size` - sets the size that text will render at. This can be helpful when using the theme on small screens.
    - Supported Font Sizes:
    - `Medium` - Default size, good for computer monitors and tv.
    - `Large` - Larger size, good for small handheld screens under 6 inches in size.
 
 ### **Theme Aspect Ratios**
 
-- `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
+- `Theme Aspect Ratio` - sets the aspect ratio to match your display. This should happen automatically but can also be set manually if needed.
    - Supported Aspect Ratios:
    - `16:9`
    - `16:10`
@@ -99,11 +99,15 @@ The theme has a simple set of options that can be changed directly from the UI S
 ### Credits
 
 - Most artwork originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
-- Some system images were sourced from [ckau-book](https://github.com/CkauNui/ckau-book/tree/master)
+- Some system images were sourced from [ckau-book](https://github.com/CkauNui/ckau-book/tree/master) and they were edited to add transparency.
 - OpenBOR sprites originally created by [DOA687](https://www.deviantart.com/doa687)
 - M.U.G.E.N. sprites originally created by [mpadillathespriter](https://www.deviantart.com/mpadillathespriter)
 - EasyRPG artwork originally by [SeraphCircle](https://twitter.com/SeraphCircle)
 - Doom artwork originally by [azakachi-rd-17](https://www.deviantart.com/azakachi-rd-17)
+- Quake artwork by [noorkabir](https://imgbin.com/png/TpRDSTtK/quake-champions-quake-iii-arena-quake-4-video-game-2017-dreamhack-winter-png)
+- LowresNX artwork by [Duimon](https://forums.libretro.com/t/duimon-hsm-mega-bezel-graphics-and-presets-feedback-and-updates/28146/1049)
+- The base folder image used to create the All Games, Favorites, Last Played and Custom Collections images was sourced from [Rick Patrick](https://www.softicons.com/designers/rick-patrick).
+- The icons on the folder images were sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
 
 ## **License**
 
