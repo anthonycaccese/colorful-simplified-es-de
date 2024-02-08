@@ -99,11 +99,13 @@ The theme has a simple set of options that can be changed directly from the UI S
 ### Credits
 
 - Most artwork originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
-- Some system images were sourced from [ckau-book](https://github.com/CkauNui/ckau-book/tree/master)
+- Some system images were sourced from [ckau-book](https://github.com/CkauNui/ckau-book/tree/master) and they were edited to add transparency.
 - OpenBOR sprites originally created by [DOA687](https://www.deviantart.com/doa687)
 - M.U.G.E.N. sprites originally created by [mpadillathespriter](https://www.deviantart.com/mpadillathespriter)
 - EasyRPG artwork originally by [SeraphCircle](https://twitter.com/SeraphCircle)
 - Doom artwork originally by [azakachi-rd-17](https://www.deviantart.com/azakachi-rd-17)
+- The base folder image used to create the All Games, Favorites, Last Played and Custom Collections images was sourced from [Rick Patrick](https://www.softicons.com/designers/rick-patrick).
+- The icons on the folder images were sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
 
 ## **License**
 
