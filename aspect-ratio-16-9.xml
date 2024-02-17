@@ -182,7 +182,7 @@ based on 1920x1080
       ">
       <view name="gamelist">
          <video name="game-art">
-            <cropSize>0.520833333333333 0.694444444444444</cropSize><!-- 1040 780 -->
+            <cropSize>0.541666666666667 0.722222222222222</cropSize><!-- 1040 780 -->
          </video>
       </view>
    </variant>
@@ -191,7 +191,7 @@ based on 1920x1080
       ">
       <view name="gamelist">
          <video name="game-art">
-            <cropSize>0.520833333333333 0.694444444444444</cropSize><!-- 1040 780 -->
+            <cropSize>0.541666666666667 0.722222222222222</cropSize><!-- 1040 780 -->
          </video>
          <image name="game-marquee">
             <pos>0.682291666666667 0.467592592592593</pos><!-- 1310 505 -->
