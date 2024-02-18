@@ -99,11 +99,11 @@ The theme has a simple set of options that can be changed directly from the UI S
 ### Credits
 
 - Most artwork originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
-- Some system images were sourced from [ckau-book](https://github.com/CkauNui/ckau-book/tree/master) and they were edited to add transparency.
+- For systems that did not exist in the Colorful set; some were sourced from the great work done by [g-spawn](https://github.com/g-spawnPL) for the [ckau-book](https://github.com/CkauNui/ckau-book/tree/master) theme and they were edited to add transparency.
 - OpenBOR sprites originally created by [DOA687](https://www.deviantart.com/doa687)
 - M.U.G.E.N. sprites originally created by [mpadillathespriter](https://www.deviantart.com/mpadillathespriter)
-- EasyRPG artwork originally by [SeraphCircle](https://twitter.com/SeraphCircle)
-- Doom artwork originally by [azakachi-rd-17](https://www.deviantart.com/azakachi-rd-17)
+- EasyRPG artwork originally created by [SeraphCircle](https://twitter.com/SeraphCircle)
+- Doom artwork originally created by [azakachi-rd-17](https://www.deviantart.com/azakachi-rd-17)
 - Quake artwork by [noorkabir](https://imgbin.com/png/TpRDSTtK/quake-champions-quake-iii-arena-quake-4-video-game-2017-dreamhack-winter-png)
 - LowresNX artwork by [Duimon](https://forums.libretro.com/t/duimon-hsm-mega-bezel-graphics-and-presets-feedback-and-updates/28146/1049)
 - The base folder image used to create the All Games, Favorites, Last Played and Custom Collections images was sourced from [Rick Patrick](https://www.softicons.com/designers/rick-patrick).
