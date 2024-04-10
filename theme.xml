@@ -190,7 +190,7 @@ license:       creative commons CC-BY-NC-SA
             <primaryColor>${gamelistPrimaryColor}</primaryColor>
             <secondaryColor>${gamelistSecondaryColor}</secondaryColor>
             <selectedColor>${gamelistSelectedColor}</selectedColor>
-            <systemNameSuffix>false</systemNameSuffix>
+            <systemNameSuffix>true</systemNameSuffix>
          </textlist>
       </view>
    </variant>
