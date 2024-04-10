@@ -215,9 +215,14 @@ based on 1920x1080
          <video name="game-art">
             <pos>0.588541666666667 0.310185185185185</pos><!-- 1130 335 -->
          </video>
-         <text name="game-description">
+         <text name="game-system-name">
             <pos>0.427083333333333 0.583333333333333</pos><!-- 820 630 -->
-            <size>0.322916666666667 0.231481481481481</size><!-- 620 250 -->
+            <size>0.322916666666667 0.0277777777777778</size><!-- 620 30 -->
+            <fontSize>${gamelistDescriptionFontSize}</fontSize>
+         </text>
+         <text name="game-description">
+            <pos>0.427083333333333 0.6296296296296296</pos><!-- 820 680 -->
+            <size>0.322916666666667 0.2037037037037037</size><!-- 620 220 -->
             <fontSize>${gamelistDescriptionFontSize}</fontSize>
             <lineSpacing>${gamelistDescriptionLineSpacing}</lineSpacing>
          </text>

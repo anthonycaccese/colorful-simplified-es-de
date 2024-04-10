@@ -231,9 +231,14 @@ based on 1440x1080
             <size>0.422222222222222 0.055555555555556</size><!-- 608 60 -->
             <visible>true</visible>
          </rating>
+         <text name="game-system-name">
+            <pos>0.5305555555555556 0.6018518518518519</pos><!-- 764 656 -->
+            <size>0,4222222222222222 0.0277777777777778</size><!-- 608 30 -->
+            <fontSize>${gamelistDescriptionFontSize}</fontSize>
+         </text>
          <text name="game-description">
-            <pos>0.529166666666667 0.62962962962963</pos><!-- 762 680 -->
-            <size>0.422222222222222 0.225925925925926</size><!-- 608 244 -->
+            <pos>0.529166666666667 0.6666666666666667</pos><!-- 762 720 -->
+            <size>0.422222222222222 0.1981481481481481</size><!-- 608 214 -->
             <fontSize>${gamelistDescriptionFontSize}</fontSize>
             <lineSpacing>${gamelistDescriptionLineSpacing}</lineSpacing>
             <visible>true</visible>

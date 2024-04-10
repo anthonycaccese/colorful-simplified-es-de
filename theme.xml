@@ -310,6 +310,12 @@ license:       creative commons CC-BY-NC-SA
             <iterationCount>1</iterationCount>
             <onIterationsDone>image</onIterationsDone>
          </video>
+         <text name="game-system-name">
+            <fontPath>${fontBold}</fontPath>
+            <color>${gameDescription}</color>
+            <metadata>sourceSystemFullname</metadata>
+            <letterCase>capitalize</letterCase>
+         </text>
          <text name="game-description">
             <fontPath>${fontRegular}</fontPath>
             <color>${gameDescription}</color>
