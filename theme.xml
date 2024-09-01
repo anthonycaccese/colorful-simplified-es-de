@@ -120,6 +120,7 @@ license:       creative commons CC-BY-NC-SA
          <fontPath>${fontBold}</fontPath>
          <letterCase>uppercase</letterCase>
          <systemdata>gamecount</systemdata>
+         <letterCase>capitalize</letterCase>
          <color>${systemGameCountColor}</color>
          <zIndex>5</zIndex>
       </text>
