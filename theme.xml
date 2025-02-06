@@ -140,6 +140,7 @@ license:       creative commons CC-BY-NC-SA
          <origin>0.5 0.5</origin>
          <imageType>none</imageType>
          <delay>2</delay>
+         <pillarboxes>false</pillarboxes>
          <path>./_inc/systems/videos/${system.theme}.mp4</path>
          <iterationCount>1</iterationCount>
          <onIterationsDone>nothing</onIterationsDone>
