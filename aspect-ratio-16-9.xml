@@ -62,10 +62,6 @@ based on 1920x1080
          <pos>0.6875 0.459259259259259</pos><!-- 1320 496 -->
          <size>0.65 1</size>
       </carousel>
-      <video name="system-video">
-         <pos>0.6875 0.459259259259259</pos><!-- 1320 496 -->
-         <size>1 1</size>
-      </video>
    </view>
    <fontSize name="medium">
       <variables>

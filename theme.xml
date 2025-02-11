@@ -136,17 +136,6 @@ license:       creative commons CC-BY-NC-SA
          <color>00000000</color>
          <zIndex>3</zIndex>
       </carousel>
-      <video name="system-video">
-         <origin>0.5 0.5</origin>
-         <imageType>none</imageType>
-         <delay>2</delay>
-         <pillarboxes>false</pillarboxes>
-         <path>./_inc/systems/videos/${system.theme}.mp4</path>
-         <iterationCount>1</iterationCount>
-         <onIterationsDone>nothing</onIterationsDone>
-         <interpolation>nearest</interpolation>
-         <zIndex>4</zIndex>
-      </video>
    </view>
 
    <!--
@@ -553,9 +542,12 @@ license:       creative commons CC-BY-NC-SA
 
    <!--
    ///
-   Addon: System View Video
+   Add-ons
    ///
    -->
-   <!-- <include>~/ES-DE/theme-addons/colorful-simplified/system-view-video.xml</include> -->
+   <!-- Start: 720 System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_720p-system-video)
+   <include>./theme-addons/colorful-simplified-es-de-addon_720p-system-video/addon.xml</include> -->
+   <!-- Start: 1080p System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_1080p-system-video)
+   <include>./theme-addons/colorful-simplified-es-de-addon_1080p-system-video/addon.xml</include> -->
 
 </theme>
