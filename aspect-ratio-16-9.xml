@@ -79,7 +79,7 @@ based on 1920x1080
       <variables>
          <systemSystemNameFontSize>0.055555555555556</systemSystemNameFontSize><!-- 60 -->
          <systemSystemDescriptionFontSize>0.03888889</systemSystemDescriptionFontSize><!-- 42 -->
-         <systemSystemDescriptionLineSpacing>1.30952381</systemSystemDescriptionLineSpacing><!-- 220/42/4 -->
+         <systemSystemDescriptionLineSpacing>1.3</systemSystemDescriptionLineSpacing>
          <systemGameCountFontSize>0.03333333</systemGameCountFontSize><!-- 36 -->
       </variables>
    </fontSize>
@@ -87,7 +87,7 @@ based on 1920x1080
       <variables>
          <systemSystemNameFontSize>0.062962962962963</systemSystemNameFontSize><!-- 68 -->
          <systemSystemDescriptionFontSize>0.04259259</systemSystemDescriptionFontSize><!-- 46 -->
-         <systemSystemDescriptionLineSpacing>1.17</systemSystemDescriptionLineSpacing><!-- 220/46/3 -->
+         <systemSystemDescriptionLineSpacing>1.13</systemSystemDescriptionLineSpacing>
          <systemGameCountFontSize>0.03333333</systemGameCountFontSize><!-- 36 -->
       </variables>
    </fontSize>
