@@ -36,13 +36,6 @@ based on 1440x1080
    ///
    -->
    <view name="system">
-      <text name="
-         system-label,
-         system-description,
-         system-game-count
-         ">
-         <visible>false</visible>
-      </text>
       <text name="system-name">
          <origin>0.5 0</origin>
          <pos>0.5 0.712962962962963</pos><!-- 50% 770 -->

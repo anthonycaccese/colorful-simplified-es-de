@@ -11,18 +11,18 @@
       </text>
    </view>
    <variant name="
-      gamelist-metadata-off-boxart,
-      gamelist-metadata-off-miximage,
-      gamelist-metadata-off-screenshot,
-      gamelist-metadata-off-screenshot-marquee,
-      gamelist-metadata-off-titlescreen,
-      gamelist-metadata-off-physicalmedia,
-      gamelist-metadata-on-miximage,
-      gamelist-metadata-on-screenshot,
-      gamelist-metadata-on-boxart,
-      gamelist-metadata-on-titlescreen,
-      gamelist-metadata-on-screenshot-marquee,
-      gamelist-basic
+      gamelist-list-cover,
+      gamelist-list-miximage,
+      gamelist-list-screenshot,
+      gamelist-list-screenshot-marquee,
+      gamelist-list-titlescreen,
+      gamelist-list-physicalmedia,
+      gamelist-list-metadata-cover,
+      gamelist-list-metadata-miximage,
+      gamelist-list-metadata-screenshot,
+      gamelist-list-metadata-screenshot-marquee,
+      gamelist-list-metadata-titlescreen,
+      gamelist-list-metadata-physicalmedia,
       ">
       <aspectRatio name="16:9">
          <view name="gamelist">
@@ -33,7 +33,7 @@
       </aspectRatio>
    </variant>
    <variant name="
-      gamelist-carousel
+      gamelist-carousel-cover
       ">
       <aspectRatio name="16:9">
          <view name="gamelist">

@@ -2,31 +2,37 @@
    
    <themeName>Colorful (Simplified)</themeName>
 
+   <!--
+   ///
+   Aspect Ratios
+   ///
+   -->
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
    <aspectRatio>4:3</aspectRatio>
+   <aspectRatio>1:1</aspectRatio>
 
+   <!--
+   ///
+   Font Size
+   ///
+   -->
    <fontSize>medium</fontSize>
    <fontSize>large</fontSize>
 
-   <transitions name="transitions">
-      <label>transitions</label>
-      <selectable>false</selectable>
-      <systemToSystem>instant</systemToSystem>
-      <systemToGamelist>instant</systemToGamelist>
-      <gamelistToGamelist>slide</gamelistToGamelist>
-      <gamelistToSystem>instant</gamelistToSystem>
-      <startupToSystem>fade</startupToSystem>
-      <startupToGamelist>fade</startupToGamelist>
-   </transitions>
-   <suppressTransitionProfiles>
-      <entry>builtin-instant</entry>
-      <entry>builtin-slide</entry>
-      <entry>builtin-fade</entry>
-   </suppressTransitionProfiles>
-
+   <!--
+   ///
+   Color Schemes
+   ///
+   -->
    <colorScheme name="Colorful">
       <label>Colorful</label>
+   </colorScheme>
+   <colorScheme name="Colorful-Light">
+      <label>Colorful (Light)</label>
+   </colorScheme>
+   <colorScheme name="Colorful-Dark">
+      <label>Colorful (Dark)</label>
    </colorScheme>
    <colorScheme name="Light">
       <label>Light</label>
@@ -44,128 +50,86 @@
       <label>OLED</label>
    </colorScheme>
 
-   <!-- List: Metadata Off -->
-   <variant name="gamelist-metadata-off-boxart">
+   <!--
+   ///
+   Transitions
+   ///
+   -->
+   <transitions name="transitions">
+      <label>transitions</label>
+      <selectable>false</selectable>
+      <systemToSystem>instant</systemToSystem>
+      <systemToGamelist>instant</systemToGamelist>
+      <gamelistToGamelist>slide</gamelistToGamelist>
+      <gamelistToSystem>instant</gamelistToSystem>
+      <startupToSystem>fade</startupToSystem>
+      <startupToGamelist>fade</startupToGamelist>
+   </transitions>
+   <suppressTransitionProfiles>
+      <entry>builtin-instant</entry>
+      <entry>builtin-slide</entry>
+      <entry>builtin-fade</entry>
+   </suppressTransitionProfiles>
+
+   <!--
+   ///
+   Variants
+   ///
+   -->
+   <!-- Gamelist List -->
+   <variant name="gamelist-list-cover">
       <label>List: Boxart</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>cover</mediaType>
-         <useVariant>gamelist-basic</useVariant>
-      </override>
    </variant>
-   <variant name="gamelist-metadata-off-miximage">
+   <variant name="gamelist-list-miximage">
       <label>List: Miximage</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>miximage</mediaType>
-         <useVariant>gamelist-basic</useVariant>
-      </override>
    </variant>
-   <variant name="gamelist-metadata-off-screenshot">
+   <variant name="gamelist-list-screenshot">
       <label>List: Screenshot</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>screenshot</mediaType>
-         <useVariant>gamelist-basic</useVariant>
-      </override>
    </variant>
-   <variant name="gamelist-metadata-off-screenshot-marquee">
+   <variant name="gamelist-list-screenshot-marquee">
       <label>List: Screenshot + Marquee</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>screenshot</mediaType>
-         <useVariant>gamelist-basic</useVariant>
-      </override>
    </variant>
-   <variant name="gamelist-metadata-off-titlescreen">
+   <variant name="gamelist-list-titlescreen">
       <label>List: Title Screen</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>titlescreen</mediaType>
-         <useVariant>gamelist-basic</useVariant>
-      </override>
    </variant>
-   <variant name="gamelist-metadata-off-physicalmedia">
+   <variant name="gamelist-list-physicalmedia">
       <label>List: Physical Media</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>physicalmedia</mediaType>
-         <useVariant>gamelist-basic</useVariant>
-      </override>
    </variant>
-
-   <!-- List: Metadata On -->
-   <variant name="gamelist-metadata-on-boxart">
+   <!-- Gamelist List w/ Metadata -->
+   <variant name="gamelist-list-metadata-cover">
       <label>List: Metadata &amp; Boxart</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>cover</mediaType>
-         <useVariant>gamelist-basic</useVariant>
-      </override>
    </variant>
-   <variant name="gamelist-metadata-on-miximage">
+   <variant name="gamelist-list-metadata-miximage">
       <label>List: Metadata &amp; Miximage</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>miximage</mediaType>
-         <useVariant>gamelist-basic</useVariant>
-      </override>
    </variant>
-   <variant name="gamelist-metadata-on-screenshot">
+   <variant name="gamelist-list-metadata-screenshot">
       <label>List: Metadata &amp; Screenshot</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>screenshot</mediaType>
-         <useVariant>gamelist-basic</useVariant>
-      </override>
    </variant>
-   <variant name="gamelist-metadata-on-screenshot-marquee">
+   <variant name="gamelist-list-metadata-screenshot-marquee">
       <label>List: Metadata &amp; Screenshot + Marquee</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>screenshot</mediaType>
-         <useVariant>gamelist-basic</useVariant>
-      </override>
    </variant>
-   <variant name="gamelist-metadata-on-titlescreen">
+   <variant name="gamelist-list-metadata-titlescreen">
       <label>List: Metadata &amp; Title Screen</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>titlescreen</mediaType>
-         <useVariant>gamelist-basic</useVariant>
-      </override>
    </variant>
-   <variant name="gamelist-metadata-on-physicalmedia">
+   <variant name="gamelist-list-metadata-physicalmedia">
       <label>List: Metadata &amp; Physical Media</label>
       <selectable>true</selectable>
-      <override>
-         <trigger>noMedia</trigger>
-         <mediaType>physicalmedia</mediaType>
-         <useVariant>gamelist-basic</useVariant>
-      </override>
    </variant>
-
-   <!-- Carousel -->
-   <variant name="gamelist-carousel">
+   <!-- Gamelist Carousel -->
+   <variant name="gamelist-carousel-cover">
       <label>Carousel: Boxart</label>
       <selectable>true</selectable>
-   </variant>
-
-   <!-- Basic -->
-   <variant name="gamelist-basic">
-      <label>Basic</label>
-      <selectable>false</selectable>
    </variant>
 
 </themeCapabilities>

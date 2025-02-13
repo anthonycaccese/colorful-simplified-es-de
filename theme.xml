@@ -1,8 +1,8 @@
 <!--
-theme name:    Colorful (Simplified) (ES-DE)
+theme name:    Colorful (Simplified)
 artwork by:    viking (https://forums.launchbox-app.com/profile/70421-viking/)
-ported from:   https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme/
-ported by:     Anthony Caccese
+inspired by:   https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme/
+made by:       Anthony Caccese
 license:       creative commons CC-BY-NC-SA
 -->
 
@@ -45,40 +45,36 @@ license:       creative commons CC-BY-NC-SA
          <size>1 1</size>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>${systemBackgroundColor}</color>
+         <color>${backgroundColor}</color>
          <zIndex>0</zIndex>
       </image>
-      <helpsystem name="help">
-         <origin>0.5 0.5</origin>
+      <helpsystem name="help-system-view,help-gamelist-view,help-menu-view">
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
          <fontPath>${fontHelpSystem}</fontPath>
-         <customButtonIcon button="button_a_XBOX">./_inc/images/help-button-south.svg</customButtonIcon>
-         <customButtonIcon button="button_a_PS">./_inc/images/help-button-south.svg</customButtonIcon>
-         <customButtonIcon button="button_a_switch">./_inc/images/help-button-east.svg</customButtonIcon>
-         <customButtonIcon button="button_a_SNES">./_inc/images/help-button-south.svg</customButtonIcon>
-         <customButtonIcon button="button_b_XBOX">./_inc/images/help-button-east.svg</customButtonIcon>
-         <customButtonIcon button="button_b_PS">./_inc/images/help-button-east.svg</customButtonIcon>
-         <customButtonIcon button="button_b_switch">./_inc/images/help-button-south.svg</customButtonIcon>
-         <customButtonIcon button="button_b_SNES">./_inc/images/help-button-east.svg</customButtonIcon>
-         <customButtonIcon button="button_x_XBOX">./_inc/images/help-button-west.svg</customButtonIcon>
-         <customButtonIcon button="button_x_PS">./_inc/images/help-button-west.svg</customButtonIcon>
-         <customButtonIcon button="button_x_switch">./_inc/images/help-button-north.svg</customButtonIcon>
-         <customButtonIcon button="button_x_SNES">./_inc/images/help-button-west.svg</customButtonIcon>
-         <customButtonIcon button="button_y_XBOX">./_inc/images/help-button-north.svg</customButtonIcon>
-         <customButtonIcon button="button_y_PS">./_inc/images/help-button-north.svg</customButtonIcon>
-         <customButtonIcon button="button_y_switch">./_inc/images/help-button-west.svg</customButtonIcon>
-         <customButtonIcon button="button_y_SNES">./_inc/images/help-button-north.svg</customButtonIcon>
-         <customButtonIcon button="thumbstick_click">./_inc/images/help-left-stick-click.svg</customButtonIcon>
+         <!--<customButtonIcon button="button_a_XBOX">./_inc/images/help-button-a.svg</customButtonIcon>
+         <customButtonIcon button="button_b_XBOX">./_inc/images/help-button-b.svg</customButtonIcon>
+         <customButtonIcon button="button_x_XBOX">./_inc/images/help-button-x.svg</customButtonIcon>
+         <customButtonIcon button="button_y_XBOX">./_inc/images/help-button-y.svg</customButtonIcon>
+         <customButtonIcon button="button_a_PS">./_inc/images/help-button-a.svg</customButtonIcon>
+         <customButtonIcon button="button_b_PS">./_inc/images/help-button-b.svg</customButtonIcon>
+         <customButtonIcon button="button_x_PS">./_inc/images/help-button-x.svg</customButtonIcon>
+         <customButtonIcon button="button_y_PS">./_inc/images/help-button-y.svg</customButtonIcon>
+         <customButtonIcon button="button_a_SNES">./_inc/images/help-button-a.svg</customButtonIcon>
+         <customButtonIcon button="button_b_SNES">./_inc/images/help-button-b.svg</customButtonIcon>
+         <customButtonIcon button="button_x_SNES">./_inc/images/help-button-x.svg</customButtonIcon>
+         <customButtonIcon button="button_y_SNES">./_inc/images/help-button-y.svg</customButtonIcon>
+         <customButtonIcon button="button_a_switch">./_inc/images/help-button-a.svg</customButtonIcon>
+         <customButtonIcon button="button_b_switch">./_inc/images/help-button-b.svg</customButtonIcon>
+         <customButtonIcon button="button_x_switch">./_inc/images/help-button-x.svg</customButtonIcon>
+         <customButtonIcon button="button_y_switch">./_inc/images/help-button-y.svg</customButtonIcon>-->
       </helpsystem>
-      <image name="helpBackground">
-         <origin>0 1</origin>
-         <pos>0 1</pos>
-         <path>${spacerImage}</path>
-         <tile>true</tile>
-         <color>${helpBackgroundColor}</color>
-         <zIndex>50</zIndex>
-      </image>
+      <helpsystem name="help-menu-view">
+         <scope>menu</scope>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.95</pos>
+         <fontPath>default</fontPath>
+      </helpsystem>
       <text name="system-name,custom-collection-name">
          <lineSpacing>1</lineSpacing>
          <fontPath>${fontBold}</fontPath>
@@ -97,11 +93,20 @@ license:       creative commons CC-BY-NC-SA
    ///
    -->
    <view name="system">
+      <image name="system-metadata-background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>${systemMetadataBackgroundColor}</color>
+         <zIndex>4</zIndex>
+      </image>
       <text name="system-label">
          <lineSpacing>1</lineSpacing>
          <fontPath>${fontSemiBold}</fontPath>
          <color>${systemLabelColor}</color>
          <zIndex>5</zIndex>
+         <visible>false</visible>
       </text>
       <text name="system-name">
          <zIndex>5</zIndex>
@@ -112,18 +117,27 @@ license:       creative commons CC-BY-NC-SA
          <color>${systemDescriptionColor}</color>
          <container>true</container>
          <verticalAlignment>bottom</verticalAlignment>
-         <zIndex>5</zIndex>
          <containerVerticalSnap>true</containerVerticalSnap>
          <containerScrollSpeed>0.6</containerScrollSpeed>
+         <zIndex>5</zIndex>
+         <visible>false</visible>
       </text>
       <text name="system-game-count">
-         <fontPath>${fontBold}</fontPath>
+         <origin>0 0.5</origin>
+         <fontPath>${fontLight}</fontPath>
          <letterCase>uppercase</letterCase>
          <systemdata>gamecount</systemdata>
          <letterCase>capitalize</letterCase>
          <color>${systemGameCountColor}</color>
          <zIndex>5</zIndex>
+         <visible>false</visible>
       </text>
+      <helpsystem name="help-system-view">
+         <scope>view</scope>
+      </helpsystem>
+      <helpsystem name="help-gamelist-view">
+         <scope>none</scope>
+      </helpsystem>
       <carousel name="system-carousel">
          <origin>0.5 0.5</origin>
          <type>horizontal</type>
@@ -134,7 +148,7 @@ license:       creative commons CC-BY-NC-SA
          <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
          <fastScrolling>true</fastScrolling>
          <color>00000000</color>
-         <zIndex>3</zIndex>
+         <zIndex>1</zIndex>
       </carousel>
    </view>
 
@@ -147,19 +161,6 @@ license:       creative commons CC-BY-NC-SA
       <text name="system-name,custom-collection-name">
          <!-- Properties handled in aspect ratio files -->
       </text>
-      <badges name="badges">
-         <origin>1 0</origin>
-         <lines>1</lines>
-         <itemsPerLine>5</itemsPerLine>
-         <slots>favorite,completed,collection,altemulator,folder</slots>
-         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
-         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
-         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
-         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
-         <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
-         <controllerSize>0.8</controllerSize>
-         <folderLinkSize>0.8</folderLinkSize>
-      </badges>
    </view>
 
    <!--
@@ -168,19 +169,18 @@ license:       creative commons CC-BY-NC-SA
    ///
    -->
    <variant name="
-      gamelist-metadata-off-boxart,
-      gamelist-metadata-off-miximage,
-      gamelist-metadata-off-screenshot,
-      gamelist-metadata-off-screenshot-marquee,
-      gamelist-metadata-off-titlescreen,
-      gamelist-metadata-off-physicalmedia,
-      gamelist-metadata-on-boxart,
-      gamelist-metadata-on-miximage,
-      gamelist-metadata-on-screenshot,
-      gamelist-metadata-on-screenshot-marquee,
-      gamelist-metadata-on-titlescreen,
-      gamelist-metadata-on-physicalmedia,
-      gamelist-basic
+      gamelist-list-cover,
+      gamelist-list-miximage,
+      gamelist-list-screenshot,
+      gamelist-list-screenshot-marquee,
+      gamelist-list-titlescreen,
+      gamelist-list-physicalmedia,
+      gamelist-list-metadata-cover,
+      gamelist-list-metadata-miximage,
+      gamelist-list-metadata-screenshot,
+      gamelist-list-metadata-screenshot-marquee,
+      gamelist-list-metadata-titlescreen,
+      gamelist-list-metadata-physicalmedia,
       ">
       <view name="gamelist">
          <textlist name="game-list">
@@ -193,32 +193,22 @@ license:       creative commons CC-BY-NC-SA
             <selectedColor>${gamelistSelectedColor}</selectedColor>
             <systemNameSuffix>true</systemNameSuffix>
          </textlist>
-      </view>
-   </variant>
-
-   <variant name="gamelist-basic">
-      <view name="gamelist">
-         <image name="system-art">
-            <origin>0.5 0.5</origin>
-            <path>./_inc/systems/images/${system.theme}.webp</path>
-            <default>./_inc/systems/images/_default.webp</default>
-         </image>
-         <badges name="badges">
-            <origin>1 0</origin>
-            <itemMargin>-1 0</itemMargin>
-            <horizontalAlignment>right</horizontalAlignment>
-            <direction>column</direction>
-         </badges>
+         <helpsystem name="help-system-view">
+            <scope>none</scope>
+         </helpsystem>
+         <helpsystem name="help-gamelist-view">
+            <scope>view</scope>
+         </helpsystem>
       </view>
    </variant>
 
    <variant name="
-      gamelist-metadata-off-boxart,
-      gamelist-metadata-off-miximage,
-      gamelist-metadata-off-screenshot,
-      gamelist-metadata-off-screenshot-marquee,
-      gamelist-metadata-off-titlescreen,
-      gamelist-metadata-off-physicalmedia
+      gamelist-list-cover,
+      gamelist-list-miximage,
+      gamelist-list-screenshot,
+      gamelist-list-screenshot-marquee,
+      gamelist-list-titlescreen,
+      gamelist-list-physicalmedia,
       ">
       <view name="gamelist">
          <video name="game-art">
@@ -239,7 +229,7 @@ license:       creative commons CC-BY-NC-SA
          </badges>
       </view>
    </variant>
-   <variant name="gamelist-metadata-off-boxart">
+   <variant name="gamelist-list-cover">
       <view name="gamelist">
          <video name="game-art">
             <imageType>cover</imageType>
@@ -248,7 +238,7 @@ license:       creative commons CC-BY-NC-SA
          </video>
       </view>
    </variant>
-   <variant name="gamelist-metadata-off-miximage">
+   <variant name="gamelist-list-miximage">
       <view name="gamelist">
          <video name="game-art">
             <imageType>miximage</imageType>
@@ -256,14 +246,14 @@ license:       creative commons CC-BY-NC-SA
          </video>
       </view>
    </variant>
-   <variant name="gamelist-metadata-off-screenshot">
+   <variant name="gamelist-list-screenshot">
       <view name="gamelist">
          <video name="game-art">
             <imageType>screenshot</imageType>
          </video>
       </view>
    </variant>
-   <variant name="gamelist-metadata-off-screenshot-marquee">
+   <variant name="gamelist-list-screenshot-marquee">
       <view name="gamelist">
          <video name="game-art">
             <imageType>screenshot</imageType>
@@ -276,14 +266,14 @@ license:       creative commons CC-BY-NC-SA
          </image>
       </view>
    </variant>
-   <variant name="gamelist-metadata-off-titlescreen">
+   <variant name="gamelist-list-titlescreen">
       <view name="gamelist">
          <video name="game-art">
             <imageType>titlescreen</imageType>
          </video>
       </view>
    </variant>
-   <variant name="gamelist-metadata-off-physicalmedia">
+   <variant name="gamelist-list-physicalmedia">
       <view name="gamelist">
          <video name="game-art">
             <imageType>physicalmedia</imageType>
@@ -293,12 +283,12 @@ license:       creative commons CC-BY-NC-SA
    </variant>
 
    <variant name="
-      gamelist-metadata-on-boxart,
-      gamelist-metadata-on-miximage,
-      gamelist-metadata-on-screenshot,
-      gamelist-metadata-on-screenshot-marquee,
-      gamelist-metadata-on-titlescreen,
-      gamelist-metadata-on-physicalmedia
+      gamelist-list-metadata-cover,
+      gamelist-list-metadata-miximage,
+      gamelist-list-metadata-screenshot,
+      gamelist-list-metadata-screenshot-marquee,
+      gamelist-list-metadata-titlescreen,
+      gamelist-list-metadata-physicalmedia,
       ">
       <view name="gamelist">
          <video name="game-art">
@@ -411,7 +401,7 @@ license:       creative commons CC-BY-NC-SA
          </badges>
       </view>
    </variant>
-   <variant name="gamelist-metadata-on-boxart">
+   <variant name="gamelist-list-metadata-cover">
       <view name="gamelist">
          <video name="game-art">
             <imageType>cover</imageType>
@@ -420,7 +410,7 @@ license:       creative commons CC-BY-NC-SA
          </video>
       </view>
    </variant>
-   <variant name="gamelist-metadata-on-miximage">
+   <variant name="gamelist-list-metadata-miximage">
       <view name="gamelist">
          <video name="game-art">
             <imageType>miximage</imageType>
@@ -428,14 +418,14 @@ license:       creative commons CC-BY-NC-SA
          </video>
       </view>
    </variant>
-   <variant name="gamelist-metadata-on-screenshot">
+   <variant name="gamelist-list-metadata-screenshot">
       <view name="gamelist">
          <video name="game-art">
             <imageType>screenshot</imageType>
          </video>
       </view>
    </variant>
-   <variant name="gamelist-metadata-on-screenshot-marquee">
+   <variant name="gamelist-list-metadata-screenshot-marquee">
       <view name="gamelist">
          <video name="game-art">
             <imageType>screenshot</imageType>
@@ -448,14 +438,14 @@ license:       creative commons CC-BY-NC-SA
          </image>
       </view>
    </variant>
-   <variant name="gamelist-metadata-on-titlescreen">
+   <variant name="gamelist-list-metadata-titlescreen">
       <view name="gamelist">
          <video name="game-art">
             <imageType>titlescreen</imageType>
          </video>
       </view>
    </variant>
-   <variant name="gamelist-metadata-on-physicalmedia">
+   <variant name="gamelist-list-metadata-physicalmedia">
       <view name="gamelist">
          <video name="game-art">
             <imageType>physicalmedia</imageType>
@@ -469,7 +459,7 @@ license:       creative commons CC-BY-NC-SA
    Gamelist View - Carousel Variants
    ///
    -->
-   <variant name="gamelist-carousel">
+   <variant name="gamelist-carousel-cover">
       <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
       <view name="gamelist">
          <gamelistinfo name="gamelist-info">
@@ -504,12 +494,12 @@ license:       creative commons CC-BY-NC-SA
    <aspectRatio name="16:9">
       <include>./aspect-ratio-16-9.xml</include>
    </aspectRatio>
-   <aspectRatio name="16:10">
+   <!--<aspectRatio name="16:10">
       <include>./aspect-ratio-16-10.xml</include>
    </aspectRatio>
    <aspectRatio name="4:3">
       <include>./aspect-ratio-4-3.xml</include>
-   </aspectRatio>
+   </aspectRatio>-->
 
    <!--
    ///
@@ -547,7 +537,7 @@ license:       creative commons CC-BY-NC-SA
    -->
    <!-- Start: 720 System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_720p-system-video)
    <include>./theme-addons/colorful-simplified-es-de-addon_720p-system-video/addon.xml</include> -->
-   <!-- Start: 1080p System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_1080p-system-video) 
-   <include>./theme-addons/colorful-simplified-es-de-addon_1080p-system-video/addon.xml</include> -->
+   <!-- Start: 1080p System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_1080p-system-video) --> 
+   <include>./theme-addons/colorful-simplified-es-de-addon_1080p-system-video/addon.xml</include> 
 
 </theme>
