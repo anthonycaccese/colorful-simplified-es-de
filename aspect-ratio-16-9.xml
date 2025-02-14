@@ -116,7 +116,7 @@ based on 1920x1080
          </image>
          <text name="system-name,custom-collection-name">
             <pos>0.046875 0.08796296</pos><!-- 90 95 -->
-            <size>0.30729167 0.2</size><!-- 590 -->
+            <size>0.24479167 0.09259259</size><!-- 468 100 -->
             <fontSize>${gamelistSystemNameFontSize}</fontSize>
          </text>
          <textlist name="gamelist-textlist">
@@ -134,7 +134,7 @@ based on 1920x1080
    </variant>
    <fontSize name="medium">
       <variables>
-         <gamelistSystemNameFontSize>0.03888889</gamelistSystemNameFontSize><!-- 42 -->
+         <gamelistSystemNameFontSize>0.04074074</gamelistSystemNameFontSize><!-- 44 -->
          <gamelistFontSize>0.033333333333333</gamelistFontSize><!-- 36 -->
          <gamelistLineSpacing>1.64141414</gamelistLineSpacing><!-- 650/36/11 -->
       </variables>
