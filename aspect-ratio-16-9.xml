@@ -19,7 +19,7 @@ based on 1920x1080
       <variables>
          <helpSystemFontSize>0.033333333333333</helpSystemFontSize><!-- 36 -->
          <helpSystemViewEntries>start,a,left/right</helpSystemViewEntries>
-         <helpGamelistViewEntries>back,a,b</helpGamelistViewEntries>
+         <helpGamelistViewEntries>back,a,x</helpGamelistViewEntries>
       </variables>
    </fontSize>
    <fontSize name="large">
@@ -45,7 +45,7 @@ based on 1920x1080
          <fontSize>0.03148148</fontSize><!-- 34 -->
          <visible>true</visible>
       </text>
-      <text name="system-name,custom-collection-name">
+      <text name="system-name">
          <pos>0.046875 0.13888889</pos><!-- 90 150 -->
          <size>0.30729167 0.2</size><!-- 590 -->
          <fontSize>${systemSystemNameFontSize}</fontSize>
@@ -66,7 +66,6 @@ based on 1920x1080
          <visible>true</visible>
       </text>
       <helpsystem name="help-system-view">
-         <origin>0 0</origin>
          <pos>0.046875 0.87037037</pos><!-- 90 940 -->
          <entries>${helpSystemViewEntries}</entries>
       </helpsystem>
@@ -112,47 +111,42 @@ based on 1920x1080
       gamelist-list-metadata-physicalmedia,
       ">
       <view name="gamelist">
+         <image name="gamelist-background">
+            <size>0.40104167 1</size><!-- 770 100% -->
+         </image>
          <text name="system-name,custom-collection-name">
-            <pos>0.057291666666667 0.097222222222222</pos><!-- 110 105 -->
-            <size>0.291666666666667 0.2</size><!-- 560 -->
+            <pos>0.046875 0.08796296</pos><!-- 90 95 -->
+            <size>0.30729167 0.2</size><!-- 590 -->
             <fontSize>${gamelistSystemNameFontSize}</fontSize>
          </text>
-         <textlist name="game-list">
-            <pos>${gamelistPos}</pos>
-            <size>${gamelistSize}</size>
+         <textlist name="gamelist-textlist">
+            <pos>0.046875 0.212962962962963</pos><!-- 90 230 -->
+            <size>0.30729167 0.60185185</size><!-- 590 650 -->
             <fontSize>${gamelistFontSize}</fontSize>
             <lineSpacing>${gamelistLineSpacing}</lineSpacing>
-            <horizontalMargin>0.009</horizontalMargin>
+            <selectedBackgroundMargins>0.01145833 0.01145833</selectedBackgroundMargins><!-- 22 22 -->
          </textlist>
          <helpsystem name="help-gamelist-view">
-            <!--<origin></origin>
-            <pos></pos>-->
+            <pos>0.046875 0.87037037</pos><!-- 90 940 -->
             <entries>${helpGamelistViewEntries}</entries>
          </helpsystem>
       </view>
    </variant>
    <fontSize name="medium">
       <variables>
-         <gamelistSystemNameFontSize>0.040740740740741</gamelistSystemNameFontSize><!-- 44 -->
-         <gamelistPos>0.046875 0.212962962962963</gamelistPos><!-- 90 230 -->
-         <gamelistSize>0.3125 0.601851851851852</gamelistSize><!-- 600 650 -->
+         <gamelistSystemNameFontSize>0.03888889</gamelistSystemNameFontSize><!-- 42 -->
          <gamelistFontSize>0.033333333333333</gamelistFontSize><!-- 36 -->
-         <gamelistLineSpacing>1.5</gamelistLineSpacing>
+         <gamelistLineSpacing>1.64141414</gamelistLineSpacing><!-- 650/36/11 -->
       </variables>
    </fontSize>
    <fontSize name="large">
       <variables>
-         <gamelistSystemNameFontSize>0.048148148148148</gamelistSystemNameFontSize><!-- 52 -->
-         <gamelistPos>0.046875 0.240740740740741</gamelistPos><!-- 90 260 -->
-         <gamelistSize>0.3125 0.574074074074074</gamelistSize><!-- 600 620 -->
-         <gamelistFontSize>0.042592592592593</gamelistFontSize><!-- 46 -->
-         <gamelistLineSpacing>1.5</gamelistLineSpacing>
+         <gamelistSystemNameFontSize>0.04259259</gamelistSystemNameFontSize><!-- 46 -->
+         <gamelistFontSize>0.04074074</gamelistFontSize><!-- 44 -->
+         <gamelistLineSpacing>1.64141414</gamelistLineSpacing><!-- 650/44/9 -->
       </variables>
    </fontSize>
-
-   <!--
-   Gamelist View - List
-   -->
+   <!-- List Variants without Metadata -->
    <variant name="
       gamelist-list-cover,
       gamelist-list-miximage,
@@ -163,12 +157,9 @@ based on 1920x1080
       ">
       <view name="gamelist">
          <video name="game-art">
-            <pos>0.682291666666667 0.453703703703704</pos><!-- 1310 505 -->
+            <pos>0.70052083 0.5</pos><!-- 1345 50% -->
+            <cropSize>0.6 1</cropSize><!-- 1150 100% -->
          </video>
-         <badges name="badges">
-            <pos>0.960416666666667 0.074074074074074</pos><!-- 1844 80 -->
-            <size>0.035416666666667 0.722222222222222</size><!-- 68 780 -->
-         </badges>
       </view>
    </variant>
    <variant name="
@@ -177,18 +168,17 @@ based on 1920x1080
       ">
       <view name="gamelist">
          <video name="game-art">
-            <maxSize>0.541666666666667 0.722222222222222</maxSize><!-- 1040 780 -->
+            <imageMaxSize>0.41666667 0.74074074</imageMaxSize><!-- 800 800 -->
          </video>
       </view>
    </variant>
    <variant name="
       gamelist-list-miximage,
-      gamelist-list-screenshot,
       gamelist-list-titlescreen,
       ">
       <view name="gamelist">
          <video name="game-art">
-            <cropSize>0.541666666666667 0.722222222222222</cropSize><!-- 1040 780 -->
+            <imageMaxSize>0.46875 0.83333333</imageMaxSize><!-- 900 900 -->
          </video>
       </view>
    </variant>
@@ -196,19 +186,13 @@ based on 1920x1080
       gamelist-list-screenshot-marquee,
       ">
       <view name="gamelist">
-         <video name="game-art">
-            <cropSize>0.541666666666667 0.722222222222222</cropSize><!-- 1040 780 -->
-         </video>
          <image name="game-marquee">
-            <pos>0.682291666666667 0.467592592592593</pos><!-- 1310 505 -->
-            <maxSize>0.260416666666667 0.462962962962963</maxSize><!-- 500 500 -->
+            <pos>0.70052083 0.5</pos><!-- 1345 50% -->
+            <maxSize>0.3125 0.55555556</maxSize><!-- 600 600 -->
          </image>
       </view>
    </variant>
-
-   <!--
-   Gamelist View - List: Metadata On
-   -->
+   <!-- List Variants with Metadata -->
    <variant name="
       gamelist-list-metadata-cover,
       gamelist-list-metadata-miximage,

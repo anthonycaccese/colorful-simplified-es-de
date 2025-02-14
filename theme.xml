@@ -52,22 +52,6 @@ license:       creative commons CC-BY-NC-SA
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
          <fontPath>${fontHelpSystem}</fontPath>
-         <!--<customButtonIcon button="button_a_XBOX">./_inc/images/help-button-a.svg</customButtonIcon>
-         <customButtonIcon button="button_b_XBOX">./_inc/images/help-button-b.svg</customButtonIcon>
-         <customButtonIcon button="button_x_XBOX">./_inc/images/help-button-x.svg</customButtonIcon>
-         <customButtonIcon button="button_y_XBOX">./_inc/images/help-button-y.svg</customButtonIcon>
-         <customButtonIcon button="button_a_PS">./_inc/images/help-button-a.svg</customButtonIcon>
-         <customButtonIcon button="button_b_PS">./_inc/images/help-button-b.svg</customButtonIcon>
-         <customButtonIcon button="button_x_PS">./_inc/images/help-button-x.svg</customButtonIcon>
-         <customButtonIcon button="button_y_PS">./_inc/images/help-button-y.svg</customButtonIcon>
-         <customButtonIcon button="button_a_SNES">./_inc/images/help-button-a.svg</customButtonIcon>
-         <customButtonIcon button="button_b_SNES">./_inc/images/help-button-b.svg</customButtonIcon>
-         <customButtonIcon button="button_x_SNES">./_inc/images/help-button-x.svg</customButtonIcon>
-         <customButtonIcon button="button_y_SNES">./_inc/images/help-button-y.svg</customButtonIcon>
-         <customButtonIcon button="button_a_switch">./_inc/images/help-button-a.svg</customButtonIcon>
-         <customButtonIcon button="button_b_switch">./_inc/images/help-button-b.svg</customButtonIcon>
-         <customButtonIcon button="button_x_switch">./_inc/images/help-button-x.svg</customButtonIcon>
-         <customButtonIcon button="button_y_switch">./_inc/images/help-button-y.svg</customButtonIcon>-->
       </helpsystem>
       <helpsystem name="help-menu-view">
          <scope>menu</scope>
@@ -183,15 +167,24 @@ license:       creative commons CC-BY-NC-SA
       gamelist-list-metadata-physicalmedia,
       ">
       <view name="gamelist">
-         <textlist name="game-list">
+         <image name="gamelist-background">
             <origin>0 0</origin>
-            <fontPath>${fontSemiBold}</fontPath>
-            <selectorColor>${gamelistSelectorColor}</selectorColor>
-            <!--<selectedBackgroundColor>${gamelistSelectorColor}</selectedBackgroundColor>-->
+            <pos>0 0</pos>
+            <path>${spacerImage}</path>
+            <tile>true</tile>
+            <color>${systemMetadataBackgroundColor}</color>
+            <zIndex>4</zIndex>
+         </image>
+         <textlist name="gamelist-textlist">
+            <origin>0 0</origin>
+            <fontPath>${fontRegular}</fontPath>
             <primaryColor>${gamelistPrimaryColor}</primaryColor>
             <secondaryColor>${gamelistSecondaryColor}</secondaryColor>
             <selectedColor>${gamelistSelectedColor}</selectedColor>
-            <systemNameSuffix>true</systemNameSuffix>
+            <selectedBackgroundColor>${gamelistSelectorColor}</selectedBackgroundColor>
+            <selectorColor>00000000</selectorColor>
+            <systemNameSuffix>false</systemNameSuffix>
+            <selectedBackgroundCornerRadius>0.005</selectedBackgroundCornerRadius>
          </textlist>
          <helpsystem name="help-system-view">
             <scope>none</scope>
@@ -213,27 +206,18 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <video name="game-art">
             <origin>0.5 0.5</origin>
-            <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
             <pillarboxes>false</pillarboxes>
-            <imageCornerRadius>.01</imageCornerRadius>
-            <videoCornerRadius>.01</videoCornerRadius>
-            <delay>2</delay>
+            <delay>3</delay>
             <iterationCount>1</iterationCount>
             <onIterationsDone>image</onIterationsDone>
          </video>
-         <badges name="badges">
-            <origin>1 0</origin>
-            <itemMargin>-1 0</itemMargin>
-            <horizontalAlignment>right</horizontalAlignment>
-            <direction>column</direction>
-         </badges>
       </view>
    </variant>
    <variant name="gamelist-list-cover">
       <view name="gamelist">
          <video name="game-art">
             <imageType>cover</imageType>
-            <imageCornerRadius>0.0025</imageCornerRadius>
+            <imageCornerRadius>0.005</imageCornerRadius>
             <interpolation>linear</interpolation>
          </video>
       </view>
@@ -242,7 +226,6 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <video name="game-art">
             <imageType>miximage</imageType>
-            <interpolation>linear</interpolation>
          </video>
       </view>
    </variant>
@@ -262,7 +245,6 @@ license:       creative commons CC-BY-NC-SA
             <imageType>marquee</imageType>
             <origin>0.5 0.5</origin>
             <zIndex>200</zIndex>
-            <interpolation>linear</interpolation>
          </image>
       </view>
    </variant>
@@ -270,6 +252,8 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <video name="game-art">
             <imageType>titlescreen</imageType>
+            <imageCornerRadius>0.005</imageCornerRadius>
+            <interpolation>linear</interpolation>
          </video>
       </view>
    </variant>
@@ -277,7 +261,6 @@ license:       creative commons CC-BY-NC-SA
       <view name="gamelist">
          <video name="game-art">
             <imageType>physicalmedia</imageType>
-            <interpolation>linear</interpolation>
          </video>
       </view>
    </variant>
@@ -537,7 +520,7 @@ license:       creative commons CC-BY-NC-SA
    -->
    <!-- Start: 720 System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_720p-system-video)
    <include>./theme-addons/colorful-simplified-es-de-addon_720p-system-video/addon.xml</include> -->
-   <!-- Start: 1080p System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_1080p-system-video) --> 
+   <!-- Start: 1080p System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_1080p-system-video)  -->
    <include>./theme-addons/colorful-simplified-es-de-addon_1080p-system-video/addon.xml</include> 
 
 </theme>

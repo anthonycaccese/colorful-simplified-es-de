@@ -60,7 +60,7 @@
       <selectable>false</selectable>
       <systemToSystem>instant</systemToSystem>
       <systemToGamelist>instant</systemToGamelist>
-      <gamelistToGamelist>slide</gamelistToGamelist>
+      <gamelistToGamelist>instant</gamelistToGamelist>
       <gamelistToSystem>instant</gamelistToSystem>
       <startupToSystem>fade</startupToSystem>
       <startupToGamelist>fade</startupToGamelist>
