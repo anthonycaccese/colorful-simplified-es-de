@@ -376,12 +376,6 @@ license:       creative commons CC-BY-NC-SA
             <metadataElement>true</metadataElement>
             <visible>false</visible>
          </image>
-         <badges name="badges">
-            <origin>1 0</origin>
-            <itemMargin>-1 0</itemMargin>
-            <horizontalAlignment>right</horizontalAlignment>
-            <direction>column</direction>
-         </badges>
       </view>
    </variant>
    <variant name="gamelist-list-metadata-cover">
@@ -463,9 +457,6 @@ license:       creative commons CC-BY-NC-SA
             <textBackgroundColor>333333</textBackgroundColor>
             <fontPath>${fontBold}</fontPath>
          </carousel>
-         <badges name="badges">
-            <visible>false</visible>
-         </badges>
       </view>
    </variant>
 

@@ -281,10 +281,6 @@ based on 1920x1080
             <size>0.143229166666667 0.717592592592593</size><!-- 275 775 -->
             <visible>true</visible>
          </image>
-         <badges name="badges">
-            <pos>0.960416666666667 0.064814814814815</pos><!-- 1844 80 -->
-            <size>0.041666666666667 0.722222222222222</size><!-- 80 780 -->
-         </badges>
       </view>
       <fontSize name="medium">
          <variables>
