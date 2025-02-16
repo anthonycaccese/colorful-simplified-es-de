@@ -8,9 +8,9 @@
    ///
    -->
    <aspectRatio>16:9</aspectRatio>
-   <aspectRatio>16:10</aspectRatio>
+   <!--<aspectRatio>16:10</aspectRatio>
    <aspectRatio>4:3</aspectRatio>
-   <aspectRatio>1:1</aspectRatio>
+   <aspectRatio>1:1</aspectRatio>-->
 
    <!--
    ///
@@ -81,10 +81,6 @@
       <label>List: Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="gamelist-list-miximage">
-      <label>List: Miximage</label>
-      <selectable>true</selectable>
-   </variant>
    <variant name="gamelist-list-screenshot">
       <label>List: Screenshot</label>
       <selectable>true</selectable>
@@ -101,29 +97,21 @@
       <label>List: Physical Media</label>
       <selectable>true</selectable>
    </variant>
+   <variant name="gamelist-list-miximage">
+      <label>List: Miximage</label>
+      <selectable>true</selectable>
+   </variant>
    <!-- Gamelist List w/ Metadata -->
-   <variant name="gamelist-list-metadata-cover">
-      <label>List: Metadata &amp; Boxart</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="gamelist-list-metadata-miximage">
-      <label>List: Metadata &amp; Miximage</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="gamelist-list-metadata-screenshot">
-      <label>List: Metadata &amp; Screenshot</label>
+   <variant name="gamelist-list-metadata-screenshot-cover">
+      <label>List: Metadata &amp; Screenshot + Boxart</label>
       <selectable>true</selectable>
    </variant>
    <variant name="gamelist-list-metadata-screenshot-marquee">
       <label>List: Metadata &amp; Screenshot + Marquee</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="gamelist-list-metadata-titlescreen">
-      <label>List: Metadata &amp; Title Screen</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="gamelist-list-metadata-physicalmedia">
-      <label>List: Metadata &amp; Physical Media</label>
+   <variant name="gamelist-list-metadata-screenshot-physicalmedia">
+      <label>List: Metadata &amp; Screenshot + Physical Media</label>
       <selectable>true</selectable>
    </variant>
    <!-- Gamelist Carousel -->

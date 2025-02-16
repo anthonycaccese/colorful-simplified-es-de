@@ -138,33 +138,19 @@ license:       creative commons CC-BY-NC-SA
 
    <!--
    ///
-   Gamelist View - Global
-   ///
-   -->
-   <view name="gamelist">
-      <text name="system-name,custom-collection-name">
-         <!-- Properties handled in aspect ratio files -->
-      </text>
-   </view>
-
-   <!--
-   ///
    Gamelist View - List Variants
    ///
    -->
    <variant name="
       gamelist-list-cover,
-      gamelist-list-miximage,
       gamelist-list-screenshot,
       gamelist-list-screenshot-marquee,
       gamelist-list-titlescreen,
       gamelist-list-physicalmedia,
-      gamelist-list-metadata-cover,
-      gamelist-list-metadata-miximage,
-      gamelist-list-metadata-screenshot,
+      gamelist-list-miximage,
+      gamelist-list-metadata-screenshot-cover,
       gamelist-list-metadata-screenshot-marquee,
-      gamelist-list-metadata-titlescreen,
-      gamelist-list-metadata-physicalmedia,
+      gamelist-list-metadata-screenshot-physicalmedia,
       ">
       <view name="gamelist">
          <image name="gamelist-background">
@@ -172,7 +158,7 @@ license:       creative commons CC-BY-NC-SA
             <pos>0 0</pos>
             <path>${spacerImage}</path>
             <tile>true</tile>
-            <color>${systemMetadataBackgroundColor}</color>
+            <color>${gamelistTextlistBackgroundColor}</color>
             <zIndex>4</zIndex>
          </image>
          <textlist name="gamelist-textlist">
@@ -192,98 +178,107 @@ license:       creative commons CC-BY-NC-SA
          <helpsystem name="help-gamelist-view">
             <scope>view</scope>
          </helpsystem>
-      </view>
-   </variant>
-
-   <variant name="
-      gamelist-list-cover,
-      gamelist-list-miximage,
-      gamelist-list-screenshot,
-      gamelist-list-screenshot-marquee,
-      gamelist-list-titlescreen,
-      gamelist-list-physicalmedia,
-      ">
-      <view name="gamelist">
-         <video name="game-art">
+         <video name="game-video">
             <origin>0.5 0.5</origin>
             <pillarboxes>false</pillarboxes>
             <delay>3</delay>
             <iterationCount>1</iterationCount>
             <onIterationsDone>image</onIterationsDone>
+            <zIndex>3</zIndex>
          </video>
       </view>
    </variant>
-   <variant name="gamelist-list-cover">
+   <!-- Gamelist View - List Variants without Metadata -->
+   <variant name="
+      gamelist-list-cover,
+      ">
       <view name="gamelist">
-         <video name="game-art">
+         <video name="game-video">
             <imageType>cover</imageType>
             <imageCornerRadius>0.005</imageCornerRadius>
             <interpolation>linear</interpolation>
          </video>
       </view>
    </variant>
-   <variant name="gamelist-list-miximage">
+   <variant name="
+      gamelist-list-screenshot,
+      ">
       <view name="gamelist">
-         <video name="game-art">
-            <imageType>miximage</imageType>
-         </video>
-      </view>
-   </variant>
-   <variant name="gamelist-list-screenshot">
-      <view name="gamelist">
-         <video name="game-art">
+         <video name="game-video">
             <imageType>screenshot</imageType>
          </video>
       </view>
    </variant>
-   <variant name="gamelist-list-screenshot-marquee">
+   <variant name="
+      gamelist-list-screenshot-marquee,
+      ">
       <view name="gamelist">
-         <video name="game-art">
+         <video name="game-video">
             <imageType>screenshot</imageType>
          </video>
-         <image name="game-marquee">
+         <image name="game-art">
             <imageType>marquee</imageType>
             <origin>0.5 0.5</origin>
             <zIndex>200</zIndex>
          </image>
       </view>
    </variant>
-   <variant name="gamelist-list-titlescreen">
+   <variant name="
+      gamelist-list-titlescreen,
+      ">
       <view name="gamelist">
-         <video name="game-art">
+         <video name="game-video">
             <imageType>titlescreen</imageType>
             <imageCornerRadius>0.005</imageCornerRadius>
-            <interpolation>linear</interpolation>
          </video>
       </view>
    </variant>
-   <variant name="gamelist-list-physicalmedia">
+   <variant name="
+      gamelist-list-physicalmedia,
+      ">
       <view name="gamelist">
-         <video name="game-art">
+         <video name="game-video">
             <imageType>physicalmedia</imageType>
          </video>
       </view>
    </variant>
-
    <variant name="
-      gamelist-list-metadata-cover,
-      gamelist-list-metadata-miximage,
-      gamelist-list-metadata-screenshot,
-      gamelist-list-metadata-screenshot-marquee,
-      gamelist-list-metadata-titlescreen,
-      gamelist-list-metadata-physicalmedia,
+      gamelist-list-miximage,
       ">
       <view name="gamelist">
-         <video name="game-art">
-            <origin>0.5 0.5</origin>
-            <defaultImage>./_inc/systems/images/_default.webp</defaultImage>
-            <pillarboxes>false</pillarboxes>
-            <imageCornerRadius>.01</imageCornerRadius>
-            <videoCornerRadius>.01</videoCornerRadius>
-            <delay>2</delay>
-            <iterationCount>1</iterationCount>
-            <onIterationsDone>image</onIterationsDone>
+         <video name="game-video">
+            <imageType>miximage</imageType>
          </video>
+      </view>
+   </variant>
+   <!-- Gamelist View - List Variants with Metadata -->
+   <variant name="
+      gamelist-list-metadata-screenshot-cover,
+      gamelist-list-metadata-screenshot-marquee,
+      gamelist-list-metadata-screenshot-physicalmedia,
+      ">
+      <view name="gamelist">
+         <image name="game-video-background">
+            <origin>0.5 0.5</origin>
+            <path>${spacerImage}</path>
+            <tile>true</tile>
+            <color>000000</color>
+            <zIndex>2</zIndex>
+         </image>
+         <video name="game-video">
+            <imageType>screenshot</imageType>
+            <zIndex>3</zIndex>
+         </video>
+         <image name="game-metadata-background">
+            <path>${spacerImage}</path>
+            <tile>true</tile>
+            <color>${gamelistMetadataBackgroundColor}</color>
+            <zIndex>3</zIndex>
+         </image>
+         <image name="game-art">
+            <origin>0 1</origin>
+            <default>./_inc/images/game-art-default.webp</default>
+         </image>
          <text name="game-description">
             <fontPath>${fontRegular}</fontPath>
             <color>${gameDescription}</color>
@@ -291,6 +286,13 @@ license:       creative commons CC-BY-NC-SA
             <containerVerticalSnap>true</containerVerticalSnap>
             <containerScrollSpeed>0.6</containerScrollSpeed>
          </text>
+
+
+
+
+
+
+
          <text name="game-rating-label,game-released-label,game-players-label,game-genre-label,game-developer-label,game-publisher-label,game-last-played-label,game-times-played-label">
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>center</verticalAlignment>
@@ -371,63 +373,35 @@ license:       creative commons CC-BY-NC-SA
          <text name="game-times-played">
             <metadata>playcount</metadata>
          </text>
-         <image name="game-metadata-background">
-            <path>${gameMetadataBackground}</path>
-            <metadataElement>true</metadataElement>
-            <visible>false</visible>
-         </image>
       </view>
    </variant>
-   <variant name="gamelist-list-metadata-cover">
+   <variant name="
+      gamelist-list-metadata-screenshot-marquee,
+      ">
       <view name="gamelist">
-         <video name="game-art">
-            <imageType>cover</imageType>
-            <imageCornerRadius>0.0025</imageCornerRadius>
-            <interpolation>linear</interpolation>
-         </video>
-      </view>
-   </variant>
-   <variant name="gamelist-list-metadata-miximage">
-      <view name="gamelist">
-         <video name="game-art">
-            <imageType>miximage</imageType>
-            <interpolation>linear</interpolation>
-         </video>
-      </view>
-   </variant>
-   <variant name="gamelist-list-metadata-screenshot">
-      <view name="gamelist">
-         <video name="game-art">
-            <imageType>screenshot</imageType>
-         </video>
-      </view>
-   </variant>
-   <variant name="gamelist-list-metadata-screenshot-marquee">
-      <view name="gamelist">
-         <video name="game-art">
-            <imageType>screenshot</imageType>
-         </video>
-         <image name="game-marquee">
+         <image name="game-art">
             <imageType>marquee</imageType>
-            <origin>0.5 0.5</origin>
-            <zIndex>200</zIndex>
-            <interpolation>linear</interpolation>
          </image>
       </view>
    </variant>
-   <variant name="gamelist-list-metadata-titlescreen">
+   <variant name="
+      gamelist-list-metadata-screenshot-cover,
+      ">
       <view name="gamelist">
-         <video name="game-art">
-            <imageType>titlescreen</imageType>
-         </video>
+         <image name="game-art">
+            <interpolation>linear</interpolation>
+            <imageType>cover</imageType>
+            <cornerRadius>0.005</cornerRadius>
+         </image>
       </view>
    </variant>
-   <variant name="gamelist-list-metadata-physicalmedia">
+   <variant name="
+      gamelist-list-metadata-screenshot-physicalmedia,
+      ">
       <view name="gamelist">
-         <video name="game-art">
+         <image name="game-art">
             <imageType>physicalmedia</imageType>
-            <interpolation>linear</interpolation>
-         </video>
+         </image>
       </view>
    </variant>
 
@@ -473,6 +447,9 @@ license:       creative commons CC-BY-NC-SA
    </aspectRatio>
    <aspectRatio name="4:3">
       <include>./aspect-ratio-4-3.xml</include>
+   </aspectRatio>
+   <aspectRatio name="1:1">
+      <include>./aspect-ratio-1-1.xml</include>
    </aspectRatio>-->
 
    <!--
@@ -511,7 +488,7 @@ license:       creative commons CC-BY-NC-SA
    -->
    <!-- Start: 720 System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_720p-system-video)
    <include>./theme-addons/colorful-simplified-es-de-addon_720p-system-video/addon.xml</include> -->
-   <!-- Start: 1080p System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_1080p-system-video)  -->
-   <include>./theme-addons/colorful-simplified-es-de-addon_1080p-system-video/addon.xml</include> 
+   <!-- Start: 1080p System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_1080p-system-video)
+   <include>./theme-addons/colorful-simplified-es-de-addon_1080p-system-video/addon.xml</include> -->
 
 </theme>
