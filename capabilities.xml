@@ -31,14 +31,11 @@
    <colorScheme name="Colorful-Dark">
       <label>Colorful (Dark)</label>
    </colorScheme>
-   <colorScheme name="Colorful-Light">
-      <label>Colorful (Light)</label>
+   <colorScheme name="OLED">
+      <label>OLED</label>
    </colorScheme>
    <colorScheme name="Dark">
       <label>Dark</label>
-   </colorScheme>
-   <colorScheme name="OLED">
-      <label>OLED</label>
    </colorScheme>
    <colorScheme name="Light">
       <label>Light</label>
