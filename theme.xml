@@ -164,10 +164,10 @@ license:       creative commons CC-BY-NC-SA
          <textlist name="gamelist-textlist">
             <origin>0 0</origin>
             <fontPath>${fontRegular}</fontPath>
-            <primaryColor>${gamelistPrimaryColor}</primaryColor>
-            <secondaryColor>${gamelistSecondaryColor}</secondaryColor>
-            <selectedColor>${gamelistSelectedColor}</selectedColor>
-            <selectedBackgroundColor>${gamelistSelectorColor}</selectedBackgroundColor>
+            <primaryColor>${gamelistTextlistPrimaryColor}</primaryColor>
+            <secondaryColor>${gamelistTextlistSecondaryColor}</secondaryColor>
+            <selectedColor>${gamelistTextlistSelectedColor}</selectedColor>
+            <selectedBackgroundColor>${gamelistTextlistSelectorColor}</selectedBackgroundColor>
             <selectorColor>00000000</selectorColor>
             <systemNameSuffix>false</systemNameSuffix>
             <selectedBackgroundCornerRadius>0.005</selectedBackgroundCornerRadius>
@@ -269,63 +269,70 @@ license:       creative commons CC-BY-NC-SA
             <imageType>screenshot</imageType>
             <zIndex>3</zIndex>
          </video>
-         <image name="game-metadata-background">
-            <path>${spacerImage}</path>
-            <tile>true</tile>
-            <color>${gamelistMetadataBackgroundColor}</color>
-            <zIndex>3</zIndex>
-         </image>
          <image name="game-art">
             <origin>0 1</origin>
             <default>./_inc/images/game-art-default.webp</default>
          </image>
+         <image name="game-description-background">
+            <path>${spacerImage}</path>
+            <tile>true</tile>
+            <color>${gameDescriptionBackgroundColor}</color>
+            <zIndex>3</zIndex>
+            <visible>false</visible>
+         </image>
          <text name="game-description">
             <fontPath>${fontRegular}</fontPath>
-            <color>${gameDescription}</color>
+            <color>${gameDescriptionColor}</color>
             <metadata>description</metadata>
             <containerVerticalSnap>true</containerVerticalSnap>
             <containerScrollSpeed>0.6</containerScrollSpeed>
+            <visible>false</visible>
          </text>
-
-
-
-
-
-
-
-         <text name="game-rating-label,game-released-label,game-players-label,game-genre-label,game-developer-label,game-publisher-label,game-last-played-label,game-times-played-label">
+         <image name="game-metadata-background,game-metadata-background-shade">
+            <path>${spacerImage}</path>
+            <tile>true</tile>
+            <color>${gameDescriptionBackgroundColor}</color>
+            <cornerRadius>0.005</cornerRadius>
+            <metadataElement>true</metadataElement>
+            <zIndex>5</zIndex>
+            <visible>false</visible>
+         </image>
+         <image name="game-metadata-background">
+            <color>${gameMetadataBackgroundColor}</color>
+         </image>
+         <image name="game-metadata-background-shade">
+            <color>${gameMetadataBackgroundShadeColor}</color>
+         </image>
+         <text name="game-released-label,game-players-label,game-last-played-label,game-times-played-label">
             <horizontalAlignment>center</horizontalAlignment>
-            <verticalAlignment>center</verticalAlignment>
+            <verticalAlignment>bottom</verticalAlignment>
             <fontPath>${fontRegular}</fontPath>
-            <color>${gameMetadataLabel}</color>
+            <color>${gameMetadataLabelColor}</color>
             <metadataElement>true</metadataElement>
             <visible>false</visible>
          </text>
-         <text name="game-players,game-genre,game-developer,game-publisher,game-times-played">
+         <text name="game-players,game-times-played">
             <horizontalAlignment>center</horizontalAlignment>
-            <verticalAlignment>center</verticalAlignment>
+            <verticalAlignment>top</verticalAlignment>
             <fontPath>${fontSemiBold}</fontPath>
-            <color>${gameMetadata}</color>
+            <color>${gameMetadataColor}</color>
             <container>true</container>
             <containerType>horizontal</containerType>
             <visible>false</visible>
          </text>
          <datetime name="game-released,game-last-played">
             <horizontalAlignment>center</horizontalAlignment>
-            <verticalAlignment>center</verticalAlignment>
+            <verticalAlignment>top</verticalAlignment>
             <fontPath>${fontSemiBold}</fontPath>
-            <color>${gameMetadata}</color>
+            <color>${gameMetadataColor}</color>
             <visible>false</visible>
          </datetime>
-         <text name="game-rating-label">
-            <text>Rating</text>
-         </text>
          <rating name="game-rating">
             <origin>0.5 0</origin>
             <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
             <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
             <overlay>false</overlay>
-            <color>${gameMetadata}</color>
+            <color>${gameRatingColor}</color>
             <visible>false</visible>
          </rating>
          <text name="game-released-label">
@@ -334,31 +341,13 @@ license:       creative commons CC-BY-NC-SA
          <datetime name="game-released">
             <metadata>releasedate</metadata>
             <letterCase>capitalize</letterCase>
+            <visible>false</visible>
          </datetime>
          <text name="game-players-label">
             <text>Players</text>
          </text>
          <text name="game-players">
             <metadata>players</metadata>
-         </text>
-         <text name="game-genre-label">
-            <text>Genre</text>
-         </text>
-         <text name="game-genre">
-            <metadata>genre</metadata>
-            <letterCase>capitalize</letterCase>
-         </text>
-         <text name="game-developer-label">
-            <text>Developer</text>
-         </text>
-         <text name="game-developer">
-            <metadata>developer</metadata>
-         </text>
-         <text name="game-publisher-label">
-            <text>Publisher</text>
-         </text>
-         <text name="game-publisher">
-            <metadata>publisher</metadata>
          </text>
          <text name="game-last-played-label">
             <text>Last Played</text>
@@ -402,35 +391,6 @@ license:       creative commons CC-BY-NC-SA
          <image name="game-art">
             <imageType>physicalmedia</imageType>
          </image>
-      </view>
-   </variant>
-
-   <!--
-   ///
-   Gamelist View - Carousel Variants
-   ///
-   -->
-   <variant name="gamelist-carousel-cover">
-      <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
-      <view name="gamelist">
-         <gamelistinfo name="gamelist-info">
-            <origin>1 0</origin>
-            <fontPath>${fontBold}</fontPath>
-            <color>${systemLabelColor}</color>
-            <horizontalAlignment>right</horizontalAlignment>
-         </gamelistinfo>
-         <carousel name="game-carousel">
-            <origin>0 0.5</origin>
-            <pos>0 0.5</pos>
-            <size>1 1</size>
-            <imageType>cover</imageType>
-            <imageCornerRadius>0.005</imageCornerRadius>
-            <fastScrolling>true</fastScrolling>
-            <color>00000000</color>
-            <textColor>ffffff</textColor>
-            <textBackgroundColor>333333</textBackgroundColor>
-            <fontPath>${fontBold}</fontPath>
-         </carousel>
       </view>
    </variant>
 

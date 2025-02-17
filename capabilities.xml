@@ -114,10 +114,5 @@
       <label>List: Metadata &amp; Screenshot + Physical Media</label>
       <selectable>true</selectable>
    </variant>
-   <!-- Gamelist Carousel -->
-   <variant name="gamelist-carousel-cover">
-      <label>Carousel: Boxart</label>
-      <selectable>true</selectable>
-   </variant>
 
 </themeCapabilities>

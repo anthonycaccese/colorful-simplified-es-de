@@ -204,140 +204,90 @@ based on 1920x1080
             <pos>0.70052083 0.33333333</pos><!-- 1345 360 -->
             <cropSize>0.6 0.66666667</cropSize><!-- 1150 720 -->
          </video>
-         <image name="game-metadata-background">
+         <image name="game-art">
+            <pos>0.44270833 0.73611111</pos><!-- 850 795 -->
+            <maxSize>0.20833333 0.33333333</maxSize><!-- 400 360 -->
+         </image>
+         <image name="game-description-background">
             <pos>0.40104167 0.66666667</pos><!-- 770 720 -->
             <size>0.6 0.33333333</size><!-- 1150 360 -->
             <visible>true</visible>
          </image>
-         <image name="game-art">
-            <pos>0.44791667 0.73148148</pos><!-- 860 790 -->
-            <maxSize>0.20833333 0.33333333</maxSize><!-- 400 360 -->
-         </image>
          <text name="game-description">
-            <pos>0.44791667 0.78240741</pos><!-- 860 845 -->
-            <size>0.26041667 0.15555556</size><!-- 500 168 -->
+            <pos>0.43229167 0.77314815</pos><!-- 830 835 -->
+            <size>0.36458333 0.18518519</size><!-- 700 200 -->
             <fontSize>${gamelistDescriptionFontSize}</fontSize>
             <lineSpacing>${gamelistDescriptionLineSpacing}</lineSpacing>
+            <visible>true</visible>
          </text>
-
-
-
-
-
-
-
-         <text name="game-rating-label,game-released-label,game-players-label,game-genre-label,game-developer-label,game-publisher-label,game-last-played-label,game-times-played-label">
-            <size>0.122916666666667 0.037037037037037</size><!-- 236 40 -->
+         <image name="game-metadata-background,game-metadata-background-shade">
+            <pos>0.84114583 0.56481481</pos><!-- 1615 610 -->
+            <size>0.13541667 0.39351852</size><!-- 260 425 -->
+            <visible>true</visible>
+         </image>
+         <text name="game-released-label,game-players-label,game-last-played-label,game-times-played-label">
+            <origin>0.5 1</origin>
+            <size>0.1125 ${gamelistMetadataFontSize}</size><!-- 216 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </text>
-         <text name="game-players,game-genre,game-developer,game-publisher,game-times-played">
-            <size>0.122916666666667 0.037037037037037</size><!-- 236 40 -->
+         <text name="game-players,game-times-played">
+            <origin>0.5 0</origin>
+            <size>0.1125 ${gamelistMetadataFontSize}</size><!-- 216 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </text>
          <datetime name="game-released,game-last-played">
-            <size>0.122916666666667 0.037037037037037</size><!-- 236 40 -->
+            <origin>0.5 0</origin>
+            <size>0.1125 ${gamelistMetadataFontSize}</size><!-- 216 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </datetime>
-         <text name="game-rating-label">
-            <pos>0.808333333333333 0.09537037037037</pos><!-- 1552 103 -->
-         </text>
          <rating name="game-rating">
-            <pos>0.869791666666667 0.132407407407407</pos><!-- 1670 143 -->
-            <size>0.122916666666667 0.027777777777778</size><!-- 236 30 -->
+            <origin>0.5 0.5</origin>
+            <pos>0.90885417 0.60555556</pos><!-- 1745 654 -->
+            <size>0 ${gamelistMetadataRatingSize}</size>
             <visible>true</visible>
          </rating>
          <text name="game-released-label">
-            <pos>0.808333333333333 0.185185185185185</pos><!-- 1552 200 -->
+            <pos>0.90885417 0.66759259</pos><!-- 1745 721 -->
          </text>
          <datetime name="game-released">
-            <pos>0.808333333333333 0.222222222222222</pos><!-- 1552 240 -->
+            <pos>0.90885417 0.67592593</pos><!-- 1745 730 -->
          </datetime>
          <text name="game-players-label">
-            <pos>0.808333333333333 0.275</pos><!-- 1552 297 -->
+            <pos>0.90885417 0.7462963</pos><!-- 1745 806 -->
          </text>
          <text name="game-players">
-            <pos>0.808333333333333 0.312037037037037</pos><!-- 1552 337 -->
-         </text>
-         <text name="game-genre-label">
-            <pos>0.808333333333333 0.364814814814815</pos><!-- 1552 394 -->
-         </text>
-         <text name="game-genre">
-            <pos>0.808333333333333 0.401851851851852</pos><!-- 1552 434 -->
-         </text>
-         <text name="game-developer-label">
-            <pos>0.808333333333333 0.45462962962963</pos><!-- 1552 491 -->
-         </text>
-         <text name="game-developer">
-            <pos>0.808333333333333 0.491666666666667</pos><!-- 1552 531 -->
-         </text>
-         <text name="game-publisher-label">
-            <pos>0.808333333333333 0.544444444444444</pos><!-- 1552 588 -->
-         </text>
-         <text name="game-publisher">
-            <pos>0.808333333333333 0.581481481481481</pos><!-- 1552 628 -->
+            <pos>0.90885417 0.75462963</pos><!-- 1745 815 -->
          </text>
          <text name="game-last-played-label">
-            <pos>0.808333333333333 0.634259259259259</pos><!-- 1552 685 -->
+            <pos>0.90885417 0.825</pos><!-- 1745 891 -->
          </text>
          <datetime name="game-last-played">
-            <pos>0.808333333333333 0.671296296296296</pos><!-- 1552 725 -->
+            <pos>0.90885417 0.83333333</pos><!-- 1745 900 -->
          </datetime>
          <text name="game-times-played-label">
-            <pos>0.808333333333333 0.724074074074074</pos><!-- 1552 782 -->
+            <pos>0.90885417 0.9037037</pos><!-- 1745 976 -->
          </text>
          <text name="game-times-played">
-            <pos>0.808333333333333 0.761111111111111</pos><!-- 1552 822 -->
+            <pos>0.90885417 0.91203704</pos><!-- 1745 985 -->
          </text>
       </view>
       <fontSize name="medium">
          <variables>
             <gamelistDescriptionFontSize>0.033333333333333</gamelistDescriptionFontSize><!-- 36 -->
-            <gamelistDescriptionLineSpacing>1.3</gamelistDescriptionLineSpacing>
+            <gamelistDescriptionLineSpacing>1.38888889</gamelistDescriptionLineSpacing><!-- 200/36/4 -->
+            <gamelistMetadataRatingSize>0.02592593</gamelistMetadataRatingSize><!-- 28 -->
             <gamelistMetadataFontSize>0.024074074074074</gamelistMetadataFontSize><!-- 26 -->
          </variables>
       </fontSize>
       <fontSize name="large">
          <variables>
-            <gamelistDescriptionFontSize>0.042592592592593</gamelistDescriptionFontSize><!-- 46 -->
-            <gamelistDescriptionLineSpacing>1.3</gamelistDescriptionLineSpacing>
-            <gamelistMetadataFontSize>0.02962962962963</gamelistMetadataFontSize><!-- 26 -->
-         </variables>
-      </fontSize>
-   </variant>
-
-   <!--
-   ///
-   Gamelist View - Carousel Variants
-   ///
-   -->
-   <variant name="gamelist-carousel-cover">
-      <view name="gamelist">
-         <text name="system-name,custom-collection-name">
-            <pos>0.038541666666667 0.064814814814815</pos><!-- 74 70 -->
-            <fontSize>${gamelistSystemNameFontSize}</fontSize>
-         </text>
-         <gamelistinfo name="gamelist-info">
-            <pos>0.958333333333333 0.064814814814815</pos><!-- 1840 70 -->
-            <size>0.364583333333333 0.038888888888889</size><!-- 700 34 -->
-            <fontSize>${gamelistSystemLabelFontSize}</fontSize>
-         </gamelistinfo>
-         <carousel name="game-carousel">
-            <fontSize>0.03</fontSize>
-         </carousel>
-      </view>
-      <fontSize name="medium">
-         <variables>
-            <gamelistSystemNameFontSize>0.038888888888889</gamelistSystemNameFontSize><!-- 42 -->
-            <gamelistSystemLabelFontSize>0.033333333333333</gamelistSystemLabelFontSize><!-- 36 -->
-         </variables>
-      </fontSize>
-      <fontSize name="large">
-         <variables>
-            <gamelistSystemNameFontSize>0.048148148148148</gamelistSystemNameFontSize><!-- 52 -->
-            <gamelistSystemLabelFontSize>0.040740740740741</gamelistSystemLabelFontSize><!-- 44 -->
+            <gamelistDescriptionFontSize>0.03888889</gamelistDescriptionFontSize><!-- 44 -->
+            <gamelistDescriptionLineSpacing>1.58730159</gamelistDescriptionLineSpacing><!-- 200/42/3 -->
+            <gamelistMetadataRatingSize>0.02777778</gamelistMetadataRatingSize><!-- 30 -->
+            <gamelistMetadataFontSize>0.02592593</gamelistMetadataFontSize><!-- 28 -->
          </variables>
       </fontSize>
    </variant>
