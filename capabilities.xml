@@ -28,11 +28,17 @@
    <colorScheme name="Colorful">
       <label>Colorful</label>
    </colorScheme>
+   <colorScheme name="Colorful-Dark">
+      <label>Colorful (Dark)</label>
+   </colorScheme>
    <colorScheme name="Colorful-Light">
       <label>Colorful (Light)</label>
    </colorScheme>
-   <colorScheme name="Colorful-Dark">
-      <label>Colorful (Dark)</label>
+   <colorScheme name="Dark">
+      <label>Dark</label>
+   </colorScheme>
+   <colorScheme name="OLED">
+      <label>OLED</label>
    </colorScheme>
    <colorScheme name="Light">
       <label>Light</label>
@@ -42,12 +48,6 @@
    </colorScheme>
    <colorScheme name="DMG">
       <label>DMG</label>
-   </colorScheme>
-   <colorScheme name="Dark">
-      <label>Dark</label>
-   </colorScheme>
-   <colorScheme name="OLED">
-      <label>OLED</label>
    </colorScheme>
 
    <!--

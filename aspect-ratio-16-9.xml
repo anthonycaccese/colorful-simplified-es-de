@@ -181,11 +181,19 @@ based on 1920x1080
    </variant>
    <variant name="
       gamelist-list-titlescreen,
-      gamelist-list-miximage,
       ">
       <view name="gamelist">
          <video name="game-video">
             <imageMaxSize>0.46875 0.83333333</imageMaxSize><!-- 900 900 -->
+         </video>
+      </view>
+   </variant>
+   <variant name="
+      gamelist-list-miximage,
+      ">
+      <view name="gamelist">
+         <video name="game-video">
+            <imageMaxSize>0.52083333 0.83333333</imageMaxSize><!-- 1000 900 -->
          </video>
       </view>
    </variant>
@@ -214,7 +222,7 @@ based on 1920x1080
             <visible>true</visible>
          </image>
          <text name="game-description">
-            <pos>0.43229167 0.77314815</pos><!-- 830 835 -->
+            <pos>0.43229167 0.76851852</pos><!-- 830 830 -->
             <size>0.36458333 0.18518519</size><!-- 700 200 -->
             <fontSize>${gamelistDescriptionFontSize}</fontSize>
             <lineSpacing>${gamelistDescriptionLineSpacing}</lineSpacing>
