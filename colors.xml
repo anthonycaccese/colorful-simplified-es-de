@@ -74,7 +74,7 @@
    <colorScheme name="Dark">
       <variables>
          <backgroundColor>111111</backgroundColor>
-         <systemMetadataBackgroundColor>00000000</systemMetadataBackgroundColor>
+         <systemMetadataBackgroundColor>111111</systemMetadataBackgroundColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
          <systemNameColor>ffffff</systemNameColor>
          <systemDescriptionColor>ffffff</systemDescriptionColor>
@@ -98,7 +98,7 @@
    <colorScheme name="OLED">
       <variables>
          <backgroundColor>000000</backgroundColor>
-         <systemMetadataBackgroundColor>00000000</systemMetadataBackgroundColor>
+         <systemMetadataBackgroundColor>000000</systemMetadataBackgroundColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
          <systemNameColor>ffffff</systemNameColor>
          <systemDescriptionColor>ffffff</systemDescriptionColor>
@@ -122,7 +122,7 @@
    <colorScheme name="Light">
       <variables>
          <backgroundColor>eeeeee</backgroundColor>
-         <systemMetadataBackgroundColor>00000000</systemMetadataBackgroundColor>
+         <systemMetadataBackgroundColor>eeeeee</systemMetadataBackgroundColor>
          <systemLabelColor>777777</systemLabelColor>
          <systemNameColor>000000</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
@@ -146,7 +146,7 @@
    <colorScheme name="RetroBright">
       <variables>
          <backgroundColor>b2b4b2</backgroundColor>
-         <systemMetadataBackgroundColor>00000000</systemMetadataBackgroundColor>
+         <systemMetadataBackgroundColor>b2b4b2</systemMetadataBackgroundColor>
          <systemLabelColor>54585a</systemLabelColor>
          <systemNameColor>000000</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
@@ -170,7 +170,7 @@
    <colorScheme name="DMG">
       <variables>
          <backgroundColor>959290</backgroundColor>
-         <systemMetadataBackgroundColor>00000000</systemMetadataBackgroundColor>
+         <systemMetadataBackgroundColor>959290</systemMetadataBackgroundColor>
          <systemLabelColor>484645</systemLabelColor>
          <systemNameColor>1d1d1c</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>

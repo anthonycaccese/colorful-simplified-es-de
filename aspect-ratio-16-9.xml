@@ -10,7 +10,7 @@ based on 1920x1080
    ///
    -->
    <view name="system,gamelist">
-      <helpsystem name="help-system-view,help-gamelist-view">
+      <helpsystem name="system-help,gamelist-help">
          <fontSize>${helpSystemFontSize}</fontSize>
          <entrySpacing>0.015625</entrySpacing><!-- 30 -->
       </helpsystem>
@@ -65,8 +65,8 @@ based on 1920x1080
          <lineSpacing>1</lineSpacing>
          <visible>true</visible>
       </text>
-      <helpsystem name="help-system-view">
-            <pos>0.046875 0.89814815</pos><!-- 90 970 -->
+      <helpsystem name="system-help">
+         <pos>0.046875 0.89814815</pos><!-- 90 970 -->
          <entries>${helpSystemViewEntries}</entries>
       </helpsystem>
       <carousel name="system-carousel">
@@ -123,7 +123,7 @@ based on 1920x1080
             <lineSpacing>${gamelistLineSpacing}</lineSpacing>
             <selectedBackgroundMargins>0.01145833 0.01145833</selectedBackgroundMargins><!-- 22 22 -->
          </textlist>
-         <helpsystem name="help-gamelist-view">
+         <helpsystem name="gamelist-help">
             <pos>0.046875 0.89814815</pos><!-- 90 970 -->
             <entries>${helpGamelistViewEntries}</entries>
          </helpsystem>

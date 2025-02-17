@@ -48,12 +48,12 @@ license:       creative commons CC-BY-NC-SA
          <color>${backgroundColor}</color>
          <zIndex>0</zIndex>
       </image>
-      <helpsystem name="help-system-view,help-gamelist-view,help-menu-view">
+      <helpsystem name="system-help,gamelist-help,menu-help">
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
          <fontPath>${fontHelpSystem}</fontPath>
       </helpsystem>
-      <helpsystem name="help-menu-view">
+      <helpsystem name="menu-help">
          <scope>menu</scope>
          <origin>0.5 0.5</origin>
          <pos>0.5 0.95</pos>
@@ -116,10 +116,10 @@ license:       creative commons CC-BY-NC-SA
          <zIndex>5</zIndex>
          <visible>false</visible>
       </text>
-      <helpsystem name="help-system-view">
+      <helpsystem name="system-help">
          <scope>view</scope>
       </helpsystem>
-      <helpsystem name="help-gamelist-view">
+      <helpsystem name="gamelist-help">
          <scope>none</scope>
       </helpsystem>
       <carousel name="system-carousel">
@@ -172,11 +172,11 @@ license:       creative commons CC-BY-NC-SA
             <systemNameSuffix>false</systemNameSuffix>
             <selectedBackgroundCornerRadius>0.005</selectedBackgroundCornerRadius>
          </textlist>
-         <helpsystem name="help-system-view">
-            <scope>none</scope>
-         </helpsystem>
-         <helpsystem name="help-gamelist-view">
+         <helpsystem name="gamelist-help">
             <scope>view</scope>
+         </helpsystem>
+         <helpsystem name="system-help">
+            <scope>none</scope>
          </helpsystem>
          <video name="game-video">
             <origin>0.5 0.5</origin>
@@ -402,10 +402,10 @@ license:       creative commons CC-BY-NC-SA
    <aspectRatio name="16:9">
       <include>./aspect-ratio-16-9.xml</include>
    </aspectRatio>
-   <!--<aspectRatio name="16:10">
+   <aspectRatio name="16:10">
       <include>./aspect-ratio-16-10.xml</include>
    </aspectRatio>
-   <aspectRatio name="4:3">
+   <!--<aspectRatio name="4:3">
       <include>./aspect-ratio-4-3.xml</include>
    </aspectRatio>
    <aspectRatio name="1:1">
