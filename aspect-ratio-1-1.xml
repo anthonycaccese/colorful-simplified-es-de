@@ -14,6 +14,9 @@ based on 1080x1080
          <fontSize>${helpSystemFontSize}</fontSize>
          <entrySpacing>0.02777778</entrySpacing><!-- 30 -->
       </helpsystem>
+      <helpsystem name="menu-help">
+         <fontSize>0.033333333333333</fontSize>
+      </helpsystem>
    </view>
    <fontSize name="medium">
       <variables>
