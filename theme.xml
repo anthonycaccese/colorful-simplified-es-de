@@ -92,6 +92,20 @@ license:       creative commons CC-BY-NC-SA
          <zIndex>5</zIndex>
          <visible>false</visible>
       </text>
+      <image name="system-name-background,system-name-background-shade">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <zIndex>4</zIndex>
+         <visible>false</visible>
+      </image>
+      <image name="system-name-background">
+         <color>${systemNameBackgroundColor}</color>
+      </image>
+      <image name="system-name-background-shade">
+         <color>${systemNameBackgroundShadeColor}</color>
+      </image>
       <text name="system-name">
          <zIndex>5</zIndex>
       </text>
@@ -408,9 +422,9 @@ license:       creative commons CC-BY-NC-SA
    <aspectRatio name="4:3">
       <include>./aspect-ratio-4-3.xml</include>
    </aspectRatio>
-   <!--<aspectRatio name="1:1">
+   <aspectRatio name="1:1">
       <include>./aspect-ratio-1-1.xml</include>
-   </aspectRatio>-->
+   </aspectRatio>
 
    <!--
    ///

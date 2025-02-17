@@ -4,6 +4,8 @@
          <backgroundColor>${systemColor}</backgroundColor>
          <systemMetadataBackgroundColor>00000000</systemMetadataBackgroundColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
+         <systemNameBackgroundColor>${systemColor}</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>ffffff22</systemNameBackgroundShadeColor>
          <systemNameColor>ffffff</systemNameColor>
          <systemDescriptionColor>ffffff</systemDescriptionColor>
          <systemGameCountColor>ffffffbb</systemGameCountColor>
@@ -28,6 +30,8 @@
          <backgroundColor>${systemColor}</backgroundColor>
          <systemMetadataBackgroundColor>111111</systemMetadataBackgroundColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
+         <systemNameBackgroundColor>${systemColor}</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>ffffff22</systemNameBackgroundShadeColor>
          <systemNameColor>ffffff</systemNameColor>
          <systemDescriptionColor>ffffff</systemDescriptionColor>
          <systemGameCountColor>ffffff99</systemGameCountColor>
@@ -52,6 +56,8 @@
          <backgroundColor>${systemColor}</backgroundColor>
          <systemMetadataBackgroundColor>eeeeee</systemMetadataBackgroundColor>
          <systemLabelColor>777777</systemLabelColor>
+         <systemNameBackgroundColor>${systemColor}</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>ffffff22</systemNameBackgroundShadeColor>
          <systemNameColor>000000</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
          <systemGameCountColor>00000099</systemGameCountColor>
@@ -76,6 +82,8 @@
          <backgroundColor>111111</backgroundColor>
          <systemMetadataBackgroundColor>111111</systemMetadataBackgroundColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
+         <systemNameBackgroundColor>00000000</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>111111</systemNameBackgroundShadeColor>
          <systemNameColor>ffffff</systemNameColor>
          <systemDescriptionColor>ffffff</systemDescriptionColor>
          <systemGameCountColor>ffffff99</systemGameCountColor>
@@ -100,6 +108,8 @@
          <backgroundColor>000000</backgroundColor>
          <systemMetadataBackgroundColor>000000</systemMetadataBackgroundColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
+         <systemNameBackgroundColor>00000000</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>000000</systemNameBackgroundShadeColor>
          <systemNameColor>ffffff</systemNameColor>
          <systemDescriptionColor>ffffff</systemDescriptionColor>
          <systemGameCountColor>ffffff99</systemGameCountColor>
@@ -124,6 +134,8 @@
          <backgroundColor>eeeeee</backgroundColor>
          <systemMetadataBackgroundColor>eeeeee</systemMetadataBackgroundColor>
          <systemLabelColor>777777</systemLabelColor>
+         <systemNameBackgroundColor>00000000</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>dddddd</systemNameBackgroundShadeColor>
          <systemNameColor>000000</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
          <systemGameCountColor>00000099</systemGameCountColor>
@@ -148,6 +160,8 @@
          <backgroundColor>b2b4b2</backgroundColor>
          <systemMetadataBackgroundColor>b2b4b2</systemMetadataBackgroundColor>
          <systemLabelColor>54585a</systemLabelColor>
+         <systemNameBackgroundColor>00000000</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>b2b4b2</systemNameBackgroundShadeColor>
          <systemNameColor>000000</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
          <systemGameCountColor>000000aa</systemGameCountColor>
@@ -172,6 +186,8 @@
          <backgroundColor>959290</backgroundColor>
          <systemMetadataBackgroundColor>959290</systemMetadataBackgroundColor>
          <systemLabelColor>484645</systemLabelColor>
+         <systemNameBackgroundColor>00000000</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>959290</systemNameBackgroundShadeColor>
          <systemNameColor>1d1d1c</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
          <systemGameCountColor>484645</systemGameCountColor>

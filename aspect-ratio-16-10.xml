@@ -12,7 +12,7 @@ based on 1728x1080
    <view name="system,gamelist">
       <helpsystem name="system-help,gamelist-help">
          <fontSize>${helpSystemFontSize}</fontSize>
-         <entrySpacing>0.015625</entrySpacing><!-- 30 -->
+         <entrySpacing>0.01736111</entrySpacing><!-- 30 -->
       </helpsystem>
    </view>
    <fontSize name="medium">
