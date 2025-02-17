@@ -60,10 +60,10 @@
          <gamelistTextlistSecondaryColor>444444</gamelistTextlistSecondaryColor>
          <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
          <gamelistTextlistSelectorColor>000000ee</gamelistTextlistSelectorColor>
-         <gameDescriptionBackgroundColor>ffffffcc</gameDescriptionBackgroundColor>
+         <gameDescriptionBackgroundColor>dddddd</gameDescriptionBackgroundColor>
          <gameDescriptionColor>000000</gameDescriptionColor>
-         <gameMetadataBackgroundColor>${systemColor}</gameMetadataBackgroundColor>
-         <gameMetadataBackgroundShadeColor>ffffffbb</gameMetadataBackgroundShadeColor>
+         <gameMetadataBackgroundColor>eeeeee</gameMetadataBackgroundColor>
+         <gameMetadataBackgroundShadeColor>00000022</gameMetadataBackgroundShadeColor>
          <gameRatingColor>222222</gameRatingColor>
          <gameMetadataLabelColor>555555</gameMetadataLabelColor>
          <gameMetadataColor>333333</gameMetadataColor>
