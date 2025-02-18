@@ -317,7 +317,7 @@ license:       creative commons CC-BY-NC-SA
          <image name="game-metadata-background-shade">
             <color>${gameMetadataBackgroundShadeColor}</color>
          </image>
-         <text name="game-released-label,game-players-label,game-last-played-label,game-times-played-label">
+         <text name="game-rating-label,game-released-label,game-players-label,game-last-played-label,game-times-played-label">
             <horizontalAlignment>center</horizontalAlignment>
             <verticalAlignment>bottom</verticalAlignment>
             <fontPath>${fontRegular}</fontPath>
@@ -341,6 +341,9 @@ license:       creative commons CC-BY-NC-SA
             <color>${gameMetadataColor}</color>
             <visible>false</visible>
          </datetime>
+         <text name="game-rating-label">
+            <text>Rating</text>
+         </text>
          <rating name="game-rating">
             <origin>0.5 0</origin>
             <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
@@ -362,6 +365,7 @@ license:       creative commons CC-BY-NC-SA
          </text>
          <text name="game-players">
             <metadata>players</metadata>
+            <letterCase>capitalize</letterCase>
          </text>
          <text name="game-last-played-label">
             <text>Last Played</text>
@@ -369,6 +373,7 @@ license:       creative commons CC-BY-NC-SA
          <datetime name="game-last-played">
             <metadata>lastplayed</metadata>
             <letterCase>capitalize</letterCase>
+            <defaultValue>Never</defaultValue>
          </datetime>
          <text name="game-times-played-label">
             <text>Times Played</text>

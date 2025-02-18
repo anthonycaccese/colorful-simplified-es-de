@@ -218,73 +218,75 @@ based on 1080x1080
             <cropSize>0.6 0.66666667</cropSize><!-- 1150 720 -->
          </video>
          <image name="game-art">
-            <pos>0.44270833 0.73611111</pos><!-- 850 795 -->
-            <maxSize>0.20833333 0.33333333</maxSize><!-- 400 360 -->
+            <origin>0.5 1</origin>
+            <pos>0.75 0.73611111</pos><!-- 810 795 -->
+            <maxSize>0.32407407 0.23148148</maxSize><!-- 350 250 -->
          </image>
-         <image name="game-metadata-background,game-metadata-background-shade">
-            <pos>0.84114583 0.56481481</pos><!-- 1615 610 -->
-            <size>0.13541667 0.39351852</size><!-- 260 425 -->
+         <image name="game-description-background">
+            <pos>0.5 0.66666667</pos><!-- 540 720 -->
+            <size>0.5 0.33333333</size><!-- 540 360 -->
             <visible>true</visible>
          </image>
-         <text name="game-released-label,game-players-label,game-last-played-label,game-times-played-label">
-            <origin>0.5 1</origin>
-            <size>0.1125 ${gamelistMetadataFontSize}</size><!-- 216 -->
+         <text name="game-rating-label,game-released-label,game-players-label,game-last-played-label">
+            <origin>0 1</origin>
+            <horizontalAlignment>left</horizontalAlignment>
+            <size>0.18055556 ${gamelistMetadataFontSize}</size><!-- 195 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </text>
-         <text name="game-players,game-times-played">
-            <origin>0.5 0</origin>
-            <size>0.1125 ${gamelistMetadataFontSize}</size><!-- 216 -->
+         <text name="game-players">
+            <origin>0 0</origin>
+            <horizontalAlignment>left</horizontalAlignment>
+            <size>0.18518519 ${gamelistMetadataFontSize}</size><!-- 200 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </text>
          <datetime name="game-released,game-last-played">
-            <origin>0.5 0</origin>
-            <size>0.1125 ${gamelistMetadataFontSize}</size><!-- 216 -->
+            <origin>0 0</origin>
+            <horizontalAlignment>left</horizontalAlignment>
+            <size>0.18518519 ${gamelistMetadataFontSize}</size><!-- 200 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </datetime>
+         <text name="game-rating-label">
+            <pos>0.55555556 0.80092593</pos><!-- 600 865 -->
+         </text>
          <rating name="game-rating">
-            <origin>0.5 0.5</origin>
-            <pos>0.90885417 0.60555556</pos><!-- 1745 654 -->
+            <origin>0 0</origin>
+            <pos>0.55555556 0.81203704</pos><!-- 600 877 -->
             <size>0 ${gamelistMetadataRatingSize}</size>
             <visible>true</visible>
          </rating>
-         <text name="game-released-label">
-            <pos>0.90885417 0.66759259</pos><!-- 1745 721 -->
-         </text>
-         <datetime name="game-released">
-            <pos>0.90885417 0.67592593</pos><!-- 1745 730 -->
-         </datetime>
          <text name="game-players-label">
-            <pos>0.90885417 0.7462963</pos><!-- 1745 806 -->
+            <pos>0.55555556 0.90925926</pos><!-- 600 982 -->
          </text>
          <text name="game-players">
-            <pos>0.90885417 0.75462963</pos><!-- 1745 815 -->
+            <pos>0.55555556 0.91851852</pos><!-- 600 992 -->
          </text>
+         <text name="game-released-label">
+            <pos>0.76851852 0.80092593</pos><!-- 830 865 -->
+         </text>
+         <datetime name="game-released">
+            <pos>0.76851852 0.81018519</pos><!-- 830 875 -->
+         </datetime>
          <text name="game-last-played-label">
-            <pos>0.90885417 0.825</pos><!-- 1745 891 -->
+            <pos>0.76851852 0.90925926</pos><!-- 830 982 -->
          </text>
          <datetime name="game-last-played">
-            <pos>0.90885417 0.83333333</pos><!-- 1745 900 -->
+            <pos>0.76851852 0.91851852</pos><!-- 830 992 -->
+            <displayRelative>false</displayRelative>
          </datetime>
-         <text name="game-times-played-label">
-            <pos>0.90885417 0.9037037</pos><!-- 1745 976 -->
-         </text>
-         <text name="game-times-played">
-            <pos>0.90885417 0.91203704</pos><!-- 1745 985 -->
-         </text>
       </view>
       <fontSize name="medium">
          <variables>
-            <gamelistMetadataRatingSize>0.02592593</gamelistMetadataRatingSize><!-- 28 -->
-            <gamelistMetadataFontSize>0.024074074074074</gamelistMetadataFontSize><!-- 26 -->
+            <gamelistMetadataRatingSize>0.03148148</gamelistMetadataRatingSize><!-- 34 -->
+            <gamelistMetadataFontSize>0.03333333</gamelistMetadataFontSize><!-- 36 -->
          </variables>
       </fontSize>
       <fontSize name="large">
          <variables>
-            <gamelistMetadataRatingSize>0.02777778</gamelistMetadataRatingSize><!-- 30 -->
-            <gamelistMetadataFontSize>0.02592593</gamelistMetadataFontSize><!-- 28 -->
+            <gamelistMetadataRatingSize>0.03148148</gamelistMetadataRatingSize><!-- 34 -->
+            <gamelistMetadataFontSize>0.03333333</gamelistMetadataFontSize><!-- 36 -->
          </variables>
       </fontSize>
    </variant>
