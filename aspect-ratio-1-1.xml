@@ -230,52 +230,52 @@ based on 1080x1080
          <text name="game-rating-label,game-released-label,game-players-label,game-last-played-label">
             <origin>0 1</origin>
             <horizontalAlignment>left</horizontalAlignment>
-            <size>0.18055556 ${gamelistMetadataFontSize}</size><!-- 195 -->
+            <size>0.18981481 ${gamelistMetadataFontSize}</size><!-- 195 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </text>
          <text name="game-players">
             <origin>0 0</origin>
             <horizontalAlignment>left</horizontalAlignment>
-            <size>0.18518519 ${gamelistMetadataFontSize}</size><!-- 200 -->
+            <size>0.18981481 ${gamelistMetadataFontSize}</size><!-- 200 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </text>
          <datetime name="game-released,game-last-played">
             <origin>0 0</origin>
             <horizontalAlignment>left</horizontalAlignment>
-            <size>0.18518519 ${gamelistMetadataFontSize}</size><!-- 200 -->
+            <size>0.18981481 ${gamelistMetadataFontSize}</size><!-- 200 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </datetime>
          <text name="game-rating-label">
-            <pos>0.55555556 0.80092593</pos><!-- 600 865 -->
+            <pos>0.55092593 0.80092593</pos><!-- 595 865 -->
          </text>
          <rating name="game-rating">
             <origin>0 0</origin>
-            <pos>0.55555556 0.81203704</pos><!-- 600 877 -->
+            <pos>0.55092593 0.81203704</pos><!-- 595 877 -->
             <size>0 ${gamelistMetadataRatingSize}</size>
             <visible>true</visible>
          </rating>
-         <text name="game-players-label">
-            <pos>0.55555556 0.90925926</pos><!-- 600 982 -->
-         </text>
-         <text name="game-players">
-            <pos>0.55555556 0.91851852</pos><!-- 600 992 -->
-         </text>
-         <text name="game-released-label">
-            <pos>0.76851852 0.80092593</pos><!-- 830 865 -->
-         </text>
-         <datetime name="game-released">
-            <pos>0.76851852 0.81018519</pos><!-- 830 875 -->
-         </datetime>
          <text name="game-last-played-label">
-            <pos>0.76851852 0.90925926</pos><!-- 830 982 -->
+            <pos>0.55092593 0.90925926</pos><!-- 595 982 -->
          </text>
          <datetime name="game-last-played">
-            <pos>0.76851852 0.91851852</pos><!-- 830 992 -->
+            <pos>0.55092593 0.91851852</pos><!-- 595 992 -->
             <displayRelative>false</displayRelative>
          </datetime>
+         <text name="game-released-label">
+            <pos>0.77314815 0.80092593</pos><!-- 835 865 -->
+         </text>
+         <datetime name="game-released">
+            <pos>0.77314815 0.81018519</pos><!-- 835 875 -->
+         </datetime>
+         <text name="game-players-label">
+            <pos>0.77314815 0.90925926</pos><!-- 835 982 -->
+         </text>
+         <text name="game-players">
+            <pos>0.77314815 0.91851852</pos><!-- 835 992 -->
+         </text>
       </view>
       <fontSize name="medium">
          <variables>
