@@ -483,7 +483,7 @@ license:       creative commons CC-BY-NC-SA
    -->
    <!-- Start: 720 System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_720p-system-video)
    <include>./theme-addons/colorful-simplified-es-de-addon_720p-system-video/addon.xml</include> -->
-   <!-- Start: 1080p System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_1080p-system-video) -->
-   <include>./theme-addons/colorful-simplified-es-de-addon_1080p-system-video/addon.xml</include>
+   <!-- Start: 1080p System Video (https://github.com/anthonycaccese/colorful-simplified-es-de-addon_1080p-system-video)
+   <include>./theme-addons/colorful-simplified-es-de-addon_1080p-system-video/addon.xml</include> -->
 
 </theme>

@@ -20,14 +20,14 @@ based on 1080x1080
    </view>
    <fontSize name="medium">
       <variables>
-         <helpSystemFontSize>0.033333333333333</helpSystemFontSize><!-- 36 -->
+         <helpSystemFontSize>0.04259259</helpSystemFontSize><!-- 46 -->
          <helpSystemViewEntries>start,a,left/right</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a</helpGamelistViewEntries>
       </variables>
    </fontSize>
    <fontSize name="large">
       <variables>
-         <helpSystemFontSize>0.040740740740741</helpSystemFontSize><!-- 44 -->
+         <helpSystemFontSize>0.04814815</helpSystemFontSize><!-- 52 -->
          <helpSystemViewEntries>start,a,left/right</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a</helpGamelistViewEntries>
       </variables>
@@ -66,12 +66,12 @@ based on 1080x1080
    </view>
    <fontSize name="medium">
       <variables>
-         <systemSystemNameFontSize>0.03518519</systemSystemNameFontSize><!-- 38 -->
+         <systemSystemNameFontSize>0.04259259</systemSystemNameFontSize><!-- 46 -->
       </variables>
    </fontSize>
    <fontSize name="large">
       <variables>
-         <systemSystemNameFontSize>0.04259259</systemSystemNameFontSize><!-- 46 -->
+         <systemSystemNameFontSize>0.04814815</systemSystemNameFontSize><!-- 52 -->
       </variables>
    </fontSize>
 
