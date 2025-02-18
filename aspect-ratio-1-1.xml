@@ -154,13 +154,8 @@ based on 1080x1080
       ">
       <view name="gamelist">
          <image name="game-art-background">
-            <origin>0.5 0.5</origin>
             <pos>0.75 0.5</pos><!-- 75% 50% -->
             <cropSize>0.5 1</cropSize><!-- 50% 100% -->
-            <imageType>screenshot</imageType>
-            <saturation>0</saturation>
-            <color>${gameArtBackgroundColor}</color>
-            <zIndex>1</zIndex>
          </image>
       </view>
    </variant>

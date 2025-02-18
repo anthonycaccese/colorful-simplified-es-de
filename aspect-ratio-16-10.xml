@@ -161,6 +161,19 @@ based on 1728x1080
    </variant>
    <variant name="
       gamelist-list-cover,
+      gamelist-list-titlescreen,
+      gamelist-list-physicalmedia,
+      gamelist-list-miximage,
+      ">
+      <view name="gamelist">
+         <image name="game-art-background">
+            <pos>0.70833333 0.5</pos><!-- 1224 50% -->
+            <cropSize>0.58333333 1</cropSize><!-- 1008 100% -->
+         </image>
+      </view>
+   </variant>
+   <variant name="
+      gamelist-list-cover,
       gamelist-list-physicalmedia,
       ">
       <view name="gamelist">
