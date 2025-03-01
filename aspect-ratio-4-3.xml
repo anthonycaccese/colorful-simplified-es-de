@@ -9,27 +9,44 @@ based on 1440x1080
    All Views
    ///
    -->
-   <view name="system,gamelist">
-      <helpsystem name="system-help,gamelist-help">
+   <view name="
+      system,
+      gamelist
+      ">
+      <systemstatus name="
+         system-status
+         ">
+         <pos>0.96180556 0.04166667</pos><!-- 1385 45 -->
+         <backgroundPadding>0.01666667 0.01851852</backgroundPadding><!-- 24 20 -->
+         <height>${systemStatusHeight}</height>
+      </systemstatus>
+      <helpsystem name="
+         help-system-view,
+         help-gamelist-view
+         ">
          <fontSize>${helpSystemFontSize}</fontSize>
          <entrySpacing>0.02083333</entrySpacing><!-- 30 -->
-      </helpsystem>
-      <helpsystem name="menu-help">
-         <fontSize>0.033333333333333</fontSize>
+         <backgroundPadding>0.02361111 0.02777778</backgroundPadding><!-- 34 30 -->
       </helpsystem>
    </view>
-   <fontSize name="medium">
+   <fontSize name="
+      medium
+      ">
       <variables>
-         <helpSystemFontSize>0.04259259</helpSystemFontSize><!-- 46 -->
+         <helpSystemFontSize>0.03703704</helpSystemFontSize><!-- 40 -->
          <helpSystemViewEntries>start,a,x,left/right</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a</helpGamelistViewEntries>
+         <systemStatusHeight>0.03703704</systemStatusHeight><!-- 40 -->
       </variables>
    </fontSize>
-   <fontSize name="large">
+   <fontSize name="
+      large
+      ">
       <variables>
-         <helpSystemFontSize>0.04814815</helpSystemFontSize><!-- 52 -->
+         <helpSystemFontSize>0.04259259</helpSystemFontSize><!-- 46 -->
          <helpSystemViewEntries>start,a,left/right</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a</helpGamelistViewEntries>
+         <systemStatusHeight>0.04259259</systemStatusHeight><!-- 46 -->
       </variables>
    </fontSize>
 
@@ -39,53 +56,63 @@ based on 1440x1080
    ///
    -->
    <view name="system">
-      <image name="system-name-background,system-name-background-shade">
-         <origin>0.5 0</origin>
-         <pos>0.5 0.02314815</pos><!-- 50% 25 -->
-         <size>0.9537037 0.09259259</size><!-- 1030 100 -->
-         <cornerRadius>0.01</cornerRadius>
-         <visible>true</visible>
+      <image name="
+         system-metadata-background
+         ">
+         <size>1 0.10185185</size><!-- 100% 110 -->
       </image>
-      <text name="system-name">
-         <origin>0.5 0</origin>
-         <pos>0.5 0.02314815</pos><!-- 50% 25 -->
-         <size>0.86111111 0.09259259</size><!-- 930 100 -->
-         <horizontalAlignment>center</horizontalAlignment>
-         <verticalAlignment>center</verticalAlignment>
+      <text name="
+         system-name
+         ">
+         <pos>0.04166667 0.04166667</pos><!-- 60 45 -->
+         <size>0.66666667 0.09259259</size><!-- 960 100 -->
+         <verticalAlignment>top</verticalAlignment>
          <fontSize>${systemSystemNameFontSize}</fontSize>
       </text>
-      <helpsystem name="system-help">
+      <helpsystem name="
+         help-system-view
+         ">
          <origin>0.5 1</origin>
          <pos>0.5 0.9537037</pos><!-- 50% 1030 -->
          <entries>${helpSystemViewEntries}</entries>
       </helpsystem>
-      <carousel name="system-carousel">
+      <carousel name="
+         system-carousel
+         ">
          <pos>0.5 0.5</pos><!-- 50% 50% -->
          <size>1 1</size><!-- 100% 100% -->
       </carousel>
-      <image name="icon-arrow-left">
+      <image name="
+         icon-arrow-left
+         ">
          <origin>0 0.5</origin>
          <pos>0.05 0.5</pos>
          <size>0 0.075</size>
          <path>./_inc/images/icon-arrow-left.svg</path>
-         <color>ffffff44</color>
+         <color>${systemArrowColor}</color>
       </image>
-      <image name="icon-arrow-right">
+      <image name="
+         icon-arrow-right
+         ">
          <origin>1 0.5</origin>
          <pos>0.95 0.5</pos>
          <size>0 0.075</size>
          <path>./_inc/images/icon-arrow-right.svg</path>
-         <color>ffffff44</color>
+         <color>${systemArrowColor}</color>
       </image>
    </view>
-   <fontSize name="medium">
+   <fontSize name="
+      medium
+      ">
       <variables>
-         <systemSystemNameFontSize>0.04259259</systemSystemNameFontSize><!-- 46 -->
+         <systemSystemNameFontSize>0.03703704</systemSystemNameFontSize><!-- 40 -->
       </variables>
    </fontSize>
-   <fontSize name="large">
+   <fontSize name="
+      large
+      ">
       <variables>
-         <systemSystemNameFontSize>0.04814815</systemSystemNameFontSize><!-- 52 -->
+         <systemSystemNameFontSize>0.04259259</systemSystemNameFontSize><!-- 46 -->
       </variables>
    </fontSize>
 
@@ -121,7 +148,9 @@ based on 1440x1080
             <lineSpacing>${gamelistLineSpacing}</lineSpacing>
             <selectedBackgroundMargins>0.01527778 0.01527778</selectedBackgroundMargins><!-- 22 22 -->
          </textlist>
-         <helpsystem name="gamelist-help">
+         <helpsystem name="
+            help-gamelist-view
+            ">
             <origin>0 1</origin>
             <pos>0.04166667 0.9537037</pos><!-- 60 1030 -->
             <entries>${helpGamelistViewEntries}</entries>

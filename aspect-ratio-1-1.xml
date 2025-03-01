@@ -9,27 +9,44 @@ based on 1080x1080
    All Views
    ///
    -->
-   <view name="system,gamelist">
-      <helpsystem name="system-help,gamelist-help">
+   <view name="
+      system,
+      gamelist
+      ">
+      <systemstatus name="
+         system-status
+         ">
+         <pos>0.95833333 0.0462963</pos><!-- 1035 50 -->
+         <backgroundPadding>0.01388889 0.01851852</backgroundPadding><!-- 24 20 -->
+         <height>${systemStatusHeight}</height>
+      </systemstatus>
+      <helpsystem name="
+         help-system-view,
+         help-gamelist-view
+         ">
          <fontSize>${helpSystemFontSize}</fontSize>
          <entrySpacing>0.02777778</entrySpacing><!-- 30 -->
-      </helpsystem>
-      <helpsystem name="menu-help">
-         <fontSize>0.033333333333333</fontSize>
+         <backgroundPadding>0.03148148 0.02777778</backgroundPadding><!-- 34 30 -->
       </helpsystem>
    </view>
-   <fontSize name="medium">
+   <fontSize name="
+      medium
+      ">
+      <variables>
+         <helpSystemFontSize>0.03703704</helpSystemFontSize><!-- 40 -->
+         <helpSystemViewEntries>start,a,left/right</helpSystemViewEntries>
+         <helpGamelistViewEntries>back,a</helpGamelistViewEntries>
+         <systemStatusHeight>0.03333333</systemStatusHeight><!-- 36 -->
+      </variables>
+   </fontSize>
+   <fontSize name="
+      large
+      ">
       <variables>
          <helpSystemFontSize>0.04259259</helpSystemFontSize><!-- 46 -->
          <helpSystemViewEntries>start,a,left/right</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a</helpGamelistViewEntries>
-      </variables>
-   </fontSize>
-   <fontSize name="large">
-      <variables>
-         <helpSystemFontSize>0.04814815</helpSystemFontSize><!-- 52 -->
-         <helpSystemViewEntries>start,a,left/right</helpSystemViewEntries>
-         <helpGamelistViewEntries>back,a</helpGamelistViewEntries>
+         <systemStatusHeight>0.03703704</systemStatusHeight><!-- 40 -->
       </variables>
    </fontSize>
 
@@ -38,40 +55,47 @@ based on 1080x1080
    System View
    ///
    -->
-   <view name="system">
-      <image name="system-name-background,system-name-background-shade">
-         <origin>0.5 0</origin>
-         <pos>0.5 0.02314815</pos><!-- 50% 25 -->
-         <size>0.9537037 0.09259259</size><!-- 1030 100 -->
-         <cornerRadius>0.01</cornerRadius>
-         <visible>true</visible>
+   <view name="
+      system
+      ">
+      <image name="
+         system-metadata-background
+         ">
+         <size>1 0.10185185</size><!-- 100% 110 -->
       </image>
-      <text name="system-name">
-         <origin>0.5 0</origin>
-         <pos>0.5 0.02314815</pos><!-- 50% 25 -->
-         <size>0.86111111 0.09259259</size><!-- 930 100 -->
-         <horizontalAlignment>center</horizontalAlignment>
-         <verticalAlignment>center</verticalAlignment>
+      <text name="
+         system-name
+         ">
+         <pos>0.0462963 0.04444444</pos><!-- 50 48 -->
+         <size>0.66666667 0.09259259</size><!-- 720 100 -->
          <fontSize>${systemSystemNameFontSize}</fontSize>
       </text>
-      <helpsystem name="system-help">
+      <helpsystem name="
+         help-system-view
+         ">
          <origin>0.5 1</origin>
          <pos>0.5 0.9537037</pos><!-- 50% 1030 -->
          <entries>${helpSystemViewEntries}</entries>
       </helpsystem>
-      <carousel name="system-carousel">
+      <carousel name="
+         system-carousel
+         ">
          <pos>0.5 0.5</pos><!-- 50% 50% -->
          <size>1 1</size><!-- 1080 100% -->
       </carousel>
    </view>
-   <fontSize name="medium">
+   <fontSize name="
+      medium
+      ">
       <variables>
-         <systemSystemNameFontSize>0.04259259</systemSystemNameFontSize><!-- 46 -->
+         <systemSystemNameFontSize>0.03333333</systemSystemNameFontSize><!-- 36 -->
       </variables>
    </fontSize>
-   <fontSize name="large">
+   <fontSize name="
+      large
+      ">
       <variables>
-         <systemSystemNameFontSize>0.04814815</systemSystemNameFontSize><!-- 52 -->
+         <systemSystemNameFontSize>0.03703704</systemSystemNameFontSize><!-- 40 -->
       </variables>
    </fontSize>
 
@@ -91,30 +115,43 @@ based on 1080x1080
       gamelist-list-metadata-screenshot-marquee,
       gamelist-list-metadata-screenshot-physicalmedia,
       ">
-      <view name="gamelist">
-         <image name="gamelist-background">
+      <view name="
+         gamelist
+         ">
+         <image name="
+            gamelist-background
+            ">
             <size>0.5 1</size><!-- 50% 100% -->
          </image>
-         <text name="system-name,custom-collection-name">
-            <pos>0.0462963 0.0462963</pos><!-- 50 50 -->
+         <text name="
+            system-name,
+            custom-collection-name
+            ">
+            <pos>0.0462963 0.04444444</pos><!-- 50 48 -->
             <size>${gamelistSystemNameWidth} 0.09259259</size><!-- - 100 -->
             <fontSize>${gamelistSystemNameFontSize}</fontSize>
          </text>
-         <textlist name="gamelist-textlist">
+         <textlist name="
+            gamelist-textlist
+            ">
             <pos>0.0462963 0.15740741</pos><!-- 50 170 -->
             <size>0.40740741 0.72222222</size><!-- 440 780 -->
             <fontSize>${gamelistFontSize}</fontSize>
             <lineSpacing>${gamelistLineSpacing}</lineSpacing>
             <selectedBackgroundMargins>0.02037037 0.02037037</selectedBackgroundMargins><!-- 22 22 -->
          </textlist>
-         <helpsystem name="gamelist-help">
+         <helpsystem name="
+            help-gamelist-view
+            ">
             <origin>0 1</origin>
             <pos>0.0462963 0.9537037</pos><!-- 50 1030 -->
             <entries>${helpGamelistViewEntries}</entries>
          </helpsystem>
       </view>
    </variant>
-   <fontSize name="medium">
+   <fontSize name="
+      medium
+      ">
       <variables>
          <gamelistSystemNameWidth>0.37037037</gamelistSystemNameWidth><!-- 400 -->
          <gamelistSystemNameFontSize>0.03333333</gamelistSystemNameFontSize><!-- 36 -->
@@ -122,7 +159,9 @@ based on 1080x1080
          <gamelistLineSpacing>1.54150198</gamelistLineSpacing><!-- 780/46/11 -->
       </variables>
    </fontSize>
-   <fontSize name="large">
+   <fontSize name="
+      large
+      ">
       <variables>
          <gamelistSystemNameWidth>0.38425926</gamelistSystemNameWidth><!-- 415 -->
          <gamelistSystemNameFontSize>0.03703704</gamelistSystemNameFontSize><!-- 40 -->
@@ -139,8 +178,12 @@ based on 1080x1080
       gamelist-list-physicalmedia,
       gamelist-list-miximage,
       ">
-      <view name="gamelist">
-         <video name="game-video">
+      <view name="
+         gamelist
+         ">
+         <video name="
+            game-video
+            ">
             <pos>0.75 0.5</pos><!-- 75% 50% -->
             <cropSize>0.5 1</cropSize><!-- 50% 100% -->
          </video>
@@ -152,8 +195,12 @@ based on 1080x1080
       gamelist-list-physicalmedia,
       gamelist-list-miximage,
       ">
-      <view name="gamelist">
-         <image name="game-art-background">
+      <view name="
+         gamelist
+         ">
+         <image name="
+            game-art-background
+            ">
             <pos>0.75 0.5</pos><!-- 75% 50% -->
             <cropSize>0.5 1</cropSize><!-- 50% 100% -->
          </image>
@@ -163,8 +210,12 @@ based on 1080x1080
       gamelist-list-cover,
       gamelist-list-physicalmedia,
       ">
-      <view name="gamelist">
-         <video name="game-video">
+      <view name="
+         gamelist
+         ">
+         <video name="
+            game-video
+            ">
             <imageMaxSize>0.40740741 0.74074074</imageMaxSize><!-- 440 800 -->
          </video>
       </view>
@@ -172,8 +223,12 @@ based on 1080x1080
    <variant name="
       gamelist-list-screenshot-marquee,
       ">
-      <view name="gamelist">
-         <image name="game-art">
+      <view name="
+         gamelist
+         ">
+         <image name="
+            game-art
+            ">
             <pos>0.75 0.5</pos><!-- 75% 50% -->
             <maxSize>0.40740741 0.55555556</maxSize><!-- 440 600 -->
          </image>
@@ -182,8 +237,12 @@ based on 1080x1080
    <variant name="
       gamelist-list-titlescreen,
       ">
-      <view name="gamelist">
-         <video name="game-video">
+      <view name="
+         gamelist
+         ">
+         <video name="
+            game-video
+            ">
             <imageMaxSize>0.40740741 0.83333333</imageMaxSize><!-- 440 900 -->
          </video>
       </view>
@@ -191,8 +250,12 @@ based on 1080x1080
    <variant name="
       gamelist-list-miximage,
       ">
-      <view name="gamelist">
-         <video name="game-video">
+      <view name="
+         gamelist
+         ">
+         <video name="
+            game-video
+            ">
             <imageMaxSize>0.40740741 0.83333333</imageMaxSize><!-- 440 900 -->
          </video>
       </view>
@@ -203,82 +266,122 @@ based on 1080x1080
       gamelist-list-metadata-screenshot-marquee,
       gamelist-list-metadata-screenshot-physicalmedia,
       ">
-      <view name="gamelist">
-         <image name="game-video-background">
+      <view name="
+         gamelist
+         ">
+         <image name="
+            game-video-background
+            ">
             <pos>0.70052083 0.33333333</pos><!-- 1345 360 -->
             <size>0.6 0.66666667</size><!-- 1150 720 -->
          </image>
-         <video name="game-video">
+         <video name="
+            game-video
+            ">
             <pos>0.70052083 0.33333333</pos><!-- 1345 360 -->
             <cropSize>0.6 0.66666667</cropSize><!-- 1150 720 -->
          </video>
-         <image name="game-art">
+         <image name="
+            game-art
+            ">
             <origin>0.5 1</origin>
             <pos>0.75 0.73611111</pos><!-- 810 795 -->
             <maxSize>0.32407407 0.23148148</maxSize><!-- 350 250 -->
          </image>
-         <image name="game-description-background">
+         <image name="
+            game-description-background
+            ">
             <pos>0.5 0.66666667</pos><!-- 540 720 -->
             <size>0.5 0.33333333</size><!-- 540 360 -->
             <visible>true</visible>
          </image>
-         <text name="game-rating-label,game-released-label,game-players-label,game-last-played-label">
+         <text name="
+            game-rating-label,
+            game-released-label,
+            game-players-label,
+            game-last-played-label
+            ">
             <origin>0 1</origin>
             <horizontalAlignment>left</horizontalAlignment>
             <size>0.18981481 ${gamelistMetadataFontSize}</size><!-- 195 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </text>
-         <text name="game-players">
+         <text name="
+            game-players
+            ">
             <origin>0 0</origin>
             <horizontalAlignment>left</horizontalAlignment>
             <size>0.18981481 ${gamelistMetadataFontSize}</size><!-- 200 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </text>
-         <datetime name="game-released,game-last-played">
+         <datetime name="
+            game-released,
+            game-last-played
+            ">
             <origin>0 0</origin>
             <horizontalAlignment>left</horizontalAlignment>
             <size>0.18981481 ${gamelistMetadataFontSize}</size><!-- 200 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </datetime>
-         <text name="game-rating-label">
+         <text name="
+            game-rating-label
+            ">
             <pos>0.55092593 0.80092593</pos><!-- 595 865 -->
          </text>
-         <rating name="game-rating">
+         <rating name="
+            game-rating
+            ">
             <origin>0 0</origin>
             <pos>0.55092593 0.81203704</pos><!-- 595 877 -->
             <size>0 ${gamelistMetadataRatingSize}</size>
             <visible>true</visible>
          </rating>
-         <text name="game-last-played-label">
+         <text name="
+            game-last-played-label
+            ">
             <pos>0.55092593 0.90925926</pos><!-- 595 982 -->
          </text>
-         <datetime name="game-last-played">
+         <datetime name="
+            game-last-played
+            ">
             <pos>0.55092593 0.91851852</pos><!-- 595 992 -->
             <displayRelative>false</displayRelative>
          </datetime>
-         <text name="game-released-label">
+         <text name="
+            game-released-label
+            ">
             <pos>0.77314815 0.80092593</pos><!-- 835 865 -->
          </text>
-         <datetime name="game-released">
+         <datetime name="
+            game-released
+            ">
             <pos>0.77314815 0.81018519</pos><!-- 835 875 -->
          </datetime>
-         <text name="game-players-label">
+         <text name="
+            game-players-label
+            ">
             <pos>0.77314815 0.90925926</pos><!-- 835 982 -->
          </text>
-         <text name="game-players">
+         <text name="
+            game-players
+            ">
             <pos>0.77314815 0.91851852</pos><!-- 835 992 -->
          </text>
       </view>
-      <fontSize name="medium">
+      <fontSize name="
+         medium
+         ">
          <variables>
             <gamelistMetadataRatingSize>0.03148148</gamelistMetadataRatingSize><!-- 34 -->
             <gamelistMetadataFontSize>0.03333333</gamelistMetadataFontSize><!-- 36 -->
          </variables>
       </fontSize>
-      <fontSize name="large">
+      <fontSize name="
+         large
+         ">
          <variables>
             <gamelistMetadataRatingSize>0.03148148</gamelistMetadataRatingSize><!-- 34 -->
             <gamelistMetadataFontSize>0.03333333</gamelistMetadataFontSize><!-- 36 -->
