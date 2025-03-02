@@ -1,6 +1,6 @@
 # Colorful (Simplified) for ES-DE
 
-This is simplified take on the Colorful theme which was originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/profile/76940-faeran/)) for Launchbox.
+This is simplified take on the Colorful theme which was originally created by [viking](https://forums.launchbox-app.com/profile/70421-viking/) & [faeran](https://forums.launchbox-app.com/profile/76940-faeran/) for Launchbox.
 
 Most artwork was originally created by viking & faeran (_additional artwork credits can be found in the credits section below_). I translated things for the theming engine used by ES-DE. The original version of the Colorful theme for Launchbox can be found [here](https://forums.launchbox-app.com/files/file/2081-colorful-bigbox-theme)
 
