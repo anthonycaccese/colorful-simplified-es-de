@@ -31,7 +31,27 @@ license:       creative commons CC-BY-NC-SA
       <fontBold>./_inc/fonts/Gilroy-Bold.ttf</fontBold>
       <fontHelpSystem>./_inc/fonts/Akrobat-Bold.ttf</fontHelpSystem>
    </variables>
-   <include>./colors.xml</include>
+   <colorScheme name="
+      Colorful,
+      Colorful-Dark,
+      OLED,
+      Dark,
+      Light,
+      RetroBright,
+      DMG
+      ">
+      <variables>
+         <colorSchemePath>./colors.xml</colorSchemePath>
+      </variables>
+   </colorScheme>
+   <colorScheme name="
+      Add-on
+      ">
+      <variables>
+         <colorSchemePath>./theme-addons/system-video/addon.xml</colorSchemePath>
+      </variables>
+   </colorScheme>
+   <include>${colorSchemePath}</include>
 
    <!--
    ///
