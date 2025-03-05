@@ -25,28 +25,28 @@
    Color Schemes
    ///
    -->
-   <colorScheme name="Colorful">
+   <colorScheme name="colorful">
       <label>Colorful</label>
    </colorScheme>
-   <colorScheme name="Colorful-Dark">
+   <colorScheme name="colorful-dark">
       <label>Colorful (Dark)</label>
    </colorScheme>
-   <colorScheme name="OLED">
+   <colorScheme name="oled">
       <label>OLED</label>
    </colorScheme>
-   <colorScheme name="Dark">
+   <colorScheme name="dark">
       <label>Dark</label>
    </colorScheme>
-   <colorScheme name="Light">
+   <colorScheme name="light">
       <label>Light</label>
    </colorScheme>
-   <colorScheme name="RetroBright">
+   <colorScheme name="retro-bright">
       <label>Retro Bright</label>
    </colorScheme>
-   <colorScheme name="DMG">
+   <colorScheme name="dmg">
       <label>DMG</label>
    </colorScheme>
-   <colorScheme name="Add-on">
+   <colorScheme name="add-on">
       <label>Add-on (See Readme)</label>
    </colorScheme>
 

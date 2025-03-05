@@ -31,22 +31,12 @@ license:       creative commons CC-BY-NC-SA
       <fontBold>./_inc/fonts/Gilroy-Bold.ttf</fontBold>
       <fontHelpSystem>./_inc/fonts/Akrobat-Bold.ttf</fontHelpSystem>
    </variables>
-   <colorScheme name="
-      Colorful,
-      Colorful-Dark,
-      OLED,
-      Dark,
-      Light,
-      RetroBright,
-      DMG
-      ">
+   <colorScheme name="colorful,colorful-dark,oled,dark,light,retro-bright,dmg">
       <variables>
          <colorSchemePath>./colors.xml</colorSchemePath>
       </variables>
    </colorScheme>
-   <colorScheme name="
-      Add-on
-      ">
+   <colorScheme name="add-on">
       <variables>
          <colorSchemePath>./theme-addons/system-video/addon.xml</colorSchemePath>
       </variables>
@@ -96,13 +86,6 @@ license:       creative commons CC-BY-NC-SA
       </systemstatus>
       <helpsystem name="
          help-system-view,
-         help-gamelist-view,
-         help-menu-view
-         ">
-         <backgroundCornerRadius>0.005</backgroundCornerRadius>
-      </helpsystem>
-      <helpsystem name="
-         help-system-view,
          help-gamelist-view
          ">
          <fontPath>${fontHelpSystem}</fontPath>
@@ -119,6 +102,7 @@ license:       creative commons CC-BY-NC-SA
          <textColor>cccccc</textColor>
          <backgroundColor>181818</backgroundColor>
          <backgroundPadding>0.1 0.1</backgroundPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
       </helpsystem>
       <text name="
          system-name,
@@ -225,7 +209,6 @@ license:       creative commons CC-BY-NC-SA
          help-system-view
          ">
          <scope>view</scope>
-         <backgroundColor>${helpBackgroundColor}</backgroundColor>
       </helpsystem>
       <helpsystem name="
          help-gamelist-view

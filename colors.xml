@@ -1,5 +1,5 @@
 <theme>
-   <colorScheme name="Colorful">
+   <colorScheme name="colorful">
       <variables>
          <!-- Global -->
          <backgroundColor>${systemColor}</backgroundColor>
@@ -35,7 +35,7 @@
          <gameMetadataColor>ffffff</gameMetadataColor>
       </variables>
    </colorScheme>
-   <colorScheme name="Colorful-Dark">
+   <colorScheme name="colorful-dark">
       <variables>
          <!-- Global -->
          <backgroundColor>${systemColor}</backgroundColor>
@@ -71,7 +71,7 @@
          <gameMetadataColor>ffffff</gameMetadataColor>
       </variables>
    </colorScheme>
-   <colorScheme name="OLED">
+   <colorScheme name="oled">
       <variables>
          <!-- Global -->
          <backgroundColor>000000</backgroundColor>
@@ -107,7 +107,7 @@
          <gameMetadataColor>ffffff</gameMetadataColor>
       </variables>
    </colorScheme>
-   <colorScheme name="Dark">
+   <colorScheme name="dark">
       <variables>
          <!-- Global -->
          <backgroundColor>111111</backgroundColor>
@@ -143,7 +143,7 @@
          <gameMetadataColor>ffffffaa</gameMetadataColor>
       </variables>
    </colorScheme>
-   <colorScheme name="Light">
+   <colorScheme name="light">
       <variables>
          <!-- Global -->
          <backgroundColor>eeeeee</backgroundColor>
@@ -179,7 +179,7 @@
          <gameMetadataColor>333333</gameMetadataColor>
       </variables>
    </colorScheme>
-   <colorScheme name="RetroBright">
+   <colorScheme name="retro-bright">
       <variables>
          <!-- Global -->
          <backgroundColor>b2b4b2</backgroundColor>
@@ -215,7 +215,7 @@
          <gameMetadataColor>ffffffaa</gameMetadataColor>
       </variables>
    </colorScheme>
-   <colorScheme name="DMG">
+   <colorScheme name="dmg">
       <variables>
          <!-- Global -->
          <backgroundColor>959290</backgroundColor>
