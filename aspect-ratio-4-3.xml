@@ -34,7 +34,7 @@ based on 1440x1080
       ">
       <variables>
          <helpSystemFontSize>0.03703704</helpSystemFontSize><!-- 40 -->
-         <helpSystemViewEntries>start,a,x,left/right</helpSystemViewEntries>
+         <helpSystemViewEntries>start,a,x</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a</helpGamelistViewEntries>
          <systemStatusHeight>0.03703704</systemStatusHeight><!-- 40 -->
       </variables>
@@ -44,9 +44,9 @@ based on 1440x1080
       ">
       <variables>
          <helpSystemFontSize>0.04259259</helpSystemFontSize><!-- 46 -->
-         <helpSystemViewEntries>start,a,left/right</helpSystemViewEntries>
+         <helpSystemViewEntries>start,a,x</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a</helpGamelistViewEntries>
-         <systemStatusHeight>0.04259259</systemStatusHeight><!-- 46 -->
+         <systemStatusHeight>0.04814815</systemStatusHeight><!-- 52 -->
       </variables>
    </fontSize>
 

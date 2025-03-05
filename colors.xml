@@ -19,7 +19,7 @@
          <systemArrowColor>ffffff44</systemArrowColor>
          <!-- Gamelist View -->
          <gamelistStatusColor>ffffff</gamelistStatusColor>
-         <gamelistStatusBackgroundColor>00000099</gamelistStatusBackgroundColor>
+         <gamelistStatusBackgroundColor>000000cc</gamelistStatusBackgroundColor>
          <gamelistTextlistBackgroundColor>${systemColor}</gamelistTextlistBackgroundColor>
          <gamelistTextlistPrimaryColor>ffffff88</gamelistTextlistPrimaryColor>
          <gamelistTextlistSecondaryColor>ffffff88</gamelistTextlistSecondaryColor>

@@ -99,10 +99,15 @@ license:       creative commons CC-BY-NC-SA
          help-gamelist-view,
          help-menu-view
          ">
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
+      </helpsystem>
+      <helpsystem name="
+         help-system-view,
+         help-gamelist-view
+         ">
+         <fontPath>${fontHelpSystem}</fontPath>
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
-         <fontPath>${fontHelpSystem}</fontPath>
-         <backgroundCornerRadius>0.005</backgroundCornerRadius>
       </helpsystem>
       <helpsystem name="
          help-menu-view
@@ -110,7 +115,10 @@ license:       creative commons CC-BY-NC-SA
          <scope>menu</scope>
          <origin>0.5 0.5</origin>
          <pos>0.5 0.95</pos>
-         <fontPath>default</fontPath>
+         <iconColor>cccccc</iconColor>
+         <textColor>cccccc</textColor>
+         <backgroundColor>181818</backgroundColor>
+         <backgroundPadding>0.1 0.1</backgroundPadding>
       </helpsystem>
       <text name="
          system-name,
