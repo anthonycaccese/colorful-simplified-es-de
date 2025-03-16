@@ -91,6 +91,7 @@ license:       creative commons CC-BY-NC-SA
          <fontPath>${fontHelpSystem}</fontPath>
          <iconColor>${helpIconColor}</iconColor>
          <textColor>${helpTextColor}</textColor>
+         <entryRelativeScale>0.7</entryRelativeScale>
       </helpsystem>
       <helpsystem name="
          help-menu-view
@@ -101,7 +102,8 @@ license:       creative commons CC-BY-NC-SA
          <iconColor>cccccc</iconColor>
          <textColor>cccccc</textColor>
          <backgroundColor>181818</backgroundColor>
-         <backgroundPadding>0.1 0.1</backgroundPadding>
+         <backgroundHorizontalPadding>0.05 0.05</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.05 0.05</backgroundVerticalPadding>
          <backgroundCornerRadius>0.005</backgroundCornerRadius>
       </helpsystem>
       <text name="

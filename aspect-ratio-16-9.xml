@@ -17,7 +17,8 @@ based on 1920x1080
          system-status
          ">
          <pos>0.97916667 0.03703704</pos><!-- 1880 40 -->
-         <backgroundPadding>0.0125 0.01851852</backgroundPadding><!-- 24 20 -->
+         <backgroundHorizontalPadding>0.00625 0.00625</backgroundHorizontalPadding><!-- 12 -->
+         <backgroundVerticalPadding>0.00925926 0.00925926</backgroundVerticalPadding><!-- 10 -->
          <height>${systemStatusHeight}</height>
          <entries>all</entries>
          <opacity>1</opacity>
@@ -34,7 +35,7 @@ based on 1920x1080
       medium
       ">
       <variables>
-         <helpSystemFontSize>0.033333333333333</helpSystemFontSize><!-- 36 -->
+         <helpSystemFontSize>0.0462963</helpSystemFontSize><!-- 50 -->
          <helpSystemViewEntries>start,a,left/right</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a,x</helpGamelistViewEntries>
          <systemStatusHeight>0.03888889</systemStatusHeight><!-- 42 -->
@@ -44,7 +45,7 @@ based on 1920x1080
       large
       ">
       <variables>
-         <helpSystemFontSize>0.04074074</helpSystemFontSize><!-- 44 -->
+         <helpSystemFontSize>0.0537037</helpSystemFontSize><!-- 58 -->
          <helpSystemViewEntries>start,a,left/right</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a</helpGamelistViewEntries>
          <systemStatusHeight>0.0462963</systemStatusHeight><!-- 50 -->

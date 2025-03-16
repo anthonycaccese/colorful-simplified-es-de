@@ -17,7 +17,8 @@ based on 1440x1080
          system-status
          ">
          <pos>0.96180556 0.04166667</pos><!-- 1385 45 -->
-         <backgroundPadding>0.01666667 0.01851852</backgroundPadding><!-- 24 20 -->
+         <backgroundHorizontalPadding>0.00833333 0.00833333</backgroundHorizontalPadding><!-- 12 -->
+         <backgroundVerticalPadding>0.00925926 0.00925926</backgroundVerticalPadding><!-- 10 -->
          <height>${systemStatusHeight}</height>
       </systemstatus>
       <helpsystem name="
@@ -26,27 +27,28 @@ based on 1440x1080
          ">
          <fontSize>${helpSystemFontSize}</fontSize>
          <entrySpacing>0.02083333</entrySpacing><!-- 30 -->
-         <backgroundPadding>0.02361111 0.02777778</backgroundPadding><!-- 34 30 -->
+         <backgroundHorizontalPadding>0.01180556 0.01180556</backgroundHorizontalPadding><!-- 17 -->
+         <backgroundVerticalPadding>0.01388889 0.01388889</backgroundVerticalPadding><!-- 15 -->
       </helpsystem>
    </view>
    <fontSize name="
       medium
       ">
       <variables>
-         <helpSystemFontSize>0.03703704</helpSystemFontSize><!-- 40 -->
+         <helpSystemFontSize>0.04814815</helpSystemFontSize><!-- 52 -->
          <helpSystemViewEntries>start,a,x</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a</helpGamelistViewEntries>
-         <systemStatusHeight>0.03703704</systemStatusHeight><!-- 40 -->
+         <systemStatusHeight>0.04074074</systemStatusHeight><!-- 44 -->
       </variables>
    </fontSize>
    <fontSize name="
       large
       ">
       <variables>
-         <helpSystemFontSize>0.04259259</helpSystemFontSize><!-- 46 -->
+         <helpSystemFontSize>0.05740741</helpSystemFontSize><!-- 62 -->
          <helpSystemViewEntries>start,a,x</helpSystemViewEntries>
          <helpGamelistViewEntries>back,a</helpGamelistViewEntries>
-         <systemStatusHeight>0.04814815</systemStatusHeight><!-- 52 -->
+         <systemStatusHeight>0.05</systemStatusHeight><!-- 54 -->
       </variables>
    </fontSize>
 
