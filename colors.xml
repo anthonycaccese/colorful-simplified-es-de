@@ -1,128 +1,254 @@
 <theme>
-   <colorScheme name="Colorful">
+   <colorScheme name="colorful">
       <variables>
-         <systemBackgroundColor>${systemColor}</systemBackgroundColor>
-         <helpIconColor>ffffffbb</helpIconColor>
-         <helpTextColor>ffffffcc</helpTextColor>
-         <helpBackgroundColor>00000022</helpBackgroundColor>
+         <!-- Global -->
+         <backgroundColor>${systemColor}</backgroundColor>
+         <helpIconColor>ffffff</helpIconColor>
+         <helpTextColor>ffffffbb</helpTextColor>
+         <helpBackgroundColor>00000000</helpBackgroundColor>
+         <!-- System View -->
+         <systemStatusColor>ffffff</systemStatusColor>
+         <systemStatusBackgroundColor>00000011</systemStatusBackgroundColor>
+         <systemMetadataBackgroundColor>00000000</systemMetadataBackgroundColor>
          <systemLabelColor>ffffffaa</systemLabelColor>
+         <systemNameBackgroundColor>${systemColor}</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>ffffff00</systemNameBackgroundShadeColor>
+         <systemNameColor>ffffff</systemNameColor>
+         <systemDescriptionColor>ffffff</systemDescriptionColor>
+         <systemGameCountColor>ffffffbb</systemGameCountColor>
+         <systemArrowColor>ffffff44</systemArrowColor>
+         <!-- Gamelist View -->
+         <gamelistStatusColor>ffffff</gamelistStatusColor>
+         <gamelistStatusBackgroundColor>000000cc</gamelistStatusBackgroundColor>
+         <gamelistTextlistBackgroundColor>${systemColor}</gamelistTextlistBackgroundColor>
+         <gamelistTextlistPrimaryColor>ffffff88</gamelistTextlistPrimaryColor>
+         <gamelistTextlistSecondaryColor>ffffff88</gamelistTextlistSecondaryColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>00000055</gamelistTextlistSelectorColor>
+         <gameArtBackgroundColor>${systemColor}44</gameArtBackgroundColor>
+         <gameDescriptionBackgroundColor>00000055</gameDescriptionBackgroundColor>
+         <gameDescriptionColor>ffffff</gameDescriptionColor>
+         <gameMetadataBackgroundColor>${systemColor}</gameMetadataBackgroundColor>
+         <gameMetadataBackgroundShadeColor>00000033</gameMetadataBackgroundShadeColor>
+         <gameRatingColor>ffffff</gameRatingColor>
+         <gameMetadataLabelColor>ffffffaa</gameMetadataLabelColor>
+         <gameMetadataColor>ffffff</gameMetadataColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="colorful-dark">
+      <variables>
+         <!-- Global -->
+         <backgroundColor>${systemColor}</backgroundColor>
+         <helpIconColor>ffffff</helpIconColor>
+         <helpTextColor>ffffffbb</helpTextColor>
+         <helpBackgroundColor>00000000</helpBackgroundColor>
+         <!-- System View -->
+         <systemStatusColor>ffffff</systemStatusColor>
+         <systemStatusBackgroundColor>00000011</systemStatusBackgroundColor>
+         <systemMetadataBackgroundColor>111111</systemMetadataBackgroundColor>
+         <systemLabelColor>ffffffaa</systemLabelColor>
+         <systemNameBackgroundColor>${systemColor}</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>ffffff22</systemNameBackgroundShadeColor>
          <systemNameColor>ffffff</systemNameColor>
          <systemDescriptionColor>ffffff</systemDescriptionColor>
          <systemGameCountColor>ffffff99</systemGameCountColor>
-         <gamelistSelectorColor>00000033</gamelistSelectorColor>
-         <gamelistPrimaryColor>ffffff66</gamelistPrimaryColor>
-         <gamelistSecondaryColor>ffffff66</gamelistSecondaryColor>
-         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
-         <gameDescription>ffffff</gameDescription>
-         <gameMetadataLabel>ffffffaa</gameMetadataLabel>
-         <gameMetadata>ffffff</gameMetadata>
-         <gameMetadataBackground>./_inc/images/metadata-background-dark.svg</gameMetadataBackground>
-         <allowSystemVideo>true</allowSystemVideo>
+         <systemArrowColor>ffffff44</systemArrowColor>
+         <!-- Gamelist View -->
+         <gamelistStatusColor>ffffff</gamelistStatusColor>
+         <gamelistStatusBackgroundColor>00000099</gamelistStatusBackgroundColor>
+         <gamelistTextlistBackgroundColor>111111</gamelistTextlistBackgroundColor>
+         <gamelistTextlistPrimaryColor>ffffff77</gamelistTextlistPrimaryColor>
+         <gamelistTextlistSecondaryColor>ffffff77</gamelistTextlistSecondaryColor>
+         <gamelistTextlistSelectedColor>000000</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>ffffff</gamelistTextlistSelectorColor>
+         <gameArtBackgroundColor>${systemColor}44</gameArtBackgroundColor>
+         <gameDescriptionBackgroundColor>00000055</gameDescriptionBackgroundColor>
+         <gameDescriptionColor>ffffff</gameDescriptionColor>
+         <gameMetadataBackgroundColor>${systemColor}</gameMetadataBackgroundColor>
+         <gameMetadataBackgroundShadeColor>00000033</gameMetadataBackgroundShadeColor>
+         <gameRatingColor>ffffff</gameRatingColor>
+         <gameMetadataLabelColor>ffffffaa</gameMetadataLabelColor>
+         <gameMetadataColor>ffffff</gameMetadataColor>
       </variables>
    </colorScheme>
-   <colorScheme name="Light">
+   <colorScheme name="oled">
       <variables>
-         <systemBackgroundColor>dddddd</systemBackgroundColor>
-         <helpIconColor>555555</helpIconColor>
-         <helpTextColor>555555</helpTextColor>
-         <helpBackgroundColor>ffffff66</helpBackgroundColor>
+         <!-- Global -->
+         <backgroundColor>000000</backgroundColor>
+         <helpIconColor>${systemColor}</helpIconColor>
+         <helpTextColor>ffffffbb</helpTextColor>
+         <helpBackgroundColor>000000</helpBackgroundColor>
+         <!-- System View -->
+         <systemStatusColor>ffffff</systemStatusColor>
+         <systemStatusBackgroundColor>00000011</systemStatusBackgroundColor>
+         <systemMetadataBackgroundColor>000000</systemMetadataBackgroundColor>
+         <systemLabelColor>ffffffaa</systemLabelColor>
+         <systemNameBackgroundColor>00000000</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>000000</systemNameBackgroundShadeColor>
+         <systemNameColor>ffffff</systemNameColor>
+         <systemDescriptionColor>ffffff</systemDescriptionColor>
+         <systemGameCountColor>ffffff99</systemGameCountColor>
+         <systemArrowColor>ffffff44</systemArrowColor>
+         <!-- Gamelist View -->
+         <gamelistStatusColor>ffffff</gamelistStatusColor>
+         <gamelistStatusBackgroundColor>00000099</gamelistStatusBackgroundColor>
+         <gamelistTextlistBackgroundColor>000000</gamelistTextlistBackgroundColor>
+         <gamelistTextlistPrimaryColor>ffffff77</gamelistTextlistPrimaryColor>
+         <gamelistTextlistSecondaryColor>ffffff77</gamelistTextlistSecondaryColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>${systemColor}</gamelistTextlistSelectorColor>
+         <gameArtBackgroundColor>111111</gameArtBackgroundColor>
+         <gameDescriptionBackgroundColor>${systemColor}77</gameDescriptionBackgroundColor>
+         <gameDescriptionColor>ffffff</gameDescriptionColor>
+         <gameMetadataBackgroundColor>${systemColor}</gameMetadataBackgroundColor>
+         <gameMetadataBackgroundShadeColor>000000bb</gameMetadataBackgroundShadeColor>
+         <gameRatingColor>${systemColor}</gameRatingColor>
+         <gameMetadataLabelColor>ffffffaa</gameMetadataLabelColor>
+         <gameMetadataColor>ffffff</gameMetadataColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="dark">
+      <variables>
+         <!-- Global -->
+         <backgroundColor>111111</backgroundColor>
+         <helpIconColor>ffffff</helpIconColor>
+         <helpTextColor>ffffffbb</helpTextColor>
+         <helpBackgroundColor>111111</helpBackgroundColor>
+         <!-- System View -->
+         <systemStatusColor>ffffff</systemStatusColor>
+         <systemStatusBackgroundColor>00000011</systemStatusBackgroundColor>
+         <systemMetadataBackgroundColor>111111</systemMetadataBackgroundColor>
+         <systemLabelColor>ffffffaa</systemLabelColor>
+         <systemNameBackgroundColor>00000000</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>111111</systemNameBackgroundShadeColor>
+         <systemNameColor>ffffff</systemNameColor>
+         <systemDescriptionColor>ffffff</systemDescriptionColor>
+         <systemGameCountColor>ffffff99</systemGameCountColor>
+         <systemArrowColor>ffffff44</systemArrowColor>
+         <!-- Gamelist View -->
+         <gamelistStatusColor>ffffff</gamelistStatusColor>
+         <gamelistStatusBackgroundColor>00000099</gamelistStatusBackgroundColor>
+         <gamelistTextlistBackgroundColor>111111</gamelistTextlistBackgroundColor>
+         <gamelistTextlistPrimaryColor>ffffff77</gamelistTextlistPrimaryColor>
+         <gamelistTextlistSecondaryColor>ffffff77</gamelistTextlistSecondaryColor>
+         <gamelistTextlistSelectedColor>000000</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>ffffff</gamelistTextlistSelectorColor>
+         <gameArtBackgroundColor>111111</gameArtBackgroundColor>
+         <gameDescriptionBackgroundColor>000000</gameDescriptionBackgroundColor>
+         <gameDescriptionColor>ffffff</gameDescriptionColor>
+         <gameMetadataBackgroundColor>111111</gameMetadataBackgroundColor>
+         <gameMetadataBackgroundShadeColor>00000000</gameMetadataBackgroundShadeColor>
+         <gameRatingColor>ffffffaa</gameRatingColor>
+         <gameMetadataLabelColor>ffffff55</gameMetadataLabelColor>
+         <gameMetadataColor>ffffffaa</gameMetadataColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="light">
+      <variables>
+         <!-- Global -->
+         <backgroundColor>eeeeee</backgroundColor>
+         <helpIconColor>${systemColor}</helpIconColor>
+         <helpTextColor>11111199</helpTextColor>
+         <helpBackgroundColor>eeeeee</helpBackgroundColor>
+         <!-- System View -->
+         <systemStatusColor>000000</systemStatusColor>
+         <systemStatusBackgroundColor>eeeeeedd</systemStatusBackgroundColor>
+         <systemMetadataBackgroundColor>eeeeee</systemMetadataBackgroundColor>
          <systemLabelColor>777777</systemLabelColor>
+         <systemNameBackgroundColor>00000000</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>eeeeee</systemNameBackgroundShadeColor>
          <systemNameColor>000000</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
          <systemGameCountColor>00000099</systemGameCountColor>
-         <gamelistSelectorColor>ffffffdd</gamelistSelectorColor>
-         <gamelistPrimaryColor>888888</gamelistPrimaryColor>
-         <gamelistSecondaryColor>888888</gamelistSecondaryColor>
-         <gamelistSelectedColor>000000</gamelistSelectedColor>
-         <gameDescription>000000</gameDescription>
-         <gameMetadataLabel>777777</gameMetadataLabel>
-         <gameMetadata>333333</gameMetadata>
-         <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
-         <allowSystemVideo>false</allowSystemVideo>
+         <systemArrowColor>00000044</systemArrowColor>
+         <!-- Gamelist View -->
+         <gamelistStatusColor>000000</gamelistStatusColor>
+         <gamelistStatusBackgroundColor>eeeeeedd</gamelistStatusBackgroundColor>
+         <gamelistTextlistBackgroundColor>eeeeee</gamelistTextlistBackgroundColor>
+         <gamelistTextlistPrimaryColor>444444</gamelistTextlistPrimaryColor>
+         <gamelistTextlistSecondaryColor>444444</gamelistTextlistSecondaryColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>${systemColor}</gamelistTextlistSelectorColor>
+         <gameDescriptionBackgroundColor>00000011</gameDescriptionBackgroundColor>
+         <gameArtBackgroundColor>eeeeee11</gameArtBackgroundColor>
+         <gameDescriptionColor>000000</gameDescriptionColor>
+         <gameMetadataBackgroundColor>eeeeee</gameMetadataBackgroundColor>
+         <gameMetadataBackgroundShadeColor>00000022</gameMetadataBackgroundShadeColor>
+         <gameRatingColor>222222</gameRatingColor>
+         <gameMetadataLabelColor>555555</gameMetadataLabelColor>
+         <gameMetadataColor>333333</gameMetadataColor>
       </variables>
    </colorScheme>
-   <colorScheme name="RetroBright">
+   <colorScheme name="retro-bright">
       <variables>
-         <systemBackgroundColor>b2b4b2</systemBackgroundColor>
-         <helpIconColor>54585a</helpIconColor>
-         <helpTextColor>54585a</helpTextColor>
-         <helpBackgroundColor>ffffff33</helpBackgroundColor>
+         <!-- Global -->
+         <backgroundColor>b2b4b2</backgroundColor>
+         <helpIconColor>242525</helpIconColor>
+         <helpTextColor>4a4c4c</helpTextColor>
+         <helpBackgroundColor>b2b4b2</helpBackgroundColor>
+         <!-- System View -->
+         <systemStatusColor>000000</systemStatusColor>
+         <systemStatusBackgroundColor>b2b4b2dd</systemStatusBackgroundColor>
+         <systemMetadataBackgroundColor>b2b4b2</systemMetadataBackgroundColor>
          <systemLabelColor>54585a</systemLabelColor>
+         <systemNameBackgroundColor>00000000</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>b2b4b2</systemNameBackgroundShadeColor>
          <systemNameColor>000000</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
          <systemGameCountColor>000000aa</systemGameCountColor>
-         <gamelistSelectorColor>cacaca</gamelistSelectorColor>
-         <gamelistPrimaryColor>707372</gamelistPrimaryColor>
-         <gamelistSecondaryColor>707372</gamelistSecondaryColor>
-         <gamelistSelectedColor>000000</gamelistSelectedColor>
-         <gameDescription>000000</gameDescription>
-         <gameMetadataLabel>54585a</gameMetadataLabel>
-         <gameMetadata>333333</gameMetadata>
-         <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
-         <allowSystemVideo>false</allowSystemVideo>
+         <systemArrowColor>00000044</systemArrowColor>
+         <!-- Gamelist View -->
+         <gamelistStatusColor>000000</gamelistStatusColor>
+         <gamelistStatusBackgroundColor>b2b4b2dd</gamelistStatusBackgroundColor>
+         <gamelistTextlistBackgroundColor>b2b4b2</gamelistTextlistBackgroundColor>
+         <gamelistTextlistPrimaryColor>4a4c4c</gamelistTextlistPrimaryColor>
+         <gamelistTextlistSecondaryColor>4a4c4c</gamelistTextlistSecondaryColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>242525</gamelistTextlistSelectorColor>
+         <gameArtBackgroundColor>b2b4b222</gameArtBackgroundColor>
+         <gameDescriptionBackgroundColor>242525</gameDescriptionBackgroundColor>
+         <gameDescriptionColor>ffffff</gameDescriptionColor>
+         <gameMetadataBackgroundColor>242525</gameMetadataBackgroundColor>
+         <gameMetadataBackgroundShadeColor>00000022</gameMetadataBackgroundShadeColor>
+         <gameRatingColor>ffffffaa</gameRatingColor>
+         <gameMetadataLabelColor>ffffff88</gameMetadataLabelColor>
+         <gameMetadataColor>ffffffaa</gameMetadataColor>
       </variables>
    </colorScheme>
-   <colorScheme name="DMG">
+   <colorScheme name="dmg">
       <variables>
-         <systemBackgroundColor>959290</systemBackgroundColor>
-         <helpIconColor>4a4948</helpIconColor>
-         <helpTextColor>4a4948</helpTextColor>
-         <helpBackgroundColor>aaa7a6</helpBackgroundColor>
-         <systemLabelColor>4a4948</systemLabelColor>
+         <!-- Global -->
+         <backgroundColor>959290</backgroundColor>
+         <helpIconColor>212020</helpIconColor>
+         <helpTextColor>484645</helpTextColor>
+         <helpBackgroundColor>959290</helpBackgroundColor>
+         <!-- System View -->
+         <systemStatusColor>000000</systemStatusColor>
+         <systemStatusBackgroundColor>959290dd</systemStatusBackgroundColor>
+         <systemMetadataBackgroundColor>959290</systemMetadataBackgroundColor>
+         <systemLabelColor>484645</systemLabelColor>
+         <systemNameBackgroundColor>00000000</systemNameBackgroundColor>
+         <systemNameBackgroundShadeColor>959290</systemNameBackgroundShadeColor>
          <systemNameColor>1d1d1c</systemNameColor>
          <systemDescriptionColor>000000</systemDescriptionColor>
-         <systemGameCountColor>1d1d1caa</systemGameCountColor>
-         <gamelistSelectorColor>bfbdbc</gamelistSelectorColor>
-         <gamelistPrimaryColor>1d1d1c66</gamelistPrimaryColor>
-         <gamelistSecondaryColor>1d1d1c66</gamelistSecondaryColor>
-         <gamelistSelectedColor>000000</gamelistSelectedColor>
-         <gameDescription>000000</gameDescription>
-         <gameMetadataLabel>4a4948</gameMetadataLabel>
-         <gameMetadata>333333</gameMetadata>
-         <gameMetadataBackground>./_inc/images/metadata-background-light.svg</gameMetadataBackground>
-         <allowSystemVideo>false</allowSystemVideo>
-      </variables>
-   </colorScheme>
-   <colorScheme name="Dark">
-      <variables>
-         <systemBackgroundColor>111111</systemBackgroundColor>
-         <helpIconColor>ffffffbb</helpIconColor>
-         <helpTextColor>ffffffcc</helpTextColor>
-         <helpBackgroundColor>000000</helpBackgroundColor>
-         <systemLabelColor>ffffffaa</systemLabelColor>
-         <systemNameColor>ffffff</systemNameColor>
-         <systemDescriptionColor>ffffff</systemDescriptionColor>
-         <systemGameCountColor>ffffff99</systemGameCountColor>
-         <gamelistSelectorColor>000000</gamelistSelectorColor>
-         <gamelistPrimaryColor>ffffff55</gamelistPrimaryColor>
-         <gamelistSecondaryColor>ffffff55</gamelistSecondaryColor>
-         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
-         <gameDescription>ffffff</gameDescription>
-         <gameMetadataLabel>ffffffaa</gameMetadataLabel>
-         <gameMetadata>ffffff</gameMetadata>
-         <gameMetadataBackground>./_inc/images/metadata-background-dark.svg</gameMetadataBackground>
-         <allowSystemVideo>false</allowSystemVideo>
-      </variables>
-   </colorScheme>
-   <colorScheme name="OLED">
-      <variables>
-         <systemBackgroundColor>000000</systemBackgroundColor>
-         <helpIconColor>ffffffbb</helpIconColor>
-         <helpTextColor>ffffffcc</helpTextColor>
-         <helpBackgroundColor>090909</helpBackgroundColor>
-         <systemLabelColor>ffffffaa</systemLabelColor>
-         <systemNameColor>ffffff</systemNameColor>
-         <systemDescriptionColor>ffffff</systemDescriptionColor>
-         <systemGameCountColor>ffffff99</systemGameCountColor>
-         <gamelistSelectorColor>222222</gamelistSelectorColor>
-         <gamelistPrimaryColor>ffffff55</gamelistPrimaryColor>
-         <gamelistSecondaryColor>ffffff55</gamelistSecondaryColor>
-         <gamelistSelectedColor>ffffff</gamelistSelectedColor>
-         <gameDescription>ffffff</gameDescription>
-         <gameMetadataLabel>ffffffaa</gameMetadataLabel>
-         <gameMetadata>ffffff</gameMetadata>
-         <gameMetadataBackground>./_inc/images/metadata-background-dark.svg</gameMetadataBackground>
-         <allowSystemVideo>false</allowSystemVideo>
+         <systemGameCountColor>484645</systemGameCountColor>
+         <systemArrowColor>00000044</systemArrowColor>
+         <!-- Gamelist View -->
+         <gamelistStatusColor>000000</gamelistStatusColor>
+         <gamelistStatusBackgroundColor>959290dd</gamelistStatusBackgroundColor>
+         <gamelistTextlistBackgroundColor>959290</gamelistTextlistBackgroundColor>
+         <gamelistTextlistPrimaryColor>484645</gamelistTextlistPrimaryColor>
+         <gamelistTextlistSecondaryColor>484645</gamelistTextlistSecondaryColor>
+         <gamelistTextlistSelectedColor>ffffff</gamelistTextlistSelectedColor>
+         <gamelistTextlistSelectorColor>212020</gamelistTextlistSelectorColor>
+         <gameArtBackgroundColor>95929022</gameArtBackgroundColor>
+         <gameDescriptionBackgroundColor>212020</gameDescriptionBackgroundColor>
+         <gameDescriptionColor>ffffff</gameDescriptionColor>
+         <gameMetadataBackgroundColor>212020</gameMetadataBackgroundColor>
+         <gameMetadataBackgroundShadeColor>00000022</gameMetadataBackgroundShadeColor>
+         <gameRatingColor>ffffffaa</gameRatingColor>
+         <gameMetadataLabelColor>ffffff88</gameMetadataLabelColor>
+         <gameMetadataColor>ffffffaa</gameMetadataColor>
       </variables>
    </colorScheme>
 </theme>

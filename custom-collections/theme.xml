@@ -7,40 +7,6 @@
       <text name="custom-collection-name">
          <metadata>systemFullname</metadata>
          <defaultValue>Custom Collections</defaultValue>
-         <color>${systemNameColor}</color>
       </text>
    </view>
-   <variant name="
-      gamelist-metadata-off-boxart,
-      gamelist-metadata-off-miximage,
-      gamelist-metadata-off-screenshot,
-      gamelist-metadata-off-screenshot-marquee,
-      gamelist-metadata-off-titlescreen,
-      gamelist-metadata-off-physicalmedia,
-      gamelist-metadata-on-miximage,
-      gamelist-metadata-on-screenshot,
-      gamelist-metadata-on-boxart,
-      gamelist-metadata-on-titlescreen,
-      gamelist-metadata-on-screenshot-marquee,
-      gamelist-basic
-      ">
-      <aspectRatio name="16:9">
-         <view name="gamelist">
-            <text name="custom-collection-name">
-               <pos>0.057291666666667 0.097222222222222</pos><!-- 110 105 -->
-            </text>
-         </view>
-      </aspectRatio>
-   </variant>
-   <variant name="
-      gamelist-carousel
-      ">
-      <aspectRatio name="16:9">
-         <view name="gamelist">
-            <text name="custom-collection-name">
-               <pos>0.038541666666667 0.064814814814815</pos><!-- 74 70 -->
-            </text>
-         </view>
-      </aspectRatio>
-   </variant>
 </theme>
