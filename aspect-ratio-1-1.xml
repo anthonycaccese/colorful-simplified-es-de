@@ -300,7 +300,7 @@ based on 1080x1080
          <text name="
             game-rating-label,
             game-released-label,
-            game-players-label,
+            game-times-played-label,
             game-last-played-label
             ">
             <origin>0 1</origin>
@@ -310,7 +310,7 @@ based on 1080x1080
             <visible>true</visible>
          </text>
          <text name="
-            game-players
+            game-times-played
             ">
             <origin>0 0</origin>
             <horizontalAlignment>left</horizontalAlignment>
@@ -363,12 +363,12 @@ based on 1080x1080
             <pos>0.77314815 0.81018519</pos><!-- 835 875 -->
          </datetime>
          <text name="
-            game-players-label
+            game-times-played-label
             ">
             <pos>0.77314815 0.90925926</pos><!-- 835 982 -->
          </text>
          <text name="
-            game-players
+            game-times-played
             ">
             <pos>0.77314815 0.91851852</pos><!-- 835 992 -->
          </text>

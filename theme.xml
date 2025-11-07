@@ -599,12 +599,13 @@ license:       creative commons CC-BY-NC-SA
          <text name="
             game-times-played-label
             ">
-            <text>Times Played</text>
+            <text>Play Time</text>
          </text>
          <text name="
             game-times-played
             ">
-            <metadata>playcount</metadata>
+            <metadata>playtime</metadata>
+            <defaultValue>None</defaultValue>
          </text>
       </view>
    </variant>
